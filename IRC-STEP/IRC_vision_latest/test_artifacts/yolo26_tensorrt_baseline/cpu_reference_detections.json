@@ -1,0 +1,38 @@
+{
+  "condition": {
+    "requested_device": "cpu",
+    "active_provider": "CPUExecutionProvider",
+    "display": false,
+    "publish_annotated_image": false,
+    "camera_topic": "/camera/camera/color/image_raw",
+    "detections_topic": "/vision/detections"
+  },
+  "model_sha256": "48cbdeb174286233f89856eb76c08ae7aa9f53db0731abf0096e53ef8d34ebb1",
+  "image_file": "cpu_reference_frame.png",
+  "payload": {
+    "stamp": {
+      "sec": 1787128094,
+      "nanosec": 449216064
+    },
+    "frame_id": "camera_color_optical_frame",
+    "image_width": 640,
+    "image_height": 480,
+    "detections": [
+      {
+        "class_id": 1,
+        "class_name": "ball",
+        "confidence": 0.8885898590087891,
+        "bbox": [
+          474,
+          435,
+          542,
+          479
+        ],
+        "center": [
+          508,
+          457
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_robot_motion_runtime_config.dir/test/test_robot_motion_runtime_config.cpp.o -o test_robot_motion_runtime_config  gtest/libgtest_main.a gtest/libgtest.a librobot_motion_runtime_config.a -pthread 

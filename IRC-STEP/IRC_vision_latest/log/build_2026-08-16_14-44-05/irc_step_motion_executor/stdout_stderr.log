@@ -1,0 +1,101 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+-- Checking for module 'json-c'
+--   Found json-c, version 0.15
+-- SDK inclusion enabled; no SDK backend is instantiated by this package
+-- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found launch_testing_ament_cmake: 1.0.14 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor
+[35m[1mConsolidate compiler generated dependencies of target robot_motion_runtime_config[0m
+[35m[1mConsolidate compiler generated dependencies of target catalog_only_core[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target motion_core[0m
+[  3%] Built target catalog_only_core
+[  6%] Built target robot_motion_runtime_config
+[ 12%] Built target motion_core
+[ 15%] Built target gtest_main
+[ 18%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target sdk_executor_core[0m
+[35m[1mConsolidate compiler generated dependencies of target test_motion_json_catalog[0m
+[35m[1mConsolidate compiler generated dependencies of target test_catalog_only_core[0m
+[35m[1mConsolidate compiler generated dependencies of target motion_player_core[0m
+[35m[1mConsolidate compiler generated dependencies of target test_robot_motion_runtime_config[0m
+[35m[1mConsolidate compiler generated dependencies of target catalog_only_node[0m
+[ 25%] Built target sdk_executor_core
+[ 29%] Built target test_motion_json_catalog
+[ 25%] Built target test_catalog_only_core
+[ 32%] Built target test_robot_motion_runtime_config
+[ 36%] Built target motion_player_core
+[ 39%] Built target catalog_only_node
+[35m[1mConsolidate compiler generated dependencies of target simulated_motion_backend[0m
+[35m[1mConsolidate compiler generated dependencies of target test_robot_motion_parameter_types[0m
+[35m[1mConsolidate compiler generated dependencies of target sdk_executor_driver[0m
+[35m[1mConsolidate compiler generated dependencies of target test_sdk_executor_core[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_control[0m
+[ 43%] Built target sdk_executor_driver
+[ 46%] Built target simulated_motion_backend
+[ 50%] Built target test_sdk_executor_core
+[ 53%] Built target test_robot_motion_parameter_types
+[ 55%] [32mBuilding CXX object robot_motion_sdk/CMakeFiles/robot_control.dir/step_dynamixel.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target motion_backend_factory[0m
+[35m[1mConsolidate compiler generated dependencies of target test_simulated_motion_backend[0m
+[35m[1mConsolidate compiler generated dependencies of target test_sdk_executor_driver[0m
+[ 65%] Built target test_sdk_executor_driver
+[ 65%] Built target test_simulated_motion_backend
+[ 65%] Built target motion_backend_factory
+[35m[1mConsolidate compiler generated dependencies of target test_motion_backend_factory[0m
+[ 68%] Built target test_motion_backend_factory
+[01m[K/home/jet/IRC/external_sdk/robot_motion_player_sdk_work_20260801/final step/step_dynamixel.cpp:[m[K In member function ‘[01m[Kvirtual bool Dxl::Preflight()[m[K’:
+[01m[K/home/jet/IRC/external_sdk/robot_motion_player_sdk_work_20260801/final step/step_dynamixel.cpp:176:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass dynamixel::PacketHandler[m[K’ has no member named ‘[01m[KprintTxRxResult[m[K’; did you mean ‘[01m[KgetTxRxResult[m[K’?
+  176 |                 packetHandler->[01;31m[KprintTxRxResult[m[K(result);
+      |                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                [32m[KgetTxRxResult[m[K
+[01m[K/home/jet/IRC/external_sdk/robot_motion_player_sdk_work_20260801/final step/step_dynamixel.cpp:179:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass dynamixel::PacketHandler[m[K’ has no member named ‘[01m[KprintRxPacketError[m[K’; did you mean ‘[01m[KgetRxPacketError[m[K’?
+  179 |                 packetHandler->[01;31m[KprintRxPacketError[m[K(dxl_error);
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                [32m[KgetRxPacketError[m[K
+gmake[2]: *** [robot_motion_sdk/CMakeFiles/robot_control.dir/build.make:104: robot_motion_sdk/CMakeFiles/robot_control.dir/step_dynamixel.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:914: robot_motion_sdk/CMakeFiles/robot_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

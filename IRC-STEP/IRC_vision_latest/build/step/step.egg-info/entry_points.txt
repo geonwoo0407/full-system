@@ -1,0 +1,19 @@
+[console_scripts]
+ball_analyzer = step.ball_analyzer:main
+ball_navigation_controller = step.ball_navigation_controller:main
+goal_analyzer = step.goal_analyzer:main
+goal_navigation_controller = step.goal_navigation_controller:main
+hurdle_analyzer = step.hurdle_analyzer:main
+hurdle_navigation_controller = step.hurdle_navigation_controller:main
+imu_line_pose_estimator = step.imu_line_pose_estimator:main
+line_debug_monitor = step.line_debug_monitor:main
+line_navigation_controller = step.line_navigation_controller:main
+line_path_visualizer = step.line_path_visualizer:main
+mission_map_visualizer = step.mission_map_visualizer:main
+mission_state_estimator = step.mission_state_estimator:main
+rgbd_visual_odometry = step.rgbd_visual_odometry:main
+step_motion_pose_test = step.step_motion_pose_test:main
+unified_vision_node = step.unified_vision_node:main
+yolo26_detector = step.yolo26_detector:main
+yolo_line_analyzer = step.yolo_line_analyzer:main
+

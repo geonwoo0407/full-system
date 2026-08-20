@@ -1,0 +1,9 @@
+[console_scripts]
+legacy_motion_executor_adapter = mission_control.legacy_motion_executor_adapter:main
+legacy_motion_status_adapter = mission_control.legacy_motion_status_adapter:main
+mock_mission_input_node = mission_control.mock_mission_input_node:main
+motion_command_bridge_node = mission_control.motion_command_bridge_node:main
+motion_decision_node = mission_control.motion_decision_node:main
+motion_executor_node = mission_control.motion_executor_node:main
+sdk_motion_stub_node = mission_control.sdk_motion_stub_node:main
+

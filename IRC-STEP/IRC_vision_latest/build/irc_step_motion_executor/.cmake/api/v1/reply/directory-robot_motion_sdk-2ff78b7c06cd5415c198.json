@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robot_motion_sdk",
+		"source" : "/home/jet/IRC/external_sdk/robot_motion_player_sdk_work_20260801/final step"
+	}
+}

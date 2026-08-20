@@ -1,0 +1,96 @@
+[1.139s] Invoking command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/mission_control': AMENT_PREFIX_PATH=/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step:${AMENT_PREFIX_PATH} PYTHONPATH=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission_control build --build-base /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build install --record /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/install.log --single-version-externally-managed install_data
+[1.573s] running egg_info
+[1.575s] creating ../../build/mission_control/mission_control.egg-info
+[1.576s] writing ../../build/mission_control/mission_control.egg-info/PKG-INFO
+[1.576s] writing dependency_links to ../../build/mission_control/mission_control.egg-info/dependency_links.txt
+[1.576s] writing entry points to ../../build/mission_control/mission_control.egg-info/entry_points.txt
+[1.577s] writing requirements to ../../build/mission_control/mission_control.egg-info/requires.txt
+[1.577s] writing top-level names to ../../build/mission_control/mission_control.egg-info/top_level.txt
+[1.577s] writing manifest file '../../build/mission_control/mission_control.egg-info/SOURCES.txt'
+[1.581s] reading manifest file '../../build/mission_control/mission_control.egg-info/SOURCES.txt'
+[1.583s] writing manifest file '../../build/mission_control/mission_control.egg-info/SOURCES.txt'
+[1.583s] running build
+[1.583s] running build_py
+[1.583s] creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build
+[1.584s] creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib
+[1.584s] creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control
+[1.584s] copying mission_control/sdk_motion_stub_node.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control
+[1.585s] copying mission_control/legacy_motion_executor_adapter.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control
+[1.585s] copying mission_control/motion_executor_core.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control
+[1.585s] copying mission_control/motion_player_protocol.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control
+[1.585s] copying mission_control/safety_interlock.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control
+[1.585s] copying mission_control/motion_command_bridge_node.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control
+[1.585s] copying mission_control/motion_decision_planner.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control
+[1.586s] copying mission_control/legacy_motion_status_adapter.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control
+[1.586s] copying mission_control/mock_motion_player.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control
+[1.586s] copying mission_control/__init__.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control
+[1.586s] copying mission_control/motion_decision_node.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control
+[1.587s] copying mission_control/mission_phase_manager.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control
+[1.587s] copying mission_control/motion_player_factory.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control
+[1.587s] copying mission_control/sdk_motion_player_placeholder.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control
+[1.588s] copying mission_control/mock_mission_input_node.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control
+[1.588s] copying mission_control/motion_executor_node.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control
+[1.588s] copying mission_control/executor_heartbeat_watchdog.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control
+[1.588s] copying mission_control/motion_command_gate.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control
+[1.589s] running install
+[1.590s] running install_lib
+[1.591s] creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control
+[1.591s] copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control/sdk_motion_stub_node.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control
+[1.592s] copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control/legacy_motion_executor_adapter.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control
+[1.592s] copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control/motion_executor_core.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control
+[1.592s] copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control/motion_player_protocol.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control
+[1.592s] copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control/safety_interlock.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control
+[1.592s] copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control/motion_command_bridge_node.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control
+[1.593s] copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control/motion_decision_planner.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control
+[1.593s] copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control/legacy_motion_status_adapter.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control
+[1.593s] copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control/mock_motion_player.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control
+[1.593s] copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control/__init__.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control
+[1.594s] copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control/motion_decision_node.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control
+[1.594s] copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control/mission_phase_manager.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control
+[1.594s] copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control/motion_player_factory.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control
+[1.594s] copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control/sdk_motion_player_placeholder.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control
+[1.594s] copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control/mock_mission_input_node.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control
+[1.595s] copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control/motion_executor_node.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control
+[1.595s] copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control/executor_heartbeat_watchdog.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control
+[1.595s] copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build/lib/mission_control/motion_command_gate.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control
+[1.596s] byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control/sdk_motion_stub_node.py to sdk_motion_stub_node.cpython-310.pyc
+[1.599s] byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control/legacy_motion_executor_adapter.py to legacy_motion_executor_adapter.cpython-310.pyc
+[1.601s] byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control/motion_executor_core.py to motion_executor_core.cpython-310.pyc
+[1.603s] byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control/motion_player_protocol.py to motion_player_protocol.cpython-310.pyc
+[1.604s] byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control/safety_interlock.py to safety_interlock.cpython-310.pyc
+[1.605s] byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control/motion_command_bridge_node.py to motion_command_bridge_node.cpython-310.pyc
+[1.608s] byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control/motion_decision_planner.py to motion_decision_planner.cpython-310.pyc
+[1.615s] byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control/legacy_motion_status_adapter.py to legacy_motion_status_adapter.cpython-310.pyc
+[1.617s] byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control/mock_motion_player.py to mock_motion_player.cpython-310.pyc
+[1.618s] byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control/__init__.py to __init__.cpython-310.pyc
+[1.618s] byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control/motion_decision_node.py to motion_decision_node.cpython-310.pyc
+[1.625s] byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control/mission_phase_manager.py to mission_phase_manager.cpython-310.pyc
+[1.627s] byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control/motion_player_factory.py to motion_player_factory.cpython-310.pyc
+[1.628s] byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control/sdk_motion_player_placeholder.py to sdk_motion_player_placeholder.cpython-310.pyc
+[1.629s] byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control/mock_mission_input_node.py to mock_mission_input_node.cpython-310.pyc
+[1.630s] byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control/motion_executor_node.py to motion_executor_node.cpython-310.pyc
+[1.633s] byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control/executor_heartbeat_watchdog.py to executor_heartbeat_watchdog.cpython-310.pyc
+[1.634s] byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control/motion_command_gate.py to motion_command_gate.cpython-310.pyc
+[1.636s] running install_data
+[1.636s] creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/share/ament_index
+[1.636s] creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/share/ament_index/resource_index
+[1.636s] creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/share/ament_index/resource_index/packages
+[1.637s] copying resource/mission_control -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/share/ament_index/resource_index/packages
+[1.637s] copying package.xml -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/share/mission_control
+[1.637s] creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/share/mission_control/launch
+[1.637s] copying launch/motion_executor_mock.launch.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/share/mission_control/launch
+[1.637s] copying launch/full_system_robot.launch.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/share/mission_control/launch
+[1.638s] copying launch/mission_motion_mock.launch.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/share/mission_control/launch
+[1.638s] copying launch/full_system.launch.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/share/mission_control/launch
+[1.638s] running install_egg_info
+[1.641s] Copying ../../build/mission_control/mission_control.egg-info to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control-0.1.0-py3.10.egg-info
+[1.643s] running install_scripts
+[1.679s] Installing legacy_motion_executor_adapter script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+[1.679s] Installing legacy_motion_status_adapter script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+[1.680s] Installing mock_mission_input_node script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+[1.680s] Installing motion_command_bridge_node script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+[1.680s] Installing motion_decision_node script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+[1.680s] Installing motion_executor_node script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+[1.680s] Installing sdk_motion_stub_node script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+[1.681s] writing list of installed files to '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/install.log'
+[1.746s] Invoked command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/mission_control' returned '0': AMENT_PREFIX_PATH=/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step:${AMENT_PREFIX_PATH} PYTHONPATH=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission_control build --build-base /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build install --record /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,27 @@
+running develop
+running egg_info
+writing mission_control.egg-info/PKG-INFO
+writing dependency_links to mission_control.egg-info/dependency_links.txt
+writing entry points to mission_control.egg-info/entry_points.txt
+writing requirements to mission_control.egg-info/requires.txt
+writing top-level names to mission_control.egg-info/top_level.txt
+reading manifest file 'mission_control.egg-info/SOURCES.txt'
+writing manifest file 'mission_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission-control.egg-link (link to .)
+Installing legacy_motion_executor_adapter script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+Installing legacy_motion_status_adapter script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+Installing mock_mission_input_node script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+Installing motion_command_bridge_node script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+Installing motion_decision_node script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+Installing motion_executor_node script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+Installing sdk_motion_stub_node script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+
+Installed /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control
+running symlink_data
+symbolically linking /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/resource/mission_control -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/share/ament_index/resource_index/packages
+symbolically linking /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/package.xml -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/share/mission_control
+symbolically linking /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/launch/motion_executor_mock.launch.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/share/mission_control/launch
+symbolically linking /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/launch/full_system_robot.launch.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/share/mission_control/launch
+symbolically linking /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/launch/mission_motion_mock.launch.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/share/mission_control/launch
+symbolically linking /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/launch/full_system.launch.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/share/mission_control/launch

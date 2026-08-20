@@ -1,0 +1,4 @@
+constructor_side_effect_source_test 1 0.0159763
+dynamixel_hardware_config_test 1 0.00274561
+dynamixel_motion_hardware_preflight_test 1 0.00231666
+---

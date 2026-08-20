@@ -1,0 +1,28 @@
+[1.142s] Invoking command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/mission_control': AMENT_PREFIX_PATH=/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor:/opt/ros/humble PYTHONPATH=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission_control build --build-base /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build install --record /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/install.log --single-version-externally-managed install_data
+[1.580s] running egg_info
+[1.582s] writing ../../build/mission_control/mission_control.egg-info/PKG-INFO
+[1.583s] writing dependency_links to ../../build/mission_control/mission_control.egg-info/dependency_links.txt
+[1.583s] writing entry points to ../../build/mission_control/mission_control.egg-info/entry_points.txt
+[1.583s] writing requirements to ../../build/mission_control/mission_control.egg-info/requires.txt
+[1.583s] writing top-level names to ../../build/mission_control/mission_control.egg-info/top_level.txt
+[1.587s] reading manifest file '../../build/mission_control/mission_control.egg-info/SOURCES.txt'
+[1.589s] writing manifest file '../../build/mission_control/mission_control.egg-info/SOURCES.txt'
+[1.590s] running build
+[1.590s] running build_py
+[1.592s] running install
+[1.592s] running install_lib
+[1.595s] running install_data
+[1.596s] copying launch/full_system_robot.launch.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/share/mission_control/launch
+[1.596s] running install_egg_info
+[1.599s] removing '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control-0.1.0-py3.10.egg-info' (and everything under it)
+[1.600s] Copying ../../build/mission_control/mission_control.egg-info to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages/mission_control-0.1.0-py3.10.egg-info
+[1.602s] running install_scripts
+[1.638s] Installing legacy_motion_executor_adapter script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+[1.638s] Installing legacy_motion_status_adapter script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+[1.639s] Installing mock_mission_input_node script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+[1.639s] Installing motion_command_bridge_node script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+[1.639s] Installing motion_decision_node script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+[1.640s] Installing motion_executor_node script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+[1.640s] Installing sdk_motion_stub_node script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/mission_control
+[1.640s] writing list of installed files to '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/install.log'
+[1.705s] Invoked command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/mission_control' returned '0': AMENT_PREFIX_PATH=/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor:/opt/ros/humble PYTHONPATH=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission_control build --build-base /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/build install --record /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/mission_control/install.log --single-version-externally-managed install_data

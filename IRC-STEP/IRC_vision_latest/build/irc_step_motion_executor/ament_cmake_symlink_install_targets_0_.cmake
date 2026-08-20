@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/librobot_motion_player_backend.a" "TARGETS" "robot_motion_player_backend" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib")

@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000544] (-) JobUnselected: {'identifier': 'step'}
+[0.001019] (irc_step_motion_executor) JobQueued: {'identifier': 'irc_step_motion_executor', 'dependencies': OrderedDict()}
+[0.001255] (mission_control) JobQueued: {'identifier': 'mission_control', 'dependencies': OrderedDict([('irc_step_motion_executor', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor'), ('step', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step')])}
+[0.001458] (irc_step_motion_executor) JobStarted: {'identifier': 'irc_step_motion_executor'}
+[0.014007] (irc_step_motion_executor) JobProgress: {'identifier': 'irc_step_motion_executor', 'progress': 'cmake'}
+[0.015129] (irc_step_motion_executor) JobProgress: {'identifier': 'irc_step_motion_executor', 'progress': 'build'}
+[0.016246] (irc_step_motion_executor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor', '--', '-j6', '-l6'], 'cwd': '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'jet'), ('SSH_CLIENT', '10.50.33.16 50654 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jet'), ('OLDPWD', '/home/jet/IRC/IRC-STEP/IRC_vision_latest'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jet'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jet/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.50.33.16 50654 10.50.34.182 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/home/jet/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step:/opt/ros/humble')]), 'shell': False}
+[0.061939] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099498] (-) TimerEvent: {}
+[0.199982] (-) TimerEvent: {}
+[0.300548] (-) TimerEvent: {}
+[0.305812] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[0.318551] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.390031] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.394814] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.400591] (-) TimerEvent: {}
+[0.405102] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.420779] (irc_step_motion_executor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.440384] (irc_step_motion_executor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.491003] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.493215] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500683] (-) TimerEvent: {}
+[0.601128] (-) TimerEvent: {}
+[0.647714] (irc_step_motion_executor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.701226] (-) TimerEvent: {}
+[0.725905] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)\n'}
+[0.727265] (irc_step_motion_executor) StdoutLine: {'line': b'-- SDK inclusion enabled; no SDK backend is instantiated by this package\n'}
+[0.801400] (-) TimerEvent: {}
+[0.842836] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[0.844413] (irc_step_motion_executor) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.889034] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found launch_testing_ament_cmake: 1.0.14 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)\n'}
+[0.889784] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.901497] (-) TimerEvent: {}
+[0.936733] (irc_step_motion_executor) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.937314] (irc_step_motion_executor) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.937525] (irc_step_motion_executor) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[1.001650] (-) TimerEvent: {}
+[1.071556] (irc_step_motion_executor) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.086313] (irc_step_motion_executor) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.086763] (irc_step_motion_executor) StderrLine: {'line': b'  Cannot find source file:\n'}
+[1.086986] (irc_step_motion_executor) StderrLine: {'line': b'\n'}
+[1.087180] (irc_step_motion_executor) StderrLine: {'line': b'    test/test_startup_pose_gate.cpp\n'}
+[1.087361] (irc_step_motion_executor) StderrLine: {'line': b'\n'}
+[1.087530] (irc_step_motion_executor) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[1.087703] (irc_step_motion_executor) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[1.087871] (irc_step_motion_executor) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.088035] (irc_step_motion_executor) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.088199] (irc_step_motion_executor) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.088363] (irc_step_motion_executor) StderrLine: {'line': b'  CMakeLists.txt:312 (ament_add_gtest)\n'}
+[1.088524] (irc_step_motion_executor) StderrLine: {'line': b'\n'}
+[1.088682] (irc_step_motion_executor) StderrLine: {'line': b'\x1b[0m\n'}
+[1.091051] (irc_step_motion_executor) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.091258] (irc_step_motion_executor) StderrLine: {'line': b'  No SOURCES given to target: test_startup_pose_gate\n'}
+[1.091434] (irc_step_motion_executor) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.091603] (irc_step_motion_executor) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.091771] (irc_step_motion_executor) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.091936] (irc_step_motion_executor) StderrLine: {'line': b'  CMakeLists.txt:312 (ament_add_gtest)\n'}
+[1.092101] (irc_step_motion_executor) StderrLine: {'line': b'\n'}
+[1.092264] (irc_step_motion_executor) StderrLine: {'line': b'\x1b[0m\n'}
+[1.092426] (irc_step_motion_executor) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[1.101734] (-) TimerEvent: {}
+[1.118194] (irc_step_motion_executor) StderrLine: {'line': b'gmake: *** [Makefile:1198: cmake_check_build_system] Error 1\n'}
+[1.122884] (irc_step_motion_executor) CommandEnded: {'returncode': 2}
+[1.148344] (irc_step_motion_executor) JobEnded: {'identifier': 'irc_step_motion_executor', 'rc': 2}
+[1.149977] (mission_control) JobSkipped: {'identifier': 'mission_control'}
+[1.150089] (-) EventReactorShutdown: {}

@@ -1,0 +1,1249 @@
+[0.000000] (-) TimerEvent: {}
+[0.000932] (irc_step_motion_executor) JobQueued: {'identifier': 'irc_step_motion_executor', 'dependencies': OrderedDict([('irc_step_motion_executor', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor')])}
+[0.001186] (irc_step_motion_executor) JobStarted: {'identifier': 'irc_step_motion_executor'}
+[0.038422] (irc_step_motion_executor) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'jet'), ('SSH_CLIENT', '10.50.33.199 46936 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jet'), ('OLDPWD', '/home/jet/IRC/IRC-STEP/IRC_vision_latest'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jet'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jet/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.50.33.199 46936 10.50.34.182 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/home/jet/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control/lib/python3.10/site-packages:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor')]), 'shell': False}
+[0.055881] (irc_step_motion_executor) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/CTestConfiguration.ini\n'}
+[0.056400] (irc_step_motion_executor) StdoutLine: {'line': b'Parse Config file:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/CTestConfiguration.ini\n'}
+[0.056776] (irc_step_motion_executor) StdoutLine: {'line': b'   Site: stepjet\n'}
+[0.057047] (irc_step_motion_executor) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.057219] (irc_step_motion_executor) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.057375] (irc_step_motion_executor) StdoutLine: {'line': b'Create new tag: 20260817-1213 - Experimental\n'}
+[0.057522] (irc_step_motion_executor) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/CTestConfiguration.ini\n'}
+[0.057666] (irc_step_motion_executor) StdoutLine: {'line': b'Parse Config file:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/CTestConfiguration.ini\n'}
+[0.057806] (irc_step_motion_executor) StdoutLine: {'line': b'Test project /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor\n'}
+[0.057944] (irc_step_motion_executor) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.058363] (irc_step_motion_executor) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.058579] (irc_step_motion_executor) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.058731] (irc_step_motion_executor) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.059199] (irc_step_motion_executor) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.059449] (irc_step_motion_executor) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.059588] (irc_step_motion_executor) StdoutLine: {'line': b'test 1\n'}
+[0.059714] (irc_step_motion_executor) StdoutLine: {'line': b'      Start  1: test_catalog_only_core\n'}
+[0.059840] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[0.059965] (irc_step_motion_executor) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_catalog_only_core.gtest.xml" "--package-name" "irc_step_motion_executor" "--output-file" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/ament_cmake_gtest/test_catalog_only_core.txt" "--command" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_catalog_only_core" "--gtest_output=xml:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_catalog_only_core.gtest.xml"\n'}
+[0.060104] (irc_step_motion_executor) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.099512] (-) TimerEvent: {}
+[0.164935] (irc_step_motion_executor) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor':\n"}
+[0.165370] (irc_step_motion_executor) StdoutLine: {'line': b'1:  - /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_catalog_only_core --gtest_output=xml:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_catalog_only_core.gtest.xml\n'}
+[0.168591] (irc_step_motion_executor) StdoutLine: {'line': b'1: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc\n'}
+[0.168831] (irc_step_motion_executor) StdoutLine: {'line': b'1: [==========] Running 10 tests from 3 test suites.\n'}
+[0.168990] (irc_step_motion_executor) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.169191] (irc_step_motion_executor) StdoutLine: {'line': b'1: [----------] 1 test from MotionAliasCatalog\n'}
+[0.169435] (irc_step_motion_executor) StdoutLine: {'line': b'1: [ RUN      ] MotionAliasCatalog.LoadsLatestSdkAndCanonicalAliases\n'}
+[0.169609] (irc_step_motion_executor) StdoutLine: {'line': b'1: [       OK ] MotionAliasCatalog.LoadsLatestSdkAndCanonicalAliases (0 ms)\n'}
+[0.169779] (irc_step_motion_executor) StdoutLine: {'line': b'1: [----------] 1 test from MotionAliasCatalog (0 ms total)\n'}
+[0.169944] (irc_step_motion_executor) StdoutLine: {'line': b'1: \n'}
+[0.170112] (irc_step_motion_executor) StdoutLine: {'line': b'1: [----------] 8 tests from CatalogOnlyCore\n'}
+[0.170277] (irc_step_motion_executor) StdoutLine: {'line': b'1: [ RUN      ] CatalogOnlyCore.PreservesCorrelationFieldsAndRejectsExecution\n'}
+[0.170403] (irc_step_motion_executor) StdoutLine: {'line': b'1: [       OK ] CatalogOnlyCore.PreservesCorrelationFieldsAndRejectsExecution (1 ms)\n'}
+[0.170524] (irc_step_motion_executor) StdoutLine: {'line': b'1: [ RUN      ] CatalogOnlyCore.RejectsInvalidJsonSafely\n'}
+[0.170700] (irc_step_motion_executor) StdoutLine: {'line': b'1: [       OK ] CatalogOnlyCore.RejectsInvalidJsonSafely (0 ms)\n'}
+[0.170952] (irc_step_motion_executor) StdoutLine: {'line': b'1: [ RUN      ] CatalogOnlyCore.DistinguishesRequiredNullEventIdFromMissingEventId\n'}
+[0.171189] (irc_step_motion_executor) StdoutLine: {'line': b'1: [       OK ] CatalogOnlyCore.DistinguishesRequiredNullEventIdFromMissingEventId (0 ms)\n'}
+[0.171417] (irc_step_motion_executor) StdoutLine: {'line': b'1: [ RUN      ] CatalogOnlyCore.RequiresEveryRequestContractField\n'}
+[0.171612] (irc_step_motion_executor) StdoutLine: {'line': b'1: [       OK ] CatalogOnlyCore.RequiresEveryRequestContractField (0 ms)\n'}
+[0.171733] (irc_step_motion_executor) StdoutLine: {'line': b'1: [ RUN      ] CatalogOnlyCore.RejectsUnknownAliasWithoutFallback\n'}
+[0.171850] (irc_step_motion_executor) StdoutLine: {'line': b'1: [       OK ] CatalogOnlyCore.RejectsUnknownAliasWithoutFallback (0 ms)\n'}
+[0.171979] (irc_step_motion_executor) StdoutLine: {'line': b'1: [ RUN      ] CatalogOnlyCore.SerializedStatusContainsContractFields\n'}
+[0.172177] (irc_step_motion_executor) StdoutLine: {'line': b'1: [       OK ] CatalogOnlyCore.SerializedStatusContainsContractFields (1 ms)\n'}
+[0.172297] (irc_step_motion_executor) StdoutLine: {'line': b'1: [ RUN      ] CatalogOnlyCore.SerializedStatusPreservesNullCorrelationTypes\n'}
+[0.172494] (irc_step_motion_executor) StdoutLine: {'line': b'1: [       OK ] CatalogOnlyCore.SerializedStatusPreservesNullCorrelationTypes (0 ms)\n'}
+[0.172619] (irc_step_motion_executor) StdoutLine: {'line': b'1: [ RUN      ] CatalogOnlyCore.CancelNeverTouchesHardware\n'}
+[0.172740] (irc_step_motion_executor) StdoutLine: {'line': b'1: [       OK ] CatalogOnlyCore.CancelNeverTouchesHardware (0 ms)\n'}
+[0.172914] (irc_step_motion_executor) StdoutLine: {'line': b'1: [----------] 8 tests from CatalogOnlyCore (2 ms total)\n'}
+[0.173032] (irc_step_motion_executor) StdoutLine: {'line': b'1: \n'}
+[0.173145] (irc_step_motion_executor) StdoutLine: {'line': b'1: [----------] 1 test from CatalogOnlyContract\n'}
+[0.173258] (irc_step_motion_executor) StdoutLine: {'line': b'1: [ RUN      ] CatalogOnlyContract.SharedVectorsPreserveFieldsWithoutFallback\n'}
+[0.173370] (irc_step_motion_executor) StdoutLine: {'line': b'1: [       OK ] CatalogOnlyContract.SharedVectorsPreserveFieldsWithoutFallback (1 ms)\n'}
+[0.173482] (irc_step_motion_executor) StdoutLine: {'line': b'1: [----------] 1 test from CatalogOnlyContract (1 ms total)\n'}
+[0.173594] (irc_step_motion_executor) StdoutLine: {'line': b'1: \n'}
+[0.173704] (irc_step_motion_executor) StdoutLine: {'line': b'1: [----------] Global test environment tear-down\n'}
+[0.173858] (irc_step_motion_executor) StdoutLine: {'line': b'1: [==========] 10 tests from 3 test suites ran. (3 ms total)\n'}
+[0.173974] (irc_step_motion_executor) StdoutLine: {'line': b'1: [  PASSED  ] 10 tests.\n'}
+[0.174088] (irc_step_motion_executor) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.174202] (irc_step_motion_executor) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_catalog_only_core.gtest.xml'\n"}
+[0.178553] (irc_step_motion_executor) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_catalog_only_core.gtest.xml'\n"}
+[0.199292] (irc_step_motion_executor) StdoutLine: {'line': b' 1/18 Test  #1: test_catalog_only_core .............................   Passed    0.14 sec\n'}
+[0.199664] (-) TimerEvent: {}
+[0.199976] (irc_step_motion_executor) StdoutLine: {'line': b'test 2\n'}
+[0.200162] (irc_step_motion_executor) StdoutLine: {'line': b'      Start  2: test_motion_json_catalog\n'}
+[0.200297] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[0.200420] (irc_step_motion_executor) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_motion_json_catalog.gtest.xml" "--package-name" "irc_step_motion_executor" "--output-file" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/ament_cmake_gtest/test_motion_json_catalog.txt" "--command" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_motion_json_catalog" "--gtest_output=xml:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_motion_json_catalog.gtest.xml"\n'}
+[0.200562] (irc_step_motion_executor) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.299770] (-) TimerEvent: {}
+[0.307758] (irc_step_motion_executor) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor':\n"}
+[0.308061] (irc_step_motion_executor) StdoutLine: {'line': b'2:  - /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_motion_json_catalog --gtest_output=xml:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_motion_json_catalog.gtest.xml\n'}
+[0.310888] (irc_step_motion_executor) StdoutLine: {'line': b'2: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc\n'}
+[0.311182] (irc_step_motion_executor) StdoutLine: {'line': b'2: [==========] Running 3 tests from 1 test suite.\n'}
+[0.311330] (irc_step_motion_executor) StdoutLine: {'line': b'2: [----------] Global test environment set-up.\n'}
+[0.311460] (irc_step_motion_executor) StdoutLine: {'line': b'2: [----------] 3 tests from MotionJsonCatalog\n'}
+[0.311584] (irc_step_motion_executor) StdoutLine: {'line': b'2: [ RUN      ] MotionJsonCatalog.CandidateCatalogMatchesExecutorLoaderContract\n'}
+[0.322977] (irc_step_motion_executor) StdoutLine: {'line': b'2: [       OK ] MotionJsonCatalog.CandidateCatalogMatchesExecutorLoaderContract (12 ms)\n'}
+[0.323336] (irc_step_motion_executor) StdoutLine: {'line': b'2: [ RUN      ] MotionJsonCatalog.RejectsInvalidJsonWithClearError\n'}
+[0.323516] (irc_step_motion_executor) StdoutLine: {'line': b'2: [       OK ] MotionJsonCatalog.RejectsInvalidJsonWithClearError (0 ms)\n'}
+[0.323868] (irc_step_motion_executor) StdoutLine: {'line': b'2: [ RUN      ] MotionJsonCatalog.RejectsMissingRequiredFramesField\n'}
+[0.324047] (irc_step_motion_executor) StdoutLine: {'line': b'2: [       OK ] MotionJsonCatalog.RejectsMissingRequiredFramesField (0 ms)\n'}
+[0.324276] (irc_step_motion_executor) StdoutLine: {'line': b'2: [----------] 3 tests from MotionJsonCatalog (12 ms total)\n'}
+[0.324467] (irc_step_motion_executor) StdoutLine: {'line': b'2: \n'}
+[0.324684] (irc_step_motion_executor) StdoutLine: {'line': b'2: [----------] Global test environment tear-down\n'}
+[0.324841] (irc_step_motion_executor) StdoutLine: {'line': b'2: [==========] 3 tests from 1 test suite ran. (12 ms total)\n'}
+[0.324989] (irc_step_motion_executor) StdoutLine: {'line': b'2: [  PASSED  ] 3 tests.\n'}
+[0.325135] (irc_step_motion_executor) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.325279] (irc_step_motion_executor) StdoutLine: {'line': b"2: -- run_test.py: inject classname prefix into gtest result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_motion_json_catalog.gtest.xml'\n"}
+[0.330145] (irc_step_motion_executor) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_motion_json_catalog.gtest.xml'\n"}
+[0.350945] (irc_step_motion_executor) StdoutLine: {'line': b' 2/18 Test  #2: test_motion_json_catalog ...........................   Passed    0.15 sec\n'}
+[0.351472] (irc_step_motion_executor) StdoutLine: {'line': b'test 3\n'}
+[0.351650] (irc_step_motion_executor) StdoutLine: {'line': b'      Start  3: test_sdk_executor_core\n'}
+[0.351797] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[0.351935] (irc_step_motion_executor) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_sdk_executor_core.gtest.xml" "--package-name" "irc_step_motion_executor" "--output-file" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/ament_cmake_gtest/test_sdk_executor_core.txt" "--command" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_sdk_executor_core" "--gtest_output=xml:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_sdk_executor_core.gtest.xml"\n'}
+[0.352092] (irc_step_motion_executor) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.399882] (-) TimerEvent: {}
+[0.457911] (irc_step_motion_executor) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor':\n"}
+[0.458283] (irc_step_motion_executor) StdoutLine: {'line': b'3:  - /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_sdk_executor_core --gtest_output=xml:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_sdk_executor_core.gtest.xml\n'}
+[0.461497] (irc_step_motion_executor) StdoutLine: {'line': b'3: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc\n'}
+[0.461756] (irc_step_motion_executor) StdoutLine: {'line': b'3: [==========] Running 17 tests from 1 test suite.\n'}
+[0.461927] (irc_step_motion_executor) StdoutLine: {'line': b'3: [----------] Global test environment set-up.\n'}
+[0.462218] (irc_step_motion_executor) StdoutLine: {'line': b'3: [----------] 17 tests from SdkExecutorCore\n'}
+[0.462426] (irc_step_motion_executor) StdoutLine: {'line': b'3: [ RUN      ] SdkExecutorCore.ResolvesForwardAliasBeforeStartingBackend\n'}
+[0.462648] (irc_step_motion_executor) StdoutLine: {'line': b'3: [       OK ] SdkExecutorCore.ResolvesForwardAliasBeforeStartingBackend (0 ms)\n'}
+[0.462791] (irc_step_motion_executor) StdoutLine: {'line': b'3: [ RUN      ] SdkExecutorCore.ResolvesPickupAliasWithoutFallback\n'}
+[0.462997] (irc_step_motion_executor) StdoutLine: {'line': b'3: [       OK ] SdkExecutorCore.ResolvesPickupAliasWithoutFallback (1 ms)\n'}
+[0.463365] (irc_step_motion_executor) StdoutLine: {'line': b'3: [ RUN      ] SdkExecutorCore.UnsupportedMotionNeverCallsBackend\n'}
+[0.463566] (irc_step_motion_executor) StdoutLine: {'line': b'3: [       OK ] SdkExecutorCore.UnsupportedMotionNeverCallsBackend (0 ms)\n'}
+[0.463781] (irc_step_motion_executor) StdoutLine: {'line': b'3: [ RUN      ] SdkExecutorCore.PreservesCorrelationIncludingNullIds\n'}
+[0.464026] (irc_step_motion_executor) StdoutLine: {'line': b'3: [       OK ] SdkExecutorCore.PreservesCorrelationIncludingNullIds (0 ms)\n'}
+[0.464174] (irc_step_motion_executor) StdoutLine: {'line': b'3: [ RUN      ] SdkExecutorCore.MapsRunningSettlingAndSucceeded\n'}
+[0.464334] (irc_step_motion_executor) StdoutLine: {'line': b'3: [       OK ] SdkExecutorCore.MapsRunningSettlingAndSucceeded (0 ms)\n'}
+[0.464623] (irc_step_motion_executor) StdoutLine: {'line': b'3: [ RUN      ] SdkExecutorCore.MapsBackendFailureToFailedTerminal\n'}
+[0.464765] (irc_step_motion_executor) StdoutLine: {'line': b'3: [       OK ] SdkExecutorCore.MapsBackendFailureToFailedTerminal (1 ms)\n'}
+[0.464964] (irc_step_motion_executor) StdoutLine: {'line': b'3: [ RUN      ] SdkExecutorCore.CancelRequestCompletesWhenBackendReportsCancelled\n'}
+[0.465178] (irc_step_motion_executor) StdoutLine: {'line': b'3: [       OK ] SdkExecutorCore.CancelRequestCompletesWhenBackendReportsCancelled (0 ms)\n'}
+[0.465412] (irc_step_motion_executor) StdoutLine: {'line': b'3: [ RUN      ] SdkExecutorCore.RejectsCancelWithoutActiveRequest\n'}
+[0.465626] (irc_step_motion_executor) StdoutLine: {'line': b'3: [       OK ] SdkExecutorCore.RejectsCancelWithoutActiveRequest (0 ms)\n'}
+[0.465773] (irc_step_motion_executor) StdoutLine: {'line': b'3: [ RUN      ] SdkExecutorCore.RejectsStaleCancelWithoutTouchingActiveRequest\n'}
+[0.465992] (irc_step_motion_executor) StdoutLine: {'line': b'3: [       OK ] SdkExecutorCore.RejectsStaleCancelWithoutTouchingActiveRequest (0 ms)\n'}
+[0.466120] (irc_step_motion_executor) StdoutLine: {'line': b'3: [ RUN      ] SdkExecutorCore.RejectsSecondStartWhileActive\n'}
+[0.466246] (irc_step_motion_executor) StdoutLine: {'line': b'3: [       OK ] SdkExecutorCore.RejectsSecondStartWhileActive (0 ms)\n'}
+[0.466403] (irc_step_motion_executor) StdoutLine: {'line': b'3: [ RUN      ] SdkExecutorCore.TimeoutCancelsAndReturnsFailedWithCorrelation\n'}
+[0.466567] (irc_step_motion_executor) StdoutLine: {'line': b'3: [       OK ] SdkExecutorCore.TimeoutCancelsAndReturnsFailedWithCorrelation (1 ms)\n'}
+[0.466780] (irc_step_motion_executor) StdoutLine: {'line': b'3: [ RUN      ] SdkExecutorCore.AllowsNewRequestAfterTerminalStatus\n'}
+[0.466946] (irc_step_motion_executor) StdoutLine: {'line': b'3: [       OK ] SdkExecutorCore.AllowsNewRequestAfterTerminalStatus (0 ms)\n'}
+[0.467092] (irc_step_motion_executor) StdoutLine: {'line': b'3: [ RUN      ] SdkExecutorCore.BackendStartExceptionBecomesFailed\n'}
+[0.467283] (irc_step_motion_executor) StdoutLine: {'line': b'3: [       OK ] SdkExecutorCore.BackendStartExceptionBecomesFailed (0 ms)\n'}
+[0.467417] (irc_step_motion_executor) StdoutLine: {'line': b'3: [ RUN      ] SdkExecutorCore.ExplicitBackendStartRejectionStaysRejected\n'}
+[0.467592] (irc_step_motion_executor) StdoutLine: {'line': b'3: [       OK ] SdkExecutorCore.ExplicitBackendStartRejectionStaysRejected (0 ms)\n'}
+[0.467731] (irc_step_motion_executor) StdoutLine: {'line': b'3: [ RUN      ] SdkExecutorCore.BackendPollExceptionBecomesFailedAndReleasesRequest\n'}
+[0.467864] (irc_step_motion_executor) StdoutLine: {'line': b'3: [       OK ] SdkExecutorCore.BackendPollExceptionBecomesFailedAndReleasesRequest (1 ms)\n'}
+[0.467997] (irc_step_motion_executor) StdoutLine: {'line': b'3: [ RUN      ] SdkExecutorCore.BackendCancelExceptionBecomesFailedTerminal\n'}
+[0.468145] (irc_step_motion_executor) StdoutLine: {'line': b'3: [       OK ] SdkExecutorCore.BackendCancelExceptionBecomesFailedTerminal (0 ms)\n'}
+[0.468278] (irc_step_motion_executor) StdoutLine: {'line': b'3: [ RUN      ] SdkExecutorCore.RejectsInvalidRequestWithoutCallingBackend\n'}
+[0.468407] (irc_step_motion_executor) StdoutLine: {'line': b'3: [       OK ] SdkExecutorCore.RejectsInvalidRequestWithoutCallingBackend (0 ms)\n'}
+[0.468552] (irc_step_motion_executor) StdoutLine: {'line': b'3: [----------] 17 tests from SdkExecutorCore (4 ms total)\n'}
+[0.468682] (irc_step_motion_executor) StdoutLine: {'line': b'3: \n'}
+[0.468809] (irc_step_motion_executor) StdoutLine: {'line': b'3: [----------] Global test environment tear-down\n'}
+[0.468940] (irc_step_motion_executor) StdoutLine: {'line': b'3: [==========] 17 tests from 1 test suite ran. (4 ms total)\n'}
+[0.469068] (irc_step_motion_executor) StdoutLine: {'line': b'3: [  PASSED  ] 17 tests.\n'}
+[0.469195] (irc_step_motion_executor) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[0.469323] (irc_step_motion_executor) StdoutLine: {'line': b"3: -- run_test.py: inject classname prefix into gtest result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_sdk_executor_core.gtest.xml'\n"}
+[0.473248] (irc_step_motion_executor) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_sdk_executor_core.gtest.xml'\n"}
+[0.494378] (irc_step_motion_executor) StdoutLine: {'line': b' 3/18 Test  #3: test_sdk_executor_core .............................   Passed    0.14 sec\n'}
+[0.494914] (irc_step_motion_executor) StdoutLine: {'line': b'test 4\n'}
+[0.495078] (irc_step_motion_executor) StdoutLine: {'line': b'      Start  4: test_robot_motion_player_backend\n'}
+[0.495214] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[0.495342] (irc_step_motion_executor) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_robot_motion_player_backend.gtest.xml" "--package-name" "irc_step_motion_executor" "--output-file" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/ament_cmake_gtest/test_robot_motion_player_backend.txt" "--command" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_robot_motion_player_backend" "--gtest_output=xml:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_robot_motion_player_backend.gtest.xml"\n'}
+[0.495540] (irc_step_motion_executor) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[0.499997] (-) TimerEvent: {}
+[0.600406] (-) TimerEvent: {}
+[0.603455] (irc_step_motion_executor) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor':\n"}
+[0.603836] (irc_step_motion_executor) StdoutLine: {'line': b'4:  - /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_robot_motion_player_backend --gtest_output=xml:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_robot_motion_player_backend.gtest.xml\n'}
+[0.606974] (irc_step_motion_executor) StdoutLine: {'line': b'4: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc\n'}
+[0.607436] (irc_step_motion_executor) StdoutLine: {'line': b'4: [==========] Running 8 tests from 1 test suite.\n'}
+[0.607604] (irc_step_motion_executor) StdoutLine: {'line': b'4: [----------] Global test environment set-up.\n'}
+[0.607745] (irc_step_motion_executor) StdoutLine: {'line': b'4: [----------] 8 tests from RobotMotionPlayerBackend\n'}
+[0.607889] (irc_step_motion_executor) StdoutLine: {'line': b'4: [ RUN      ] RobotMotionPlayerBackend.PassesResolvedMotionNameWithoutModification\n'}
+[0.608048] (irc_step_motion_executor) StdoutLine: {'line': b'4: [       OK ] RobotMotionPlayerBackend.PassesResolvedMotionNameWithoutModification (0 ms)\n'}
+[0.608274] (irc_step_motion_executor) StdoutLine: {'line': b'4: [ RUN      ] RobotMotionPlayerBackend.MapsEveryKnownStartResult\n'}
+[0.608460] (irc_step_motion_executor) StdoutLine: {'line': b'4: [       OK ] RobotMotionPlayerBackend.MapsEveryKnownStartResult (0 ms)\n'}
+[0.608612] (irc_step_motion_executor) StdoutLine: {'line': b'4: [ RUN      ] RobotMotionPlayerBackend.UnknownStartResultFailsSafely\n'}
+[0.608755] (irc_step_motion_executor) StdoutLine: {'line': b'4: [       OK ] RobotMotionPlayerBackend.UnknownStartResultFailsSafely (0 ms)\n'}
+[0.608935] (irc_step_motion_executor) StdoutLine: {'line': b'4: [ RUN      ] RobotMotionPlayerBackend.MapsEveryKnownCancelResult\n'}
+[0.609057] (irc_step_motion_executor) StdoutLine: {'line': b'4: [       OK ] RobotMotionPlayerBackend.MapsEveryKnownCancelResult (0 ms)\n'}
+[0.609176] (irc_step_motion_executor) StdoutLine: {'line': b'4: [ RUN      ] RobotMotionPlayerBackend.MapsEveryKnownMotionStatus\n'}
+[0.609292] (irc_step_motion_executor) StdoutLine: {'line': b'4: [       OK ] RobotMotionPlayerBackend.MapsEveryKnownMotionStatus (0 ms)\n'}
+[0.609408] (irc_step_motion_executor) StdoutLine: {'line': b'4: [ RUN      ] RobotMotionPlayerBackend.MapsSdkFailureCodeAndMessage\n'}
+[0.609523] (irc_step_motion_executor) StdoutLine: {'line': b'4: [       OK ] RobotMotionPlayerBackend.MapsSdkFailureCodeAndMessage (0 ms)\n'}
+[0.609637] (irc_step_motion_executor) StdoutLine: {'line': b'4: [ RUN      ] RobotMotionPlayerBackend.UnknownStatusBecomesFailed\n'}
+[0.609750] (irc_step_motion_executor) StdoutLine: {'line': b'4: [       OK ] RobotMotionPlayerBackend.UnknownStatusBecomesFailed (0 ms)\n'}
+[0.609867] (irc_step_motion_executor) StdoutLine: {'line': b'4: [ RUN      ] RobotMotionPlayerBackend.ConvertsInjectedApiExceptionsSafely\n'}
+[0.609983] (irc_step_motion_executor) StdoutLine: {'line': b'4: [       OK ] RobotMotionPlayerBackend.ConvertsInjectedApiExceptionsSafely (1 ms)\n'}
+[0.610097] (irc_step_motion_executor) StdoutLine: {'line': b'4: [----------] 8 tests from RobotMotionPlayerBackend (1 ms total)\n'}
+[0.610228] (irc_step_motion_executor) StdoutLine: {'line': b'4: \n'}
+[0.610347] (irc_step_motion_executor) StdoutLine: {'line': b'4: [----------] Global test environment tear-down\n'}
+[0.610462] (irc_step_motion_executor) StdoutLine: {'line': b'4: [==========] 8 tests from 1 test suite ran. (1 ms total)\n'}
+[0.610606] (irc_step_motion_executor) StdoutLine: {'line': b'4: [  PASSED  ] 8 tests.\n'}
+[0.610734] (irc_step_motion_executor) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[0.610856] (irc_step_motion_executor) StdoutLine: {'line': b"4: -- run_test.py: inject classname prefix into gtest result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_robot_motion_player_backend.gtest.xml'\n"}
+[0.614492] (irc_step_motion_executor) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_robot_motion_player_backend.gtest.xml'\n"}
+[0.635747] (irc_step_motion_executor) StdoutLine: {'line': b' 4/18 Test  #4: test_robot_motion_player_backend ...................   Passed    0.14 sec\n'}
+[0.636666] (irc_step_motion_executor) StdoutLine: {'line': b'test 5\n'}
+[0.637004] (irc_step_motion_executor) StdoutLine: {'line': b'      Start  5: test_simulated_motion_backend\n'}
+[0.637306] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[0.637591] (irc_step_motion_executor) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_simulated_motion_backend.gtest.xml" "--package-name" "irc_step_motion_executor" "--output-file" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/ament_cmake_gtest/test_simulated_motion_backend.txt" "--command" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_simulated_motion_backend" "--gtest_output=xml:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_simulated_motion_backend.gtest.xml"\n'}
+[0.637902] (irc_step_motion_executor) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[0.700503] (-) TimerEvent: {}
+[0.744285] (irc_step_motion_executor) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor':\n"}
+[0.744735] (irc_step_motion_executor) StdoutLine: {'line': b'5:  - /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_simulated_motion_backend --gtest_output=xml:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_simulated_motion_backend.gtest.xml\n'}
+[0.747338] (irc_step_motion_executor) StdoutLine: {'line': b'5: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc\n'}
+[0.747854] (irc_step_motion_executor) StdoutLine: {'line': b'5: [==========] Running 4 tests from 1 test suite.\n'}
+[0.748286] (irc_step_motion_executor) StdoutLine: {'line': b'5: [----------] Global test environment set-up.\n'}
+[0.748581] (irc_step_motion_executor) StdoutLine: {'line': b'5: [----------] 4 tests from SimulatedMotionBackend\n'}
+[0.748848] (irc_step_motion_executor) StdoutLine: {'line': b'5: [ RUN      ] SimulatedMotionBackend.TransitionsByPollCountWithoutSleeping\n'}
+[0.749108] (irc_step_motion_executor) StdoutLine: {'line': b'5: [       OK ] SimulatedMotionBackend.TransitionsByPollCountWithoutSleeping (0 ms)\n'}
+[0.749361] (irc_step_motion_executor) StdoutLine: {'line': b'5: [ RUN      ] SimulatedMotionBackend.CancelIsReportedOnNextPoll\n'}
+[0.749607] (irc_step_motion_executor) StdoutLine: {'line': b'5: [       OK ] SimulatedMotionBackend.CancelIsReportedOnNextPoll (0 ms)\n'}
+[0.749848] (irc_step_motion_executor) StdoutLine: {'line': b'5: [ RUN      ] SimulatedMotionBackend.RejectsCancelAndSecondStartWhenActiveStateDisallowsIt\n'}
+[0.750088] (irc_step_motion_executor) StdoutLine: {'line': b'5: [       OK ] SimulatedMotionBackend.RejectsCancelAndSecondStartWhenActiveStateDisallowsIt (0 ms)\n'}
+[0.750325] (irc_step_motion_executor) StdoutLine: {'line': b'5: [ RUN      ] SimulatedMotionBackend.SupportsConfiguredStartAndPollFailures\n'}
+[0.750593] (irc_step_motion_executor) StdoutLine: {'line': b'5: [       OK ] SimulatedMotionBackend.SupportsConfiguredStartAndPollFailures (0 ms)\n'}
+[0.750855] (irc_step_motion_executor) StdoutLine: {'line': b'5: [----------] 4 tests from SimulatedMotionBackend (0 ms total)\n'}
+[0.751099] (irc_step_motion_executor) StdoutLine: {'line': b'5: \n'}
+[0.751338] (irc_step_motion_executor) StdoutLine: {'line': b'5: [----------] Global test environment tear-down\n'}
+[0.751579] (irc_step_motion_executor) StdoutLine: {'line': b'5: [==========] 4 tests from 1 test suite ran. (0 ms total)\n'}
+[0.751815] (irc_step_motion_executor) StdoutLine: {'line': b'5: [  PASSED  ] 4 tests.\n'}
+[0.752049] (irc_step_motion_executor) StdoutLine: {'line': b'5: -- run_test.py: return code 0\n'}
+[0.752289] (irc_step_motion_executor) StdoutLine: {'line': b"5: -- run_test.py: inject classname prefix into gtest result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_simulated_motion_backend.gtest.xml'\n"}
+[0.754148] (irc_step_motion_executor) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_simulated_motion_backend.gtest.xml'\n"}
+[0.774117] (irc_step_motion_executor) StdoutLine: {'line': b' 5/18 Test  #5: test_simulated_motion_backend ......................   Passed    0.14 sec\n'}
+[0.774521] (irc_step_motion_executor) StdoutLine: {'line': b'test 6\n'}
+[0.774820] (irc_step_motion_executor) StdoutLine: {'line': b'      Start  6: test_robot_motion_runtime_config\n'}
+[0.775072] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[0.775321] (irc_step_motion_executor) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_robot_motion_runtime_config.gtest.xml" "--package-name" "irc_step_motion_executor" "--output-file" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/ament_cmake_gtest/test_robot_motion_runtime_config.txt" "--command" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_robot_motion_runtime_config" "--gtest_output=xml:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_robot_motion_runtime_config.gtest.xml"\n'}
+[0.775656] (irc_step_motion_executor) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[0.800598] (-) TimerEvent: {}
+[0.883654] (irc_step_motion_executor) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor':\n"}
+[0.884089] (irc_step_motion_executor) StdoutLine: {'line': b'6:  - /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_robot_motion_runtime_config --gtest_output=xml:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_robot_motion_runtime_config.gtest.xml\n'}
+[0.886258] (irc_step_motion_executor) StdoutLine: {'line': b'6: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc\n'}
+[0.886885] (irc_step_motion_executor) StdoutLine: {'line': b'6: [==========] Running 20 tests from 3 test suites.\n'}
+[0.887280] (irc_step_motion_executor) StdoutLine: {'line': b'6: [----------] Global test environment set-up.\n'}
+[0.887554] (irc_step_motion_executor) StdoutLine: {'line': b'6: [----------] 4 tests from RobotMotionRuntimeConfig\n'}
+[0.887913] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotMotionRuntimeConfig.RejectsMissingPath\n'}
+[0.888245] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotMotionRuntimeConfig.RejectsMissingPath (0 ms)\n'}
+[0.888552] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotMotionRuntimeConfig.RejectsMissingFile\n'}
+[0.888814] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotMotionRuntimeConfig.RejectsMissingFile (0 ms)\n'}
+[0.889060] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotMotionRuntimeConfig.RejectsUnknownSetting\n'}
+[0.889302] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotMotionRuntimeConfig.RejectsUnknownSetting (0 ms)\n'}
+[0.889545] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotMotionRuntimeConfig.CopiesTypedRosParameterValues\n'}
+[0.889782] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotMotionRuntimeConfig.CopiesTypedRosParameterValues (0 ms)\n'}
+[0.890020] (irc_step_motion_executor) StdoutLine: {'line': b'6: [----------] 4 tests from RobotMotionRuntimeConfig (0 ms total)\n'}
+[0.890256] (irc_step_motion_executor) StdoutLine: {'line': b'6: \n'}
+[0.890489] (irc_step_motion_executor) StdoutLine: {'line': b'6: [----------] 14 tests from RobotHardwareInitializationPolicy\n'}
+[0.890776] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotHardwareInitializationPolicy.DefaultConfigDisablesHardware\n'}
+[0.891027] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotHardwareInitializationPolicy.DefaultConfigDisablesHardware (0 ms)\n'}
+[0.891270] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotHardwareInitializationPolicy.RequiresDevicePath\n'}
+[0.891562] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotHardwareInitializationPolicy.RequiresDevicePath (0 ms)\n'}
+[0.891807] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotHardwareInitializationPolicy.RejectsZeroBaudRate\n'}
+[0.892045] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotHardwareInitializationPolicy.RejectsZeroBaudRate (0 ms)\n'}
+[0.892280] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotHardwareInitializationPolicy.RejectsNegativeBaudRate\n'}
+[0.892516] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotHardwareInitializationPolicy.RejectsNegativeBaudRate (0 ms)\n'}
+[0.892775] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotHardwareInitializationPolicy.RequiresMotorIds\n'}
+[0.893015] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotHardwareInitializationPolicy.RequiresMotorIds (0 ms)\n'}
+[0.893249] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotHardwareInitializationPolicy.RejectsDuplicateMotorIds\n'}
+[0.893482] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotHardwareInitializationPolicy.RejectsDuplicateMotorIds (0 ms)\n'}
+[0.893718] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotHardwareInitializationPolicy.RejectsIdsOutsideCurrentSdkRange\n'}
+[0.893951] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotHardwareInitializationPolicy.RejectsIdsOutsideCurrentSdkRange (0 ms)\n'}
+[0.894189] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotHardwareInitializationPolicy.RequiresTorqueApproval\n'}
+[0.894523] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotHardwareInitializationPolicy.RequiresTorqueApproval (0 ms)\n'}
+[0.894815] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotHardwareInitializationPolicy.RejectsDevicePathMismatch\n'}
+[0.895059] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotHardwareInitializationPolicy.RejectsDevicePathMismatch (0 ms)\n'}
+[0.895298] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotHardwareInitializationPolicy.RejectsBaudRateMismatch\n'}
+[0.895533] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotHardwareInitializationPolicy.RejectsBaudRateMismatch (0 ms)\n'}
+[0.895767] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotHardwareInitializationPolicy.RejectsIncompleteMotorIdSet\n'}
+[0.896001] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotHardwareInitializationPolicy.RejectsIncompleteMotorIdSet (0 ms)\n'}
+[0.896233] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotHardwareInitializationPolicy.AcceptsReversedCompleteMotorIdSet\n'}
+[0.896468] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotHardwareInitializationPolicy.AcceptsReversedCompleteMotorIdSet (0 ms)\n'}
+[0.896730] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotHardwareInitializationPolicy.AcceptsAllPrerequisites\n'}
+[0.896976] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotHardwareInitializationPolicy.AcceptsAllPrerequisites (0 ms)\n'}
+[0.897213] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotHardwareInitializationPolicy.RequiresMotionJsonPath\n'}
+[0.897450] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotHardwareInitializationPolicy.RequiresMotionJsonPath (0 ms)\n'}
+[0.897683] (irc_step_motion_executor) StdoutLine: {'line': b'6: [----------] 14 tests from RobotHardwareInitializationPolicy (0 ms total)\n'}
+[0.897919] (irc_step_motion_executor) StdoutLine: {'line': b'6: \n'}
+[0.898152] (irc_step_motion_executor) StdoutLine: {'line': b'6: [----------] 2 tests from RobotHardwarePreflightPolicy\n'}
+[0.898386] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotHardwarePreflightPolicy.DoesNotRequireMotionJsonOrTorqueApproval\n'}
+[0.898649] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotHardwarePreflightPolicy.DoesNotRequireMotionJsonOrTorqueApproval (0 ms)\n'}
+[0.898898] (irc_step_motion_executor) StdoutLine: {'line': b'6: [ RUN      ] RobotHardwarePreflightPolicy.EnforcesFixedHardwareProfile\n'}
+[0.899133] (irc_step_motion_executor) StdoutLine: {'line': b'6: [       OK ] RobotHardwarePreflightPolicy.EnforcesFixedHardwareProfile (0 ms)\n'}
+[0.899370] (irc_step_motion_executor) StdoutLine: {'line': b'6: [----------] 2 tests from RobotHardwarePreflightPolicy (0 ms total)\n'}
+[0.899604] (irc_step_motion_executor) StdoutLine: {'line': b'6: \n'}
+[0.899867] (irc_step_motion_executor) StdoutLine: {'line': b'6: [----------] Global test environment tear-down\n'}
+[0.900103] (irc_step_motion_executor) StdoutLine: {'line': b'6: [==========] 20 tests from 3 test suites ran. (0 ms total)\n'}
+[0.900336] (irc_step_motion_executor) StdoutLine: {'line': b'6: [  PASSED  ] 20 tests.\n'}
+[0.900568] (irc_step_motion_executor) StdoutLine: {'line': b'6: -- run_test.py: return code 0\n'}
+[0.900792] (-) TimerEvent: {}
+[0.901031] (irc_step_motion_executor) StdoutLine: {'line': b"6: -- run_test.py: inject classname prefix into gtest result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_robot_motion_runtime_config.gtest.xml'\n"}
+[0.901339] (irc_step_motion_executor) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_robot_motion_runtime_config.gtest.xml'\n"}
+[0.915462] (irc_step_motion_executor) StdoutLine: {'line': b' 6/18 Test  #6: test_robot_motion_runtime_config ...................   Passed    0.14 sec\n'}
+[0.915878] (irc_step_motion_executor) StdoutLine: {'line': b'test 7\n'}
+[0.916141] (irc_step_motion_executor) StdoutLine: {'line': b'      Start  7: test_robot_motion_parameter_types\n'}
+[0.916386] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[0.916629] (irc_step_motion_executor) StdoutLine: {'line': b'7: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_robot_motion_parameter_types.gtest.xml" "--package-name" "irc_step_motion_executor" "--output-file" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/ament_cmake_gtest/test_robot_motion_parameter_types.txt" "--command" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_robot_motion_parameter_types" "--gtest_output=xml:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_robot_motion_parameter_types.gtest.xml"\n'}
+[0.916917] (irc_step_motion_executor) StdoutLine: {'line': b'7: Test timeout computed to be: 60\n'}
+[1.000953] (-) TimerEvent: {}
+[1.022324] (irc_step_motion_executor) StdoutLine: {'line': b"7: -- run_test.py: invoking following command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor':\n"}
+[1.022902] (irc_step_motion_executor) StdoutLine: {'line': b'7:  - /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_robot_motion_parameter_types --gtest_output=xml:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_robot_motion_parameter_types.gtest.xml\n'}
+[1.029000] (irc_step_motion_executor) StdoutLine: {'line': b'7: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc\n'}
+[1.029596] (irc_step_motion_executor) StdoutLine: {'line': b'7: [==========] Running 1 test from 1 test suite.\n'}
+[1.029909] (irc_step_motion_executor) StdoutLine: {'line': b'7: [----------] Global test environment set-up.\n'}
+[1.030254] (irc_step_motion_executor) StdoutLine: {'line': b'7: [----------] 1 test from RobotMotionParameterTypes\n'}
+[1.030628] (irc_step_motion_executor) StdoutLine: {'line': b'7: [ RUN      ] RobotMotionParameterTypes.RejectsValuesOfTheWrongRosType\n'}
+[1.030932] (irc_step_motion_executor) StdoutLine: {'line': b'7: [       OK ] RobotMotionParameterTypes.RejectsValuesOfTheWrongRosType (0 ms)\n'}
+[1.031206] (irc_step_motion_executor) StdoutLine: {'line': b'7: [----------] 1 test from RobotMotionParameterTypes (0 ms total)\n'}
+[1.031466] (irc_step_motion_executor) StdoutLine: {'line': b'7: \n'}
+[1.031714] (irc_step_motion_executor) StdoutLine: {'line': b'7: [----------] Global test environment tear-down\n'}
+[1.031956] (irc_step_motion_executor) StdoutLine: {'line': b'7: [==========] 1 test from 1 test suite ran. (0 ms total)\n'}
+[1.032245] (irc_step_motion_executor) StdoutLine: {'line': b'7: [  PASSED  ] 1 test.\n'}
+[1.032490] (irc_step_motion_executor) StdoutLine: {'line': b'7: -- run_test.py: return code 0\n'}
+[1.032730] (irc_step_motion_executor) StdoutLine: {'line': b"7: -- run_test.py: inject classname prefix into gtest result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_robot_motion_parameter_types.gtest.xml'\n"}
+[1.036097] (irc_step_motion_executor) StdoutLine: {'line': b"7: -- run_test.py: verify result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_robot_motion_parameter_types.gtest.xml'\n"}
+[1.056859] (irc_step_motion_executor) StdoutLine: {'line': b' 7/18 Test  #7: test_robot_motion_parameter_types ..................   Passed    0.14 sec\n'}
+[1.057284] (irc_step_motion_executor) StdoutLine: {'line': b'test 8\n'}
+[1.057552] (irc_step_motion_executor) StdoutLine: {'line': b'      Start  8: test_motion_backend_factory\n'}
+[1.057805] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[1.058049] (irc_step_motion_executor) StdoutLine: {'line': b'8: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_motion_backend_factory.gtest.xml" "--package-name" "irc_step_motion_executor" "--output-file" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/ament_cmake_gtest/test_motion_backend_factory.txt" "--command" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_motion_backend_factory" "--gtest_output=xml:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_motion_backend_factory.gtest.xml"\n'}
+[1.058323] (irc_step_motion_executor) StdoutLine: {'line': b'8: Test timeout computed to be: 60\n'}
+[1.101049] (-) TimerEvent: {}
+[1.164745] (irc_step_motion_executor) StdoutLine: {'line': b"8: -- run_test.py: invoking following command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor':\n"}
+[1.165187] (irc_step_motion_executor) StdoutLine: {'line': b'8:  - /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_motion_backend_factory --gtest_output=xml:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_motion_backend_factory.gtest.xml\n'}
+[1.167615] (irc_step_motion_executor) StdoutLine: {'line': b'8: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc\n'}
+[1.168148] (irc_step_motion_executor) StdoutLine: {'line': b'8: [==========] Running 9 tests from 1 test suite.\n'}
+[1.168433] (irc_step_motion_executor) StdoutLine: {'line': b'8: [----------] Global test environment set-up.\n'}
+[1.168795] (irc_step_motion_executor) StdoutLine: {'line': b'8: [----------] 9 tests from MotionBackendFactory\n'}
+[1.169128] (irc_step_motion_executor) StdoutLine: {'line': b'8: [ RUN      ] MotionBackendFactory.DefaultAndExplicitSimulatedCreateBackend\n'}
+[1.169437] (irc_step_motion_executor) StdoutLine: {'line': b'8: [       OK ] MotionBackendFactory.DefaultAndExplicitSimulatedCreateBackend (0 ms)\n'}
+[1.169703] (irc_step_motion_executor) StdoutLine: {'line': b'8: [ RUN      ] MotionBackendFactory.PassesSimulatedConfiguration\n'}
+[1.169954] (irc_step_motion_executor) StdoutLine: {'line': b'8: [       OK ] MotionBackendFactory.PassesSimulatedConfiguration (0 ms)\n'}
+[1.170199] (irc_step_motion_executor) StdoutLine: {'line': b'8: [ RUN      ] MotionBackendFactory.RejectsUnknownTypeWithoutFallback\n'}
+[1.170441] (irc_step_motion_executor) StdoutLine: {'line': b'8: [       OK ] MotionBackendFactory.RejectsUnknownTypeWithoutFallback (0 ms)\n'}
+[1.170729] (irc_step_motion_executor) StdoutLine: {'line': b'8: [ RUN      ] MotionBackendFactory.RealBackendRequestFailsWithoutSimulatedFallback\n'}
+[1.171013] (irc_step_motion_executor) StdoutLine: {'line': b'8: [       OK ] MotionBackendFactory.RealBackendRequestFailsWithoutSimulatedFallback (0 ms)\n'}
+[1.171262] (irc_step_motion_executor) StdoutLine: {'line': b'8: [ RUN      ] MotionBackendFactory.EnabledRealBackendRequiresBuiltRuntime\n'}
+[1.171507] (irc_step_motion_executor) StdoutLine: {'line': b'8: [       OK ] MotionBackendFactory.EnabledRealBackendRequiresBuiltRuntime (0 ms)\n'}
+[1.171747] (irc_step_motion_executor) StdoutLine: {'line': b'8: [ RUN      ] MotionBackendFactory.ProductionPolicyFailureNeverFallsBack\n'}
+[1.171988] (irc_step_motion_executor) StdoutLine: {'line': b'8: [       OK ] MotionBackendFactory.ProductionPolicyFailureNeverFallsBack (0 ms)\n'}
+[1.172224] (irc_step_motion_executor) StdoutLine: {'line': b'8: [ RUN      ] MotionBackendFactory.FixedProfileMismatchDoesNotCallRuntimeFactory\n'}
+[1.172459] (irc_step_motion_executor) StdoutLine: {'line': b'8: [       OK ] MotionBackendFactory.FixedProfileMismatchDoesNotCallRuntimeFactory (0 ms)\n'}
+[1.172694] (irc_step_motion_executor) StdoutLine: {'line': b'8: [ RUN      ] MotionBackendFactory.PassesConfigAndPreservesRuntimeOwnership\n'}
+[1.172993] (irc_step_motion_executor) StdoutLine: {'line': b'8: [       OK ] MotionBackendFactory.PassesConfigAndPreservesRuntimeOwnership (0 ms)\n'}
+[1.173234] (irc_step_motion_executor) StdoutLine: {'line': b'8: [ RUN      ] MotionBackendFactory.RuntimeFactoryFailureNeverFallsBack\n'}
+[1.173469] (irc_step_motion_executor) StdoutLine: {'line': b'8: [       OK ] MotionBackendFactory.RuntimeFactoryFailureNeverFallsBack (0 ms)\n'}
+[1.173703] (irc_step_motion_executor) StdoutLine: {'line': b'8: [----------] 9 tests from MotionBackendFactory (0 ms total)\n'}
+[1.173940] (irc_step_motion_executor) StdoutLine: {'line': b'8: \n'}
+[1.174173] (irc_step_motion_executor) StdoutLine: {'line': b'8: [----------] Global test environment tear-down\n'}
+[1.174404] (irc_step_motion_executor) StdoutLine: {'line': b'8: [==========] 9 tests from 1 test suite ran. (0 ms total)\n'}
+[1.174671] (irc_step_motion_executor) StdoutLine: {'line': b'8: [  PASSED  ] 9 tests.\n'}
+[1.174922] (irc_step_motion_executor) StdoutLine: {'line': b'8: -- run_test.py: return code 0\n'}
+[1.175163] (irc_step_motion_executor) StdoutLine: {'line': b"8: -- run_test.py: inject classname prefix into gtest result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_motion_backend_factory.gtest.xml'\n"}
+[1.175495] (irc_step_motion_executor) StdoutLine: {'line': b"8: -- run_test.py: verify result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_motion_backend_factory.gtest.xml'\n"}
+[1.195572] (irc_step_motion_executor) StdoutLine: {'line': b' 8/18 Test  #8: test_motion_backend_factory ........................   Passed    0.14 sec\n'}
+[1.195976] (irc_step_motion_executor) StdoutLine: {'line': b'test 9\n'}
+[1.196230] (irc_step_motion_executor) StdoutLine: {'line': b'      Start  9: test_sdk_executor_driver\n'}
+[1.196474] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[1.196710] (irc_step_motion_executor) StdoutLine: {'line': b'9: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_sdk_executor_driver.gtest.xml" "--package-name" "irc_step_motion_executor" "--output-file" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/ament_cmake_gtest/test_sdk_executor_driver.txt" "--command" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_sdk_executor_driver" "--gtest_output=xml:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_sdk_executor_driver.gtest.xml"\n'}
+[1.196997] (irc_step_motion_executor) StdoutLine: {'line': b'9: Test timeout computed to be: 60\n'}
+[1.201145] (-) TimerEvent: {}
+[1.301537] (-) TimerEvent: {}
+[1.303569] (irc_step_motion_executor) StdoutLine: {'line': b"9: -- run_test.py: invoking following command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor':\n"}
+[1.303970] (irc_step_motion_executor) StdoutLine: {'line': b'9:  - /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_sdk_executor_driver --gtest_output=xml:/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_sdk_executor_driver.gtest.xml\n'}
+[1.307071] (irc_step_motion_executor) StdoutLine: {'line': b'9: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc\n'}
+[1.307467] (irc_step_motion_executor) StdoutLine: {'line': b'9: [==========] Running 8 tests from 1 test suite.\n'}
+[1.307884] (irc_step_motion_executor) StdoutLine: {'line': b'9: [----------] Global test environment set-up.\n'}
+[1.308223] (irc_step_motion_executor) StdoutLine: {'line': b'9: [----------] 8 tests from SdkExecutorDriver\n'}
+[1.308624] (irc_step_motion_executor) StdoutLine: {'line': b'9: [ RUN      ] SdkExecutorDriver.RequestPublishesImmediateRunningStatus\n'}
+[1.309037] (irc_step_motion_executor) StdoutLine: {'line': b'9: [       OK ] SdkExecutorDriver.RequestPublishesImmediateRunningStatus (1 ms)\n'}
+[1.309374] (irc_step_motion_executor) StdoutLine: {'line': b'9: [ RUN      ] SdkExecutorDriver.InvalidAndUnsupportedRequestsPublishRejections\n'}
+[1.309642] (irc_step_motion_executor) StdoutLine: {'line': b'9: [       OK ] SdkExecutorDriver.InvalidAndUnsupportedRequestsPublishRejections (0 ms)\n'}
+[1.309890] (irc_step_motion_executor) StdoutLine: {'line': b'9: [ RUN      ] SdkExecutorDriver.NullableCorrelationFieldsRemainNull\n'}
+[1.310222] (irc_step_motion_executor) StdoutLine: {'line': b'9: [       OK ] SdkExecutorDriver.NullableCorrelationFieldsRemainNull (0 ms)\n'}
+[1.310574] (irc_step_motion_executor) StdoutLine: {'line': b'9: [ RUN      ] SdkExecutorDriver.CancelCallbackPublishesAndTerminalPollPublishes\n'}
+[1.310907] (irc_step_motion_executor) StdoutLine: {'line': b'9: [       OK ] SdkExecutorDriver.CancelCallbackPublishesAndTerminalPollPublishes (1 ms)\n'}
+[1.311159] (irc_step_motion_executor) StdoutLine: {'line': b'9: [ RUN      ] SdkExecutorDriver.StaleCancelDoesNotCancelActiveMotion\n'}
+[1.311405] (irc_step_motion_executor) StdoutLine: {'line': b'9: [       OK ] SdkExecutorDriver.StaleCancelDoesNotCancelActiveMotion (0 ms)\n'}
+[1.311644] (irc_step_motion_executor) StdoutLine: {'line': b'9: [ RUN      ] SdkExecutorDriver.PollWithoutActiveRequestPublishesNothing\n'}
+[1.311881] (irc_step_motion_executor) StdoutLine: {'line': b'9: [       OK ] SdkExecutorDriver.PollWithoutActiveRequestPublishesNothing (0 ms)\n'}
+[1.312117] (irc_step_motion_executor) StdoutLine: {'line': b'9: [ RUN      ] SdkExecutorDriver.TerminalPollPublishesSucceededStatus\n'}
+[1.312349] (irc_step_motion_executor) StdoutLine: {'line': b'9: [       OK ] SdkExecutorDriver.TerminalPollPublishesSucceededStatus (0 ms)\n'}
+[1.312581] (irc_step_motion_executor) StdoutLine: {'line': b'9: [ RUN      ] SdkExecutorDriver.BackendExceptionPublishesFailedWithoutEscaping\n'}
+[1.312814] (irc_step_motion_executor) StdoutLine: {'line': b'9: [       OK ] SdkExecutorDriver.BackendExceptionPublishesFailedWithoutEscaping (1 ms)\n'}
+[1.313046] (irc_step_motion_executor) StdoutLine: {'line': b'9: [----------] 8 tests from SdkExecutorDriver (3 ms total)\n'}
+[1.313277] (irc_step_motion_executor) StdoutLine: {'line': b'9: \n'}
+[1.313507] (irc_step_motion_executor) StdoutLine: {'line': b'9: [----------] Global test environment tear-down\n'}
+[1.313740] (irc_step_motion_executor) StdoutLine: {'line': b'9: [==========] 8 tests from 1 test suite ran. (3 ms total)\n'}
+[1.313975] (irc_step_motion_executor) StdoutLine: {'line': b'9: [  PASSED  ] 8 tests.\n'}
+[1.314207] (irc_step_motion_executor) StdoutLine: {'line': b'9: -- run_test.py: return code 0\n'}
+[1.314442] (irc_step_motion_executor) StdoutLine: {'line': b"9: -- run_test.py: inject classname prefix into gtest result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_sdk_executor_driver.gtest.xml'\n"}
+[1.316456] (irc_step_motion_executor) StdoutLine: {'line': b"9: -- run_test.py: verify result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_sdk_executor_driver.gtest.xml'\n"}
+[1.336556] (irc_step_motion_executor) StdoutLine: {'line': b' 9/18 Test  #9: test_sdk_executor_driver ...........................   Passed    0.14 sec\n'}
+[1.336942] (irc_step_motion_executor) StdoutLine: {'line': b'test 10\n'}
+[1.337204] (irc_step_motion_executor) StdoutLine: {'line': b'      Start 10: test_test_sdk_executor_node_launch.py\n'}
+[1.337453] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[1.337698] (irc_step_motion_executor) StdoutLine: {'line': b'10: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_test_sdk_executor_node_launch.py.xunit.xml" "--package-name" "irc_step_motion_executor" "--output-file" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/launch_test/test_test_sdk_executor_node_launch.py.txt" "--env" "ROS_LOG_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/ros_test_logs" "--append-env" "AMENT_PREFIX_PATH=/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor" "LD_LIBRARY_PATH=/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib" "--command" "/usr/bin/python3" "-m" "launch_testing.launch_test" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor/test/test_sdk_executor_node_launch.py" "--junit-xml=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_test_sdk_executor_node_launch.py.xunit.xml" "--package-name=irc_step_motion_executor"\n'}
+[1.338023] (irc_step_motion_executor) StdoutLine: {'line': b'10: Test timeout computed to be: 30\n'}
+[1.401665] (-) TimerEvent: {}
+[1.445117] (irc_step_motion_executor) StdoutLine: {'line': b'10: -- run_test.py: extra environment variables:\n'}
+[1.445569] (irc_step_motion_executor) StdoutLine: {'line': b'10:  - ROS_LOG_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/ros_test_logs\n'}
+[1.445879] (irc_step_motion_executor) StdoutLine: {'line': b'10: -- run_test.py: extra environment variables to append:\n'}
+[1.446167] (irc_step_motion_executor) StdoutLine: {'line': b'10:  - AMENT_PREFIX_PATH+=/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor\n'}
+[1.446431] (irc_step_motion_executor) StdoutLine: {'line': b'10:  - LD_LIBRARY_PATH+=/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib\n'}
+[1.446730] (irc_step_motion_executor) StdoutLine: {'line': b"10: -- run_test.py: invoking following command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor':\n"}
+[1.446990] (irc_step_motion_executor) StdoutLine: {'line': b'10:  - /usr/bin/python3 -m launch_testing.launch_test /home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor/test/test_sdk_executor_node_launch.py --junit-xml=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_test_sdk_executor_node_launch.py.xunit.xml --package-name=irc_step_motion_executor\n'}
+[1.502035] (-) TimerEvent: {}
+[1.602480] (-) TimerEvent: {}
+[1.703202] (-) TimerEvent: {}
+[1.803878] (-) TimerEvent: {}
+[1.904556] (-) TimerEvent: {}
+[1.933585] (irc_step_motion_executor) StdoutLine: {'line': b'10: [INFO] [launch]: All log files can be found below /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/ros_test_logs/2026-08-17-21-13-50-858097-stepjet-6600\n'}
+[1.934042] (irc_step_motion_executor) StdoutLine: {'line': b'10: [INFO] [launch]: Default logging verbosity is set to INFO\n'}
+[1.964595] (irc_step_motion_executor) StdoutLine: {'line': b'10: [INFO] [sdk_motion_executor-1]: process started with pid [6604]\n'}
+[1.965182] (irc_step_motion_executor) StdoutLine: {'line': b'10: [INFO] [python3-2]: process started with pid [6606]\n'}
+[1.992686] (irc_step_motion_executor) StdoutLine: {'line': b'10: [sdk_motion_executor-1] [WARN] [1786968830.960458814] [sdk_motion_executor_launch_test]: Simulated backend only: no SDK or hardware access is available\n'}
+[2.004858] (-) TimerEvent: {}
+[2.105491] (-) TimerEvent: {}
+[2.192859] (irc_step_motion_executor) StdoutLine: {'line': b'10: test_simulated_executor_publishes_repeated_liveness_heartbeats (irc_step_motion_executor.TestSdkExecutorTopics) ... ok\n'}
+[2.205588] (-) TimerEvent: {}
+[2.306051] (-) TimerEvent: {}
+[2.406587] (-) TimerEvent: {}
+[2.507124] (-) TimerEvent: {}
+[2.552682] (irc_step_motion_executor) StdoutLine: {'line': b'10: test_simulated_topic_contract (irc_step_motion_executor.TestSdkExecutorTopics) ... ok\n'}
+[2.569148] (irc_step_motion_executor) StdoutLine: {'line': b'10: \n'}
+[2.569547] (irc_step_motion_executor) StdoutLine: {'line': b'10: ----------------------------------------------------------------------\n'}
+[2.569779] (irc_step_motion_executor) StdoutLine: {'line': b'10: Ran 2 tests in 0.630s\n'}
+[2.569981] (irc_step_motion_executor) StdoutLine: {'line': b'10: \n'}
+[2.570165] (irc_step_motion_executor) StdoutLine: {'line': b'10: OK\n'}
+[2.573954] (irc_step_motion_executor) StdoutLine: {'line': b"10: [INFO] [python3-2]: sending signal 'SIGINT' to process[python3-2]\n"}
+[2.575666] (irc_step_motion_executor) StdoutLine: {'line': b"10: [INFO] [sdk_motion_executor-1]: sending signal 'SIGINT' to process[sdk_motion_executor-1]\n"}
+[2.576595] (irc_step_motion_executor) StdoutLine: {'line': b'10: [sdk_motion_executor-1] [INFO] [1786968831.544699306] [rclcpp]: signal_handler(SIGINT/SIGTERM)\n'}
+[2.584539] (irc_step_motion_executor) StdoutLine: {'line': b'10: [INFO] [python3-2]: process has finished cleanly [pid 6606]\n'}
+[2.607249] (-) TimerEvent: {}
+[2.698405] (irc_step_motion_executor) StdoutLine: {'line': b'10: [INFO] [sdk_motion_executor-1]: process has finished cleanly [pid 6604]\n'}
+[2.700088] (irc_step_motion_executor) StdoutLine: {'line': b'10: test_process_exited_cleanly (irc_step_motion_executor.TestSdkExecutorShutdown) ... ok\n'}
+[2.700696] (irc_step_motion_executor) StdoutLine: {'line': b'10: \n'}
+[2.701025] (irc_step_motion_executor) StdoutLine: {'line': b'10: ----------------------------------------------------------------------\n'}
+[2.701321] (irc_step_motion_executor) StdoutLine: {'line': b'10: Ran 1 test in 0.000s\n'}
+[2.701602] (irc_step_motion_executor) StdoutLine: {'line': b'10: \n'}
+[2.701868] (irc_step_motion_executor) StdoutLine: {'line': b'10: OK\n'}
+[2.707342] (-) TimerEvent: {}
+[2.808034] (-) TimerEvent: {}
+[2.908711] (-) TimerEvent: {}
+[2.923572] (irc_step_motion_executor) StdoutLine: {'line': b'10: -- run_test.py: return code 0\n'}
+[2.924017] (irc_step_motion_executor) StdoutLine: {'line': b"10: -- run_test.py: verify result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_test_sdk_executor_node_launch.py.xunit.xml'\n"}
+[2.953841] (irc_step_motion_executor) StdoutLine: {'line': b'10/18 Test #10: test_test_sdk_executor_node_launch.py ..............   Passed    1.62 sec\n'}
+[2.954440] (irc_step_motion_executor) StdoutLine: {'line': b'test 11\n'}
+[2.954800] (irc_step_motion_executor) StdoutLine: {'line': b'      Start 11: test_test_backend_selection_rejected_launch.py\n'}
+[2.955097] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[2.955369] (irc_step_motion_executor) StdoutLine: {'line': b'11: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_test_backend_selection_rejected_launch.py.xunit.xml" "--package-name" "irc_step_motion_executor" "--output-file" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/launch_test/test_test_backend_selection_rejected_launch.py.txt" "--env" "ROS_LOG_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/ros_test_logs" "EXPECT_ROBOT_MOTION_PLAYER_BACKEND_BUILT=1" "--append-env" "AMENT_PREFIX_PATH=/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor" "LD_LIBRARY_PATH=/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib" "--command" "/usr/bin/python3" "-m" "launch_testing.launch_test" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor/test/test_backend_selection_rejected_launch.py" "--junit-xml=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_test_backend_selection_rejected_launch.py.xunit.xml" "--package-name=irc_step_motion_executor"\n'}
+[2.955760] (irc_step_motion_executor) StdoutLine: {'line': b'11: Test timeout computed to be: 30\n'}
+[3.008820] (-) TimerEvent: {}
+[3.062801] (irc_step_motion_executor) StdoutLine: {'line': b'11: -- run_test.py: extra environment variables:\n'}
+[3.063227] (irc_step_motion_executor) StdoutLine: {'line': b'11:  - EXPECT_ROBOT_MOTION_PLAYER_BACKEND_BUILT=1\n'}
+[3.063530] (irc_step_motion_executor) StdoutLine: {'line': b'11:  - ROS_LOG_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/ros_test_logs\n'}
+[3.063810] (irc_step_motion_executor) StdoutLine: {'line': b'11: -- run_test.py: extra environment variables to append:\n'}
+[3.064070] (irc_step_motion_executor) StdoutLine: {'line': b'11:  - AMENT_PREFIX_PATH+=/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor\n'}
+[3.064319] (irc_step_motion_executor) StdoutLine: {'line': b'11:  - LD_LIBRARY_PATH+=/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib\n'}
+[3.064560] (irc_step_motion_executor) StdoutLine: {'line': b"11: -- run_test.py: invoking following command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor':\n"}
+[3.064800] (irc_step_motion_executor) StdoutLine: {'line': b'11:  - /usr/bin/python3 -m launch_testing.launch_test /home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor/test/test_backend_selection_rejected_launch.py --junit-xml=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_test_backend_selection_rejected_launch.py.xunit.xml --package-name=irc_step_motion_executor\n'}
+[3.108944] (-) TimerEvent: {}
+[3.209569] (-) TimerEvent: {}
+[3.309965] (-) TimerEvent: {}
+[3.410582] (-) TimerEvent: {}
+[3.496068] (irc_step_motion_executor) StdoutLine: {'line': b'11: \n'}
+[3.496508] (irc_step_motion_executor) StdoutLine: {'line': b'11: Starting test run irc_step_motion_executor.test_backend_selection_rejected_launch.launch_tests[unknown]\n'}
+[3.496814] (irc_step_motion_executor) StdoutLine: {'line': b'11: [INFO] [launch]: All log files can be found below /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/ros_test_logs/2026-08-17-21-13-52-421313-stepjet-6627\n'}
+[3.497094] (irc_step_motion_executor) StdoutLine: {'line': b'11: [INFO] [launch]: Default logging verbosity is set to INFO\n'}
+[3.504642] (irc_step_motion_executor) StdoutLine: {'line': b'11: test_node_reports_error_and_exits[unknown] (irc_step_motion_executor.TestRejectedBackendSelection) ... [INFO] [sdk_motion_executor-1]: process started with pid [6629]\n'}
+[3.505107] (irc_step_motion_executor) StdoutLine: {'line': b'11: [INFO] [python3-2]: process started with pid [6631]\n'}
+[3.510623] (-) TimerEvent: {}
+[3.547273] (irc_step_motion_executor) StdoutLine: {'line': b"11: [sdk_motion_executor-1] [FATAL] [1786968832.514955097] [sdk_motion_executor]: UNSUPPORTED_BACKEND_TYPE: unsupported backend_type 'unknown'; allowed values are: simulated, robot_motion_player\n"}
+[3.610758] (-) TimerEvent: {}
+[3.651372] (irc_step_motion_executor) StdoutLine: {'line': b"11: [ERROR] [sdk_motion_executor-1]: process has died [pid 6629, exit code 1, cmd '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/irc_step_motion_executor/sdk_motion_executor --ros-args -r __node:=sdk_executor_reject_unknown --params-file /tmp/launch_params_z3hvibxf'].\n"}
+[3.652061] (irc_step_motion_executor) StdoutLine: {'line': b'11: ok\n'}
+[3.652489] (irc_step_motion_executor) StdoutLine: {'line': b'11: \n'}
+[3.652780] (irc_step_motion_executor) StdoutLine: {'line': b'11: ----------------------------------------------------------------------\n'}
+[3.653059] (irc_step_motion_executor) StdoutLine: {'line': b'11: Ran 1 test in 0.151s\n'}
+[3.653321] (irc_step_motion_executor) StdoutLine: {'line': b'11: \n'}
+[3.653574] (irc_step_motion_executor) StdoutLine: {'line': b'11: OK\n'}
+[3.654307] (irc_step_motion_executor) StdoutLine: {'line': b"11: [INFO] [python3-2]: sending signal 'SIGINT' to process[python3-2]\n"}
+[3.662765] (irc_step_motion_executor) StdoutLine: {'line': b'11: [INFO] [python3-2]: process has finished cleanly [pid 6631]\n'}
+[3.664112] (irc_step_motion_executor) StdoutLine: {'line': b'11: test_exit_code_is_failure[unknown] (irc_step_motion_executor.TestRejectedBackendExitCode) ... ok\n'}
+[3.664512] (irc_step_motion_executor) StdoutLine: {'line': b'11: \n'}
+[3.664777] (irc_step_motion_executor) StdoutLine: {'line': b'11: ----------------------------------------------------------------------\n'}
+[3.665032] (irc_step_motion_executor) StdoutLine: {'line': b'11: Ran 1 test in 0.000s\n'}
+[3.665282] (irc_step_motion_executor) StdoutLine: {'line': b'11: \n'}
+[3.665527] (irc_step_motion_executor) StdoutLine: {'line': b'11: OK\n'}
+[3.671483] (irc_step_motion_executor) StdoutLine: {'line': b'11: \n'}
+[3.671871] (irc_step_motion_executor) StdoutLine: {'line': b'11: Starting test run irc_step_motion_executor.test_backend_selection_rejected_launch.launch_tests[robot_motion_player]\n'}
+[3.672226] (irc_step_motion_executor) StdoutLine: {'line': b'11: [INFO] [launch]: All log files can be found below /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/ros_test_logs/2026-08-17-21-13-52-421313-stepjet-6627\n'}
+[3.672497] (irc_step_motion_executor) StdoutLine: {'line': b'11: [INFO] [launch]: Default logging verbosity is set to INFO\n'}
+[3.680995] (irc_step_motion_executor) StdoutLine: {'line': b'11: test_node_reports_error_and_exits[robot_motion_player] (irc_step_motion_executor.TestRejectedBackendSelection) ... [INFO] [sdk_motion_executor-3]: process started with pid [6644]\n'}
+[3.681258] (irc_step_motion_executor) StdoutLine: {'line': b'11: [INFO] [python3-4]: process started with pid [6646]\n'}
+[3.710844] (-) TimerEvent: {}
+[3.811289] (-) TimerEvent: {}
+[3.911779] (-) TimerEvent: {}
+[4.012286] (-) TimerEvent: {}
+[4.071909] (irc_step_motion_executor) StdoutLine: {'line': b'11: [sdk_motion_executor-3] [FATAL] [1786968833.039305893] [sdk_motion_executor]: ROBOT_HARDWARE_NOT_ENABLED: RobotMotionPlayer hardware requires enable_robot_hardware=true\n'}
+[4.112374] (-) TimerEvent: {}
+[4.177855] (irc_step_motion_executor) StdoutLine: {'line': b"11: [ERROR] [sdk_motion_executor-3]: process has died [pid 6644, exit code 1, cmd '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/irc_step_motion_executor/sdk_motion_executor --ros-args -r __node:=sdk_executor_reject_robot_motion_player --params-file /tmp/launch_params_ahd4qhdf'].\n"}
+[4.178634] (irc_step_motion_executor) StdoutLine: {'line': b'11: ok\n'}
+[4.179091] (irc_step_motion_executor) StdoutLine: {'line': b'11: \n'}
+[4.179389] (irc_step_motion_executor) StdoutLine: {'line': b'11: ----------------------------------------------------------------------\n'}
+[4.179668] (irc_step_motion_executor) StdoutLine: {'line': b'11: Ran 1 test in 0.502s\n'}
+[4.179930] (irc_step_motion_executor) StdoutLine: {'line': b'11: \n'}
+[4.180182] (irc_step_motion_executor) StdoutLine: {'line': b'11: OK\n'}
+[4.181816] (irc_step_motion_executor) StdoutLine: {'line': b"11: [INFO] [python3-4]: sending signal 'SIGINT' to process[python3-4]\n"}
+[4.190897] (irc_step_motion_executor) StdoutLine: {'line': b'11: [INFO] [python3-4]: process has finished cleanly [pid 6646]\n'}
+[4.192505] (irc_step_motion_executor) StdoutLine: {'line': b'11: test_exit_code_is_failure[robot_motion_player] (irc_step_motion_executor.TestRejectedBackendExitCode) ... ok\n'}
+[4.192849] (irc_step_motion_executor) StdoutLine: {'line': b'11: \n'}
+[4.193113] (irc_step_motion_executor) StdoutLine: {'line': b'11: ----------------------------------------------------------------------\n'}
+[4.193371] (irc_step_motion_executor) StdoutLine: {'line': b'11: Ran 1 test in 0.000s\n'}
+[4.193620] (irc_step_motion_executor) StdoutLine: {'line': b'11: \n'}
+[4.193864] (irc_step_motion_executor) StdoutLine: {'line': b'11: OK\n'}
+[4.212472] (-) TimerEvent: {}
+[4.297836] (irc_step_motion_executor) StdoutLine: {'line': b'11: -- run_test.py: return code 0\n'}
+[4.298361] (irc_step_motion_executor) StdoutLine: {'line': b"11: -- run_test.py: verify result file '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/test_results/irc_step_motion_executor/test_test_backend_selection_rejected_launch.py.xunit.xml'\n"}
+[4.312579] (-) TimerEvent: {}
+[4.332874] (irc_step_motion_executor) StdoutLine: {'line': b'11/18 Test #11: test_test_backend_selection_rejected_launch.py .....   Passed    1.38 sec\n'}
+[4.333440] (irc_step_motion_executor) StdoutLine: {'line': b'test 12\n'}
+[4.333757] (irc_step_motion_executor) StdoutLine: {'line': b'      Start 12: sdk_cmake_empty_path\n'}
+[4.334043] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[4.334310] (irc_step_motion_executor) StdoutLine: {'line': b'12: Test command: /usr/bin/cmake "-DPACKAGE_SOURCE_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor" "-DTEST_BINARY_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/sdk_cmake_tests/sdk_cmake_empty_path" "-DSDK_DIR=" "-DEXPECT_SUCCESS=FALSE" "-DEXPECTED_ERROR=requires ROBOT_MOTION_SDK_DIR" "-P" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor/test/run_sdk_cmake_case.cmake"\n'}
+[4.334628] (irc_step_motion_executor) StdoutLine: {'line': b'12: Test timeout computed to be: 10000000\n'}
+[4.412684] (-) TimerEvent: {}
+[4.513082] (-) TimerEvent: {}
+[4.613546] (-) TimerEvent: {}
+[4.714017] (-) TimerEvent: {}
+[4.814488] (-) TimerEvent: {}
+[4.914981] (-) TimerEvent: {}
+[5.015450] (-) TimerEvent: {}
+[5.066952] (irc_step_motion_executor) StdoutLine: {'line': b'12/18 Test #12: sdk_cmake_empty_path ...............................   Passed    0.73 sec\n'}
+[5.067567] (irc_step_motion_executor) StdoutLine: {'line': b'test 13\n'}
+[5.067882] (irc_step_motion_executor) StdoutLine: {'line': b'      Start 13: sdk_cmake_nonexistent_path\n'}
+[5.068168] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[5.068434] (irc_step_motion_executor) StdoutLine: {'line': b'13: Test command: /usr/bin/cmake "-DPACKAGE_SOURCE_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor" "-DTEST_BINARY_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/sdk_cmake_tests/sdk_cmake_nonexistent_path" "-DSDK_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/sdk_path_that_does_not_exist" "-DEXPECT_SUCCESS=FALSE" "-DEXPECTED_ERROR=is not an existing directory" "-P" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor/test/run_sdk_cmake_case.cmake"\n'}
+[5.068720] (irc_step_motion_executor) StdoutLine: {'line': b'13: Test timeout computed to be: 10000000\n'}
+[5.115536] (-) TimerEvent: {}
+[5.215925] (-) TimerEvent: {}
+[5.316358] (-) TimerEvent: {}
+[5.416722] (-) TimerEvent: {}
+[5.517077] (-) TimerEvent: {}
+[5.617439] (-) TimerEvent: {}
+[5.717785] (-) TimerEvent: {}
+[5.797792] (irc_step_motion_executor) StdoutLine: {'line': b'13/18 Test #13: sdk_cmake_nonexistent_path .........................   Passed    0.73 sec\n'}
+[5.798353] (irc_step_motion_executor) StdoutLine: {'line': b'test 14\n'}
+[5.798697] (irc_step_motion_executor) StdoutLine: {'line': b'      Start 14: sdk_cmake_missing_required_files\n'}
+[5.798985] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[5.799248] (irc_step_motion_executor) StdoutLine: {'line': b'14: Test command: /usr/bin/cmake "-DPACKAGE_SOURCE_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor" "-DTEST_BINARY_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/sdk_cmake_tests/sdk_cmake_missing_required_files" "-DSDK_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor/test/fixtures/missing_files_sdk" "-DEXPECT_SUCCESS=FALSE" "-DEXPECTED_ERROR=missing required file: robot_motion_player.hpp" "-P" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor/test/run_sdk_cmake_case.cmake"\n'}
+[5.799615] (irc_step_motion_executor) StdoutLine: {'line': b'14: Test timeout computed to be: 10000000\n'}
+[5.817884] (-) TimerEvent: {}
+[5.918477] (-) TimerEvent: {}
+[6.018943] (-) TimerEvent: {}
+[6.119413] (-) TimerEvent: {}
+[6.220213] (-) TimerEvent: {}
+[6.320904] (-) TimerEvent: {}
+[6.421570] (-) TimerEvent: {}
+[6.522009] (-) TimerEvent: {}
+[6.529627] (irc_step_motion_executor) StdoutLine: {'line': b'14/18 Test #14: sdk_cmake_missing_required_files ...................   Passed    0.73 sec\n'}
+[6.530220] (irc_step_motion_executor) StdoutLine: {'line': b'test 15\n'}
+[6.530532] (irc_step_motion_executor) StdoutLine: {'line': b'      Start 15: sdk_cmake_missing_robot_control_target\n'}
+[6.530864] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[6.531127] (irc_step_motion_executor) StdoutLine: {'line': b'15: Test command: /usr/bin/cmake "-DPACKAGE_SOURCE_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor" "-DTEST_BINARY_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/sdk_cmake_tests/sdk_cmake_missing_robot_control_target" "-DSDK_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor/test/fixtures/missing_target_sdk" "-DEXPECT_SUCCESS=FALSE" "-DEXPECTED_ERROR=must create a CMake target named robot_control" "-P" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor/test/run_sdk_cmake_case.cmake"\n'}
+[6.531506] (irc_step_motion_executor) StdoutLine: {'line': b'15: Test timeout computed to be: 10000000\n'}
+[6.622144] (-) TimerEvent: {}
+[6.722591] (-) TimerEvent: {}
+[6.823058] (-) TimerEvent: {}
+[6.923522] (-) TimerEvent: {}
+[7.023924] (-) TimerEvent: {}
+[7.124341] (-) TimerEvent: {}
+[7.224882] (-) TimerEvent: {}
+[7.265426] (irc_step_motion_executor) StdoutLine: {'line': b'15/18 Test #15: sdk_cmake_missing_robot_control_target .............   Passed    0.74 sec\n'}
+[7.266097] (irc_step_motion_executor) StdoutLine: {'line': b'test 16\n'}
+[7.266416] (irc_step_motion_executor) StdoutLine: {'line': b'      Start 16: sdk_cmake_fake_sdk_build\n'}
+[7.266746] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[7.267025] (irc_step_motion_executor) StdoutLine: {'line': b'16: Test command: /usr/bin/cmake "-DPACKAGE_SOURCE_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor" "-DTEST_BINARY_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/sdk_cmake_tests/sdk_cmake_fake_sdk_build" "-DSDK_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor/test/fixtures/fake_robot_motion_sdk" "-DEXPECT_SUCCESS=TRUE" "-DEXPECTED_ERROR=" "-P" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor/test/run_sdk_cmake_case.cmake"\n'}
+[7.267315] (irc_step_motion_executor) StdoutLine: {'line': b'16: Test timeout computed to be: 10000000\n'}
+[7.324967] (-) TimerEvent: {}
+[7.425325] (-) TimerEvent: {}
+[7.525674] (-) TimerEvent: {}
+[7.626049] (-) TimerEvent: {}
+[7.726527] (-) TimerEvent: {}
+[7.826962] (-) TimerEvent: {}
+[7.927296] (-) TimerEvent: {}
+[8.027633] (-) TimerEvent: {}
+[8.128063] (-) TimerEvent: {}
+[8.228562] (-) TimerEvent: {}
+[8.328981] (-) TimerEvent: {}
+[8.429338] (-) TimerEvent: {}
+[8.529666] (-) TimerEvent: {}
+[8.629983] (-) TimerEvent: {}
+[8.730298] (-) TimerEvent: {}
+[8.830610] (-) TimerEvent: {}
+[8.930916] (-) TimerEvent: {}
+[9.031213] (-) TimerEvent: {}
+[9.131558] (-) TimerEvent: {}
+[9.231984] (-) TimerEvent: {}
+[9.332342] (-) TimerEvent: {}
+[9.432679] (-) TimerEvent: {}
+[9.532997] (-) TimerEvent: {}
+[9.633295] (-) TimerEvent: {}
+[9.733595] (-) TimerEvent: {}
+[9.833896] (-) TimerEvent: {}
+[9.934238] (-) TimerEvent: {}
+[10.034529] (-) TimerEvent: {}
+[10.134837] (-) TimerEvent: {}
+[10.235193] (-) TimerEvent: {}
+[10.335666] (-) TimerEvent: {}
+[10.436040] (-) TimerEvent: {}
+[10.536414] (-) TimerEvent: {}
+[10.636896] (-) TimerEvent: {}
+[10.737323] (-) TimerEvent: {}
+[10.837709] (-) TimerEvent: {}
+[10.938137] (-) TimerEvent: {}
+[11.038496] (-) TimerEvent: {}
+[11.138870] (-) TimerEvent: {}
+[11.239263] (-) TimerEvent: {}
+[11.339753] (-) TimerEvent: {}
+[11.440144] (-) TimerEvent: {}
+[11.540484] (-) TimerEvent: {}
+[11.640821] (-) TimerEvent: {}
+[11.741142] (-) TimerEvent: {}
+[11.841491] (-) TimerEvent: {}
+[11.941898] (-) TimerEvent: {}
+[12.042233] (-) TimerEvent: {}
+[12.142577] (-) TimerEvent: {}
+[12.242944] (-) TimerEvent: {}
+[12.343526] (-) TimerEvent: {}
+[12.444224] (-) TimerEvent: {}
+[12.544709] (-) TimerEvent: {}
+[12.645105] (-) TimerEvent: {}
+[12.745446] (-) TimerEvent: {}
+[12.845780] (-) TimerEvent: {}
+[12.946092] (-) TimerEvent: {}
+[13.046423] (-) TimerEvent: {}
+[13.146865] (-) TimerEvent: {}
+[13.247544] (-) TimerEvent: {}
+[13.348015] (-) TimerEvent: {}
+[13.448492] (-) TimerEvent: {}
+[13.548904] (-) TimerEvent: {}
+[13.649244] (-) TimerEvent: {}
+[13.749570] (-) TimerEvent: {}
+[13.849893] (-) TimerEvent: {}
+[13.950234] (-) TimerEvent: {}
+[14.050584] (-) TimerEvent: {}
+[14.150919] (-) TimerEvent: {}
+[14.251269] (-) TimerEvent: {}
+[14.351600] (-) TimerEvent: {}
+[14.451958] (-) TimerEvent: {}
+[14.552539] (-) TimerEvent: {}
+[14.652973] (-) TimerEvent: {}
+[14.753395] (-) TimerEvent: {}
+[14.853861] (-) TimerEvent: {}
+[14.954568] (-) TimerEvent: {}
+[15.055256] (-) TimerEvent: {}
+[15.155746] (-) TimerEvent: {}
+[15.256243] (-) TimerEvent: {}
+[15.356692] (-) TimerEvent: {}
+[15.457057] (-) TimerEvent: {}
+[15.557443] (-) TimerEvent: {}
+[15.657909] (-) TimerEvent: {}
+[15.758372] (-) TimerEvent: {}
+[15.858870] (-) TimerEvent: {}
+[15.959296] (-) TimerEvent: {}
+[16.059645] (-) TimerEvent: {}
+[16.160220] (-) TimerEvent: {}
+[16.260654] (-) TimerEvent: {}
+[16.361124] (-) TimerEvent: {}
+[16.461662] (-) TimerEvent: {}
+[16.562098] (-) TimerEvent: {}
+[16.662587] (-) TimerEvent: {}
+[16.762969] (-) TimerEvent: {}
+[16.863356] (-) TimerEvent: {}
+[16.963728] (-) TimerEvent: {}
+[17.064087] (-) TimerEvent: {}
+[17.164450] (-) TimerEvent: {}
+[17.264785] (-) TimerEvent: {}
+[17.365198] (-) TimerEvent: {}
+[17.465716] (-) TimerEvent: {}
+[17.566168] (-) TimerEvent: {}
+[17.666564] (-) TimerEvent: {}
+[17.766911] (-) TimerEvent: {}
+[17.867311] (-) TimerEvent: {}
+[17.967681] (-) TimerEvent: {}
+[18.068031] (-) TimerEvent: {}
+[18.168408] (-) TimerEvent: {}
+[18.268756] (-) TimerEvent: {}
+[18.369247] (-) TimerEvent: {}
+[18.469862] (-) TimerEvent: {}
+[18.570387] (-) TimerEvent: {}
+[18.670875] (-) TimerEvent: {}
+[18.771260] (-) TimerEvent: {}
+[18.871715] (-) TimerEvent: {}
+[18.972431] (-) TimerEvent: {}
+[19.073109] (-) TimerEvent: {}
+[19.173567] (-) TimerEvent: {}
+[19.274029] (-) TimerEvent: {}
+[19.374514] (-) TimerEvent: {}
+[19.475061] (-) TimerEvent: {}
+[19.575499] (-) TimerEvent: {}
+[19.675935] (-) TimerEvent: {}
+[19.776309] (-) TimerEvent: {}
+[19.876715] (-) TimerEvent: {}
+[19.977072] (-) TimerEvent: {}
+[20.077413] (-) TimerEvent: {}
+[20.177751] (-) TimerEvent: {}
+[20.278086] (-) TimerEvent: {}
+[20.378664] (-) TimerEvent: {}
+[20.479267] (-) TimerEvent: {}
+[20.580045] (-) TimerEvent: {}
+[20.680575] (-) TimerEvent: {}
+[20.780991] (-) TimerEvent: {}
+[20.881441] (-) TimerEvent: {}
+[20.982161] (-) TimerEvent: {}
+[21.082850] (-) TimerEvent: {}
+[21.183543] (-) TimerEvent: {}
+[21.284034] (-) TimerEvent: {}
+[21.384536] (-) TimerEvent: {}
+[21.485039] (-) TimerEvent: {}
+[21.585606] (-) TimerEvent: {}
+[21.686080] (-) TimerEvent: {}
+[21.786616] (-) TimerEvent: {}
+[21.887108] (-) TimerEvent: {}
+[21.987813] (-) TimerEvent: {}
+[22.088688] (-) TimerEvent: {}
+[22.189547] (-) TimerEvent: {}
+[22.290209] (-) TimerEvent: {}
+[22.390872] (-) TimerEvent: {}
+[22.491357] (-) TimerEvent: {}
+[22.591904] (-) TimerEvent: {}
+[22.692360] (-) TimerEvent: {}
+[22.792770] (-) TimerEvent: {}
+[22.893480] (-) TimerEvent: {}
+[22.993942] (-) TimerEvent: {}
+[23.094783] (-) TimerEvent: {}
+[23.195496] (-) TimerEvent: {}
+[23.295969] (-) TimerEvent: {}
+[23.396462] (-) TimerEvent: {}
+[23.496952] (-) TimerEvent: {}
+[23.597522] (-) TimerEvent: {}
+[23.697978] (-) TimerEvent: {}
+[23.798887] (-) TimerEvent: {}
+[23.899398] (-) TimerEvent: {}
+[23.999889] (-) TimerEvent: {}
+[24.100343] (-) TimerEvent: {}
+[24.200854] (-) TimerEvent: {}
+[24.301363] (-) TimerEvent: {}
+[24.401861] (-) TimerEvent: {}
+[24.502342] (-) TimerEvent: {}
+[24.602830] (-) TimerEvent: {}
+[24.703308] (-) TimerEvent: {}
+[24.803731] (-) TimerEvent: {}
+[24.904209] (-) TimerEvent: {}
+[25.004903] (-) TimerEvent: {}
+[25.105570] (-) TimerEvent: {}
+[25.206014] (-) TimerEvent: {}
+[25.306451] (-) TimerEvent: {}
+[25.406915] (-) TimerEvent: {}
+[25.507364] (-) TimerEvent: {}
+[25.607991] (-) TimerEvent: {}
+[25.708627] (-) TimerEvent: {}
+[25.809069] (-) TimerEvent: {}
+[25.909497] (-) TimerEvent: {}
+[26.010203] (-) TimerEvent: {}
+[26.110893] (-) TimerEvent: {}
+[26.211574] (-) TimerEvent: {}
+[26.312258] (-) TimerEvent: {}
+[26.412953] (-) TimerEvent: {}
+[26.513657] (-) TimerEvent: {}
+[26.614118] (-) TimerEvent: {}
+[26.714595] (-) TimerEvent: {}
+[26.815137] (-) TimerEvent: {}
+[26.915644] (-) TimerEvent: {}
+[27.016116] (-) TimerEvent: {}
+[27.116588] (-) TimerEvent: {}
+[27.217077] (-) TimerEvent: {}
+[27.317778] (-) TimerEvent: {}
+[27.418292] (-) TimerEvent: {}
+[27.518833] (-) TimerEvent: {}
+[27.619289] (-) TimerEvent: {}
+[27.719734] (-) TimerEvent: {}
+[27.820172] (-) TimerEvent: {}
+[27.920653] (-) TimerEvent: {}
+[28.021139] (-) TimerEvent: {}
+[28.121617] (-) TimerEvent: {}
+[28.222271] (-) TimerEvent: {}
+[28.322943] (-) TimerEvent: {}
+[28.423378] (-) TimerEvent: {}
+[28.523809] (-) TimerEvent: {}
+[28.624284] (-) TimerEvent: {}
+[28.724830] (-) TimerEvent: {}
+[28.825524] (-) TimerEvent: {}
+[28.925968] (-) TimerEvent: {}
+[29.026609] (-) TimerEvent: {}
+[29.127259] (-) TimerEvent: {}
+[29.227728] (-) TimerEvent: {}
+[29.328200] (-) TimerEvent: {}
+[29.428668] (-) TimerEvent: {}
+[29.529345] (-) TimerEvent: {}
+[29.629831] (-) TimerEvent: {}
+[29.730375] (-) TimerEvent: {}
+[29.830878] (-) TimerEvent: {}
+[29.931303] (-) TimerEvent: {}
+[30.031771] (-) TimerEvent: {}
+[30.132278] (-) TimerEvent: {}
+[30.232775] (-) TimerEvent: {}
+[30.333270] (-) TimerEvent: {}
+[30.433772] (-) TimerEvent: {}
+[30.534256] (-) TimerEvent: {}
+[30.634782] (-) TimerEvent: {}
+[30.735258] (-) TimerEvent: {}
+[30.835723] (-) TimerEvent: {}
+[30.936198] (-) TimerEvent: {}
+[31.036902] (-) TimerEvent: {}
+[31.137578] (-) TimerEvent: {}
+[31.238011] (-) TimerEvent: {}
+[31.338444] (-) TimerEvent: {}
+[31.439122] (-) TimerEvent: {}
+[31.539559] (-) TimerEvent: {}
+[31.640205] (-) TimerEvent: {}
+[31.740704] (-) TimerEvent: {}
+[31.841294] (-) TimerEvent: {}
+[31.941808] (-) TimerEvent: {}
+[32.042283] (-) TimerEvent: {}
+[32.143013] (-) TimerEvent: {}
+[32.243503] (-) TimerEvent: {}
+[32.344197] (-) TimerEvent: {}
+[32.444898] (-) TimerEvent: {}
+[32.545394] (-) TimerEvent: {}
+[32.645893] (-) TimerEvent: {}
+[32.746409] (-) TimerEvent: {}
+[32.847004] (-) TimerEvent: {}
+[32.947508] (-) TimerEvent: {}
+[33.048043] (-) TimerEvent: {}
+[33.148565] (-) TimerEvent: {}
+[33.249077] (-) TimerEvent: {}
+[33.349565] (-) TimerEvent: {}
+[33.450041] (-) TimerEvent: {}
+[33.550564] (-) TimerEvent: {}
+[33.651059] (-) TimerEvent: {}
+[33.751570] (-) TimerEvent: {}
+[33.852343] (-) TimerEvent: {}
+[33.952838] (-) TimerEvent: {}
+[34.053369] (-) TimerEvent: {}
+[34.154077] (-) TimerEvent: {}
+[34.254534] (-) TimerEvent: {}
+[34.355213] (-) TimerEvent: {}
+[34.455868] (-) TimerEvent: {}
+[34.556518] (-) TimerEvent: {}
+[34.657176] (-) TimerEvent: {}
+[34.757618] (-) TimerEvent: {}
+[34.858038] (-) TimerEvent: {}
+[34.958413] (-) TimerEvent: {}
+[35.059010] (-) TimerEvent: {}
+[35.159679] (-) TimerEvent: {}
+[35.260381] (-) TimerEvent: {}
+[35.361076] (-) TimerEvent: {}
+[35.461564] (-) TimerEvent: {}
+[35.562259] (-) TimerEvent: {}
+[35.662755] (-) TimerEvent: {}
+[35.763230] (-) TimerEvent: {}
+[35.863732] (-) TimerEvent: {}
+[35.964194] (-) TimerEvent: {}
+[36.064733] (-) TimerEvent: {}
+[36.165471] (-) TimerEvent: {}
+[36.265929] (-) TimerEvent: {}
+[36.366378] (-) TimerEvent: {}
+[36.466947] (-) TimerEvent: {}
+[36.567420] (-) TimerEvent: {}
+[36.667910] (-) TimerEvent: {}
+[36.768370] (-) TimerEvent: {}
+[36.868801] (-) TimerEvent: {}
+[36.969292] (-) TimerEvent: {}
+[37.069998] (-) TimerEvent: {}
+[37.170664] (-) TimerEvent: {}
+[37.271101] (-) TimerEvent: {}
+[37.371513] (-) TimerEvent: {}
+[37.471900] (-) TimerEvent: {}
+[37.572290] (-) TimerEvent: {}
+[37.672700] (-) TimerEvent: {}
+[37.773312] (-) TimerEvent: {}
+[37.873775] (-) TimerEvent: {}
+[37.974281] (-) TimerEvent: {}
+[38.075002] (-) TimerEvent: {}
+[38.175480] (-) TimerEvent: {}
+[38.275930] (-) TimerEvent: {}
+[38.376369] (-) TimerEvent: {}
+[38.476811] (-) TimerEvent: {}
+[38.577216] (-) TimerEvent: {}
+[38.677608] (-) TimerEvent: {}
+[38.777971] (-) TimerEvent: {}
+[38.878367] (-) TimerEvent: {}
+[38.978859] (-) TimerEvent: {}
+[39.079269] (-) TimerEvent: {}
+[39.179613] (-) TimerEvent: {}
+[39.279972] (-) TimerEvent: {}
+[39.380302] (-) TimerEvent: {}
+[39.480647] (-) TimerEvent: {}
+[39.580992] (-) TimerEvent: {}
+[39.681334] (-) TimerEvent: {}
+[39.781712] (-) TimerEvent: {}
+[39.882121] (-) TimerEvent: {}
+[39.982610] (-) TimerEvent: {}
+[40.083034] (-) TimerEvent: {}
+[40.183695] (-) TimerEvent: {}
+[40.284165] (-) TimerEvent: {}
+[40.384595] (-) TimerEvent: {}
+[40.484971] (-) TimerEvent: {}
+[40.585359] (-) TimerEvent: {}
+[40.685871] (-) TimerEvent: {}
+[40.786518] (-) TimerEvent: {}
+[40.887119] (-) TimerEvent: {}
+[40.987710] (-) TimerEvent: {}
+[41.088259] (-) TimerEvent: {}
+[41.188939] (-) TimerEvent: {}
+[41.289509] (-) TimerEvent: {}
+[41.389974] (-) TimerEvent: {}
+[41.490518] (-) TimerEvent: {}
+[41.590964] (-) TimerEvent: {}
+[41.691391] (-) TimerEvent: {}
+[41.791870] (-) TimerEvent: {}
+[41.892483] (-) TimerEvent: {}
+[41.992981] (-) TimerEvent: {}
+[42.093489] (-) TimerEvent: {}
+[42.194027] (-) TimerEvent: {}
+[42.294575] (-) TimerEvent: {}
+[42.395058] (-) TimerEvent: {}
+[42.495487] (-) TimerEvent: {}
+[42.595934] (-) TimerEvent: {}
+[42.696431] (-) TimerEvent: {}
+[42.796906] (-) TimerEvent: {}
+[42.897345] (-) TimerEvent: {}
+[42.997838] (-) TimerEvent: {}
+[43.098449] (-) TimerEvent: {}
+[43.119800] (irc_step_motion_executor) StdoutLine: {'line': b'16/18 Test #16: sdk_cmake_fake_sdk_build ...........................   Passed   35.85 sec\n'}
+[43.120625] (irc_step_motion_executor) StdoutLine: {'line': b'test 17\n'}
+[43.120960] (irc_step_motion_executor) StdoutLine: {'line': b'      Start 17: sdk_cmake_disabled_build_has_no_hardware_symbols\n'}
+[43.121263] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[43.121539] (irc_step_motion_executor) StdoutLine: {'line': b'17: Test command: /usr/bin/cmake "-DPACKAGE_SOURCE_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor" "-DTEST_BINARY_DIR=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor/sdk_cmake_tests/sdk_disabled" "-P" "/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor/test/run_sdk_disabled_case.cmake"\n'}
+[43.121825] (irc_step_motion_executor) StdoutLine: {'line': b'17: Test timeout computed to be: 10000000\n'}
+[43.198528] (-) TimerEvent: {}
+[43.298958] (-) TimerEvent: {}
+[43.399389] (-) TimerEvent: {}
+[43.499814] (-) TimerEvent: {}
+[43.600173] (-) TimerEvent: {}
+[43.700544] (-) TimerEvent: {}
+[43.800895] (-) TimerEvent: {}
+[43.901286] (-) TimerEvent: {}
+[44.001715] (-) TimerEvent: {}
+[44.102232] (-) TimerEvent: {}
+[44.202734] (-) TimerEvent: {}
+[44.303187] (-) TimerEvent: {}
+[44.403611] (-) TimerEvent: {}
+[44.504045] (-) TimerEvent: {}
+[44.604401] (-) TimerEvent: {}
+[44.704827] (-) TimerEvent: {}
+[44.805297] (-) TimerEvent: {}
+[44.905761] (-) TimerEvent: {}
+[45.006251] (-) TimerEvent: {}
+[45.106803] (-) TimerEvent: {}
+[45.207292] (-) TimerEvent: {}
+[45.307791] (-) TimerEvent: {}
+[45.408272] (-) TimerEvent: {}
+[45.508734] (-) TimerEvent: {}
+[45.609412] (-) TimerEvent: {}
+[45.710068] (-) TimerEvent: {}
+[45.810511] (-) TimerEvent: {}
+[45.911029] (-) TimerEvent: {}
+[46.011517] (-) TimerEvent: {}
+[46.112019] (-) TimerEvent: {}
+[46.212481] (-) TimerEvent: {}
+[46.312911] (-) TimerEvent: {}
+[46.413579] (-) TimerEvent: {}
+[46.514017] (-) TimerEvent: {}
+[46.614516] (-) TimerEvent: {}
+[46.714996] (-) TimerEvent: {}
+[46.815494] (-) TimerEvent: {}
+[46.916000] (-) TimerEvent: {}
+[47.016579] (-) TimerEvent: {}
+[47.117847] (-) TimerEvent: {}
+[47.218411] (-) TimerEvent: {}
+[47.319553] (-) TimerEvent: {}
+[47.420423] (-) TimerEvent: {}
+[47.521096] (-) TimerEvent: {}
+[47.621587] (-) TimerEvent: {}
+[47.722067] (-) TimerEvent: {}
+[47.822583] (-) TimerEvent: {}
+[47.923074] (-) TimerEvent: {}
+[48.023553] (-) TimerEvent: {}
+[48.124245] (-) TimerEvent: {}
+[48.224807] (-) TimerEvent: {}
+[48.325291] (-) TimerEvent: {}
+[48.425832] (-) TimerEvent: {}
+[48.526356] (-) TimerEvent: {}
+[48.626976] (-) TimerEvent: {}
+[48.727387] (-) TimerEvent: {}
+[48.828071] (-) TimerEvent: {}
+[48.928550] (-) TimerEvent: {}
+[49.029250] (-) TimerEvent: {}
+[49.129776] (-) TimerEvent: {}
+[49.230438] (-) TimerEvent: {}
+[49.331228] (-) TimerEvent: {}
+[49.431955] (-) TimerEvent: {}
+[49.532672] (-) TimerEvent: {}
+[49.633377] (-) TimerEvent: {}
+[49.733838] (-) TimerEvent: {}
+[49.834309] (-) TimerEvent: {}
+[49.934736] (-) TimerEvent: {}
+[50.035193] (-) TimerEvent: {}
+[50.135719] (-) TimerEvent: {}
+[50.236283] (-) TimerEvent: {}
+[50.336775] (-) TimerEvent: {}
+[50.437500] (-) TimerEvent: {}
+[50.537970] (-) TimerEvent: {}
+[50.638640] (-) TimerEvent: {}
+[50.739281] (-) TimerEvent: {}
+[50.840125] (-) TimerEvent: {}
+[50.940932] (-) TimerEvent: {}
+[51.041630] (-) TimerEvent: {}
+[51.142150] (-) TimerEvent: {}
+[51.242767] (-) TimerEvent: {}
+[51.343266] (-) TimerEvent: {}
+[51.443750] (-) TimerEvent: {}
+[51.544458] (-) TimerEvent: {}
+[51.645143] (-) TimerEvent: {}
+[51.745578] (-) TimerEvent: {}
+[51.846006] (-) TimerEvent: {}
+[51.946488] (-) TimerEvent: {}
+[52.047213] (-) TimerEvent: {}
+[52.147717] (-) TimerEvent: {}
+[52.248276] (-) TimerEvent: {}
+[52.348809] (-) TimerEvent: {}
+[52.449572] (-) TimerEvent: {}
+[52.550337] (-) TimerEvent: {}
+[52.651124] (-) TimerEvent: {}
+[52.751550] (-) TimerEvent: {}
+[52.851985] (-) TimerEvent: {}
+[52.952338] (-) TimerEvent: {}
+[53.052721] (-) TimerEvent: {}
+[53.153133] (-) TimerEvent: {}
+[53.253546] (-) TimerEvent: {}
+[53.353896] (-) TimerEvent: {}
+[53.454297] (-) TimerEvent: {}
+[53.554786] (-) TimerEvent: {}
+[53.655237] (-) TimerEvent: {}
+[53.755701] (-) TimerEvent: {}
+[53.856167] (-) TimerEvent: {}
+[53.956618] (-) TimerEvent: {}
+[54.057073] (-) TimerEvent: {}
+[54.157539] (-) TimerEvent: {}
+[54.258051] (-) TimerEvent: {}
+[54.358609] (-) TimerEvent: {}
+[54.459066] (-) TimerEvent: {}
+[54.559577] (-) TimerEvent: {}
+[54.660248] (-) TimerEvent: {}
+[54.760703] (-) TimerEvent: {}
+[54.861201] (-) TimerEvent: {}
+[54.961697] (-) TimerEvent: {}
+[55.062381] (-) TimerEvent: {}
+[55.163096] (-) TimerEvent: {}
+[55.263607] (-) TimerEvent: {}
+[55.364152] (-) TimerEvent: {}
+[55.464661] (-) TimerEvent: {}
+[55.565354] (-) TimerEvent: {}
+[55.666005] (-) TimerEvent: {}
+[55.766686] (-) TimerEvent: {}
+[55.867163] (-) TimerEvent: {}
+[55.967840] (-) TimerEvent: {}
+[56.068529] (-) TimerEvent: {}
+[56.169000] (-) TimerEvent: {}
+[56.269502] (-) TimerEvent: {}
+[56.370037] (-) TimerEvent: {}
+[56.470567] (-) TimerEvent: {}
+[56.571025] (-) TimerEvent: {}
+[56.671473] (-) TimerEvent: {}
+[56.771940] (-) TimerEvent: {}
+[56.872393] (-) TimerEvent: {}
+[56.972821] (-) TimerEvent: {}
+[57.073305] (-) TimerEvent: {}
+[57.173785] (-) TimerEvent: {}
+[57.274285] (-) TimerEvent: {}
+[57.374896] (-) TimerEvent: {}
+[57.475363] (-) TimerEvent: {}
+[57.575754] (-) TimerEvent: {}
+[57.676400] (-) TimerEvent: {}
+[57.777030] (-) TimerEvent: {}
+[57.877664] (-) TimerEvent: {}
+[57.978300] (-) TimerEvent: {}
+[58.078754] (-) TimerEvent: {}
+[58.179400] (-) TimerEvent: {}
+[58.279846] (-) TimerEvent: {}
+[58.380341] (-) TimerEvent: {}
+[58.480798] (-) TimerEvent: {}
+[58.581176] (-) TimerEvent: {}
+[58.681865] (-) TimerEvent: {}
+[58.782604] (-) TimerEvent: {}
+[58.883068] (-) TimerEvent: {}
+[58.983531] (-) TimerEvent: {}
+[59.084230] (-) TimerEvent: {}
+[59.184922] (-) TimerEvent: {}
+[59.285407] (-) TimerEvent: {}
+[59.385920] (-) TimerEvent: {}
+[59.486516] (-) TimerEvent: {}
+[59.587061] (-) TimerEvent: {}
+[59.687757] (-) TimerEvent: {}
+[59.788208] (-) TimerEvent: {}
+[59.888722] (-) TimerEvent: {}
+[59.989210] (-) TimerEvent: {}
+[60.089697] (-) TimerEvent: {}
+[60.190158] (-) TimerEvent: {}
+[60.290669] (-) TimerEvent: {}
+[60.391166] (-) TimerEvent: {}
+[60.491720] (-) TimerEvent: {}
+[60.592235] (-) TimerEvent: {}
+[60.692896] (-) TimerEvent: {}
+[60.793318] (-) TimerEvent: {}
+[60.893921] (-) TimerEvent: {}
+[60.994348] (-) TimerEvent: {}
+[61.095013] (-) TimerEvent: {}
+[61.195648] (-) TimerEvent: {}
+[61.296283] (-) TimerEvent: {}
+[61.396789] (-) TimerEvent: {}
+[61.497329] (-) TimerEvent: {}
+[61.597820] (-) TimerEvent: {}
+[61.698229] (-) TimerEvent: {}
+[61.798878] (-) TimerEvent: {}
+[61.899309] (-) TimerEvent: {}
+[61.999729] (-) TimerEvent: {}
+[62.100353] (-) TimerEvent: {}
+[62.200784] (-) TimerEvent: {}
+[62.301207] (-) TimerEvent: {}
+[62.401633] (-) TimerEvent: {}
+[62.502137] (-) TimerEvent: {}
+[62.602603] (-) TimerEvent: {}
+[62.703012] (-) TimerEvent: {}
+[62.803486] (-) TimerEvent: {}
+[62.903952] (-) TimerEvent: {}
+[63.004443] (-) TimerEvent: {}
+[63.104918] (-) TimerEvent: {}
+[63.205382] (-) TimerEvent: {}
+[63.306057] (-) TimerEvent: {}
+[63.406712] (-) TimerEvent: {}
+[63.507115] (-) TimerEvent: {}
+[63.607500] (-) TimerEvent: {}
+[63.707868] (-) TimerEvent: {}
+[63.808292] (-) TimerEvent: {}
+[63.908713] (-) TimerEvent: {}
+[64.009119] (-) TimerEvent: {}
+[64.109729] (-) TimerEvent: {}
+[64.210154] (-) TimerEvent: {}
+[64.310800] (-) TimerEvent: {}
+[64.411463] (-) TimerEvent: {}
+[64.511960] (-) TimerEvent: {}
+[64.612467] (-) TimerEvent: {}
+[64.712850] (-) TimerEvent: {}
+[64.813471] (-) TimerEvent: {}
+[64.913903] (-) TimerEvent: {}
+[65.014317] (-) TimerEvent: {}
+[65.114718] (-) TimerEvent: {}
+[65.215111] (-) TimerEvent: {}
+[65.315539] (-) TimerEvent: {}
+[65.415938] (-) TimerEvent: {}
+[65.516461] (-) TimerEvent: {}
+[65.616994] (-) TimerEvent: {}
+[65.717393] (-) TimerEvent: {}
+[65.817805] (-) TimerEvent: {}
+[65.918259] (-) TimerEvent: {}
+[66.018747] (-) TimerEvent: {}
+[66.119198] (-) TimerEvent: {}
+[66.219651] (-) TimerEvent: {}
+[66.320116] (-) TimerEvent: {}
+[66.420575] (-) TimerEvent: {}
+[66.521040] (-) TimerEvent: {}
+[66.621534] (-) TimerEvent: {}
+[66.721909] (-) TimerEvent: {}
+[66.822589] (-) TimerEvent: {}
+[66.923052] (-) TimerEvent: {}
+[67.023535] (-) TimerEvent: {}
+[67.123990] (-) TimerEvent: {}
+[67.224412] (-) TimerEvent: {}
+[67.324827] (-) TimerEvent: {}
+[67.425488] (-) TimerEvent: {}
+[67.525997] (-) TimerEvent: {}
+[67.626568] (-) TimerEvent: {}
+[67.727008] (-) TimerEvent: {}
+[67.827623] (-) TimerEvent: {}
+[67.928087] (-) TimerEvent: {}
+[68.028592] (-) TimerEvent: {}
+[68.129038] (-) TimerEvent: {}
+[68.229452] (-) TimerEvent: {}
+[68.329927] (-) TimerEvent: {}
+[68.430378] (-) TimerEvent: {}
+[68.530872] (-) TimerEvent: {}
+[68.631350] (-) TimerEvent: {}
+[68.731786] (-) TimerEvent: {}
+[68.832208] (-) TimerEvent: {}
+[68.932672] (-) TimerEvent: {}
+[69.033153] (-) TimerEvent: {}
+[69.133607] (-) TimerEvent: {}
+[69.234244] (-) TimerEvent: {}
+[69.334966] (-) TimerEvent: {}
+[69.435640] (-) TimerEvent: {}
+[69.536316] (-) TimerEvent: {}
+[69.636756] (-) TimerEvent: {}
+[69.737185] (-) TimerEvent: {}
+[69.837659] (-) TimerEvent: {}
+[69.938148] (-) TimerEvent: {}
+[70.038658] (-) TimerEvent: {}
+[70.139151] (-) TimerEvent: {}
+[70.239838] (-) TimerEvent: {}
+[70.340308] (-) TimerEvent: {}
+[70.441012] (-) TimerEvent: {}
+[70.541502] (-) TimerEvent: {}
+[70.641997] (-) TimerEvent: {}
+[70.742568] (-) TimerEvent: {}
+[70.843087] (-) TimerEvent: {}
+[70.943791] (-) TimerEvent: {}
+[71.044272] (-) TimerEvent: {}
+[71.144729] (-) TimerEvent: {}
+[71.245170] (-) TimerEvent: {}
+[71.345622] (-) TimerEvent: {}
+[71.446126] (-) TimerEvent: {}
+[71.547413] (-) TimerEvent: {}
+[71.648225] (-) TimerEvent: {}
+[71.748766] (-) TimerEvent: {}
+[71.849248] (-) TimerEvent: {}
+[71.949728] (-) TimerEvent: {}
+[72.050245] (-) TimerEvent: {}
+[72.150950] (-) TimerEvent: {}
+[72.251426] (-) TimerEvent: {}
+[72.352077] (-) TimerEvent: {}
+[72.426496] (irc_step_motion_executor) StdoutLine: {'line': b'17/18 Test #17: sdk_cmake_disabled_build_has_no_hardware_symbols ...   Passed   29.31 sec\n'}
+[72.427403] (irc_step_motion_executor) StdoutLine: {'line': b'test 18\n'}
+[72.427811] (irc_step_motion_executor) StdoutLine: {'line': b'      Start 18: test_validate_motion_catalog\n'}
+[72.428096] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[72.428353] (irc_step_motion_executor) StdoutLine: {'line': b'18: Test command: /usr/bin/python3 "/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor/test/test_validate_motion_catalog.py"\n'}
+[72.428613] (irc_step_motion_executor) StdoutLine: {'line': b'18: Test timeout computed to be: 10000000\n'}
+[72.452172] (-) TimerEvent: {}
+[72.533537] (irc_step_motion_executor) StdoutLine: {'line': b'18: ...\n'}
+[72.534150] (irc_step_motion_executor) StdoutLine: {'line': b'18: ----------------------------------------------------------------------\n'}
+[72.534703] (irc_step_motion_executor) StdoutLine: {'line': b'18: Ran 3 tests in 0.001s\n'}
+[72.535237] (irc_step_motion_executor) StdoutLine: {'line': b'18: \n'}
+[72.535745] (irc_step_motion_executor) StdoutLine: {'line': b'18: OK\n'}
+[72.550883] (irc_step_motion_executor) StdoutLine: {'line': b'18/18 Test #18: test_validate_motion_catalog .......................   Passed    0.12 sec\n'}
+[72.552273] (-) TimerEvent: {}
+[72.552789] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[72.553218] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[0;32m100% tests passed\x1b[0;0m, 0 tests failed\x1b[0;0m out of 18\n'}
+[72.553506] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[72.553769] (irc_step_motion_executor) StdoutLine: {'line': b'Label Time Summary:\n'}
+[72.554026] (irc_step_motion_executor) StdoutLine: {'line': b'gtest          =   1.27 sec*proc (9 tests)\n'}
+[72.554273] (irc_step_motion_executor) StdoutLine: {'line': b'launch_test    =   2.99 sec*proc (2 tests)\n'}
+[72.554519] (irc_step_motion_executor) StdoutLine: {'line': b'\n'}
+[72.554809] (irc_step_motion_executor) StdoutLine: {'line': b'Total Test time (real) =  72.50 sec\n'}
+[72.566268] (irc_step_motion_executor) CommandEnded: {'returncode': 0}
+[72.567684] (irc_step_motion_executor) JobEnded: {'identifier': 'irc_step_motion_executor', 'rc': 0}
+[72.569358] (-) EventReactorShutdown: {}

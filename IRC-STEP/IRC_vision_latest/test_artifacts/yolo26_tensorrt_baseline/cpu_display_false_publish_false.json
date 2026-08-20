@@ -1,0 +1,466 @@
+{
+  "condition": {
+    "requested_device": "cpu",
+    "active_provider": "CPUExecutionProvider",
+    "display": false,
+    "publish_annotated_image": false,
+    "show_camera_controls": false,
+    "max_fps": 30.0,
+    "camera_profile": "640x480x30"
+  },
+  "model": {
+    "path": "/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/share/step/models/best.onnx",
+    "sha256": "48cbdeb174286233f89856eb76c08ae7aa9f53db0731abf0096e53ef8d34ebb1"
+  },
+  "warmup_messages": 5,
+  "sample_messages": 40,
+  "topic_fps": 3.6766956267545985,
+  "mean_interval_ms": 271.98335176923393,
+  "max_interval_ms": 401.2545340001452,
+  "mean_camera_to_detection_latency_ms": 249.3287113,
+  "max_camera_to_detection_latency_ms": 356.786163,
+  "detection_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "samples": [
+    {
+      "stamp": {
+        "sec": 1787127972,
+        "nanosec": 296081543
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127972,
+        "nanosec": 496213135
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127972,
+        "nanosec": 763054688
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127973,
+        "nanosec": 29894531
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127973,
+        "nanosec": 296732910
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127973,
+        "nanosec": 563570313
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127973,
+        "nanosec": 797052246
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127974,
+        "nanosec": 197311279
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127974,
+        "nanosec": 464149170
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127974,
+        "nanosec": 797695068
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127975,
+        "nanosec": 64536377
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127975,
+        "nanosec": 264666748
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127975,
+        "nanosec": 564860840
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127975,
+        "nanosec": 865076416
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127976,
+        "nanosec": 132007568
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127976,
+        "nanosec": 432309082
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127976,
+        "nanosec": 832703613
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127977,
+        "nanosec": 132885498
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127977,
+        "nanosec": 433065430
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127977,
+        "nanosec": 666536865
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127977,
+        "nanosec": 900010986
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127978,
+        "nanosec": 233550293
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127978,
+        "nanosec": 467026367
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127978,
+        "nanosec": 767208008
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127979,
+        "nanosec": 689697
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127979,
+        "nanosec": 267526367
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127979,
+        "nanosec": 501007080
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127979,
+        "nanosec": 734486816
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127980,
+        "nanosec": 34678711
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127980,
+        "nanosec": 268161133
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127980,
+        "nanosec": 534996826
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127980,
+        "nanosec": 835185059
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127981,
+        "nanosec": 135366699
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127981,
+        "nanosec": 402192871
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127981,
+        "nanosec": 702369873
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127982,
+        "nanosec": 2561279
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127982,
+        "nanosec": 236048828
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127982,
+        "nanosec": 436180664
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127982,
+        "nanosec": 669666992
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    },
+    {
+      "stamp": {
+        "sec": 1787127982,
+        "nanosec": 903170898
+      },
+      "frame_id": "camera_color_optical_frame",
+      "image_width": 640,
+      "image_height": 480,
+      "detections": []
+    }
+  ]
+}

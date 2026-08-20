@@ -1,0 +1,33 @@
+[1.251s] Invoking command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step': PYTHONPATH=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build --no-deps symlink_data
+[1.756s] running develop
+[2.074s] running egg_info
+[2.074s] writing step.egg-info/PKG-INFO
+[2.075s] writing dependency_links to step.egg-info/dependency_links.txt
+[2.075s] writing entry points to step.egg-info/entry_points.txt
+[2.076s] writing requirements to step.egg-info/requires.txt
+[2.076s] writing top-level names to step.egg-info/top_level.txt
+[2.081s] reading manifest file 'step.egg-info/SOURCES.txt'
+[2.083s] writing manifest file 'step.egg-info/SOURCES.txt'
+[2.085s] running build_ext
+[2.086s] Creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step.egg-link (link to .)
+[2.087s] Installing ball_analyzer script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+[2.088s] Installing ball_navigation_controller script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+[2.088s] Installing goal_analyzer script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+[2.088s] Installing goal_navigation_controller script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+[2.089s] Installing hurdle_analyzer script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+[2.089s] Installing hurdle_navigation_controller script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+[2.089s] Installing imu_line_pose_estimator script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+[2.089s] Installing line_debug_monitor script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+[2.090s] Installing line_navigation_controller script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+[2.090s] Installing line_path_visualizer script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+[2.090s] Installing mission_map_visualizer script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+[2.091s] Installing mission_state_estimator script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+[2.091s] Installing rgbd_visual_odometry script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+[2.092s] Installing step_motion_pose_test script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+[2.092s] Installing unified_vision_node script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+[2.092s] Installing yolo26_detector script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+[2.092s] Installing yolo_line_analyzer script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+[2.092s] 
+[2.092s] Installed /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step
+[2.092s] running symlink_data
+[2.182s] Invoked command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step' returned '0': PYTHONPATH=/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build --no-deps symlink_data

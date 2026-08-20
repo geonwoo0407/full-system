@@ -1,0 +1,48 @@
+Start testing: Aug 05 23:30 KST
+----------------------------------------------------------
+4/6 Testing: constructor_side_effect_source_test
+4/6 Test: constructor_side_effect_source_test
+Command: "/usr/bin/cmake" "-DSDK_SOURCE_DIR=/home/yeon/IRC/external_sdk/robot_motion_player_sdk_work_20260801/final step" "-P" "/home/yeon/IRC/external_sdk/robot_motion_player_sdk_work_20260801/final step/test_constructor_side_effects.cmake"
+Directory: /home/yeon/IRC/external_sdk/robot_motion_player_sdk_work_20260801/final step/build
+"constructor_side_effect_source_test" start time: Aug 05 23:30 KST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"constructor_side_effect_source_test" end time: Aug 05 23:30 KST
+"constructor_side_effect_source_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: dynamixel_hardware_config_test
+5/6 Test: dynamixel_hardware_config_test
+Command: "/home/yeon/IRC/external_sdk/robot_motion_player_sdk_work_20260801/final step/build/test_dynamixel_hardware_config"
+Directory: /home/yeon/IRC/external_sdk/robot_motion_player_sdk_work_20260801/final step/build
+"dynamixel_hardware_config_test" start time: Aug 05 23:30 KST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"dynamixel_hardware_config_test" end time: Aug 05 23:30 KST
+"dynamixel_hardware_config_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: dynamixel_motion_hardware_preflight_test
+6/6 Test: dynamixel_motion_hardware_preflight_test
+Command: "/home/yeon/IRC/external_sdk/robot_motion_player_sdk_work_20260801/final step/build/test_dynamixel_motion_hardware_preflight"
+Directory: /home/yeon/IRC/external_sdk/robot_motion_player_sdk_work_20260801/final step/build
+"dynamixel_motion_hardware_preflight_test" start time: Aug 05 23:30 KST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"dynamixel_motion_hardware_preflight_test" end time: Aug 05 23:30 KST
+"dynamixel_motion_hardware_preflight_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 05 23:30 KST

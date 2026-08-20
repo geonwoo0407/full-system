@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsimulated_motion_backend.a CMakeFiles/simulated_motion_backend.dir/src/simulated_motion_backend.cpp.o
+/usr/bin/ranlib libsimulated_motion_backend.a

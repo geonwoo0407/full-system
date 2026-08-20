@@ -1,0 +1,2 @@
+/usr/bin/ar qc librobot_motion_player_backend.a CMakeFiles/robot_motion_player_backend.dir/src/robot_motion_player_backend.cpp.o
+/usr/bin/ranlib librobot_motion_player_backend.a

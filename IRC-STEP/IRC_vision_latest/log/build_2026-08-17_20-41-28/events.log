@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000539] (-) JobUnselected: {'identifier': 'irc_step_motion_executor'}
+[0.000771] (-) JobUnselected: {'identifier': 'step'}
+[0.001023] (mission_control) JobQueued: {'identifier': 'mission_control', 'dependencies': OrderedDict([('irc_step_motion_executor', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor'), ('step', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step')])}
+[0.001222] (mission_control) JobStarted: {'identifier': 'mission_control'}
+[0.011950] (mission_control) JobEnded: {'identifier': 'mission_control', 'rc': 1}
+[0.012851] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_simulated_motion_backend.dir/test/test_simulated_motion_backend.cpp.o -o test_simulated_motion_backend  gtest/libgtest_main.a gtest/libgtest.a libsimulated_motion_backend.a -pthread libsdk_executor_core.a libcatalog_only_core.a /usr/lib/aarch64-linux-gnu/libjson-c.so /usr/lib/aarch64-linux-gnu/libyaml-cpp.so.0.7.0 

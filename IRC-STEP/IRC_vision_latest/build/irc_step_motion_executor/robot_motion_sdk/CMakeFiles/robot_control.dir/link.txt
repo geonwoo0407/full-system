@@ -1,0 +1,2 @@
+/usr/bin/ar qc librobot_control.a CMakeFiles/robot_control.dir/robot_motion_player_dynamixel.cpp.o CMakeFiles/robot_control.dir/dynamixel_motion_hardware.cpp.o CMakeFiles/robot_control.dir/step_dynamixel.cpp.o CMakeFiles/robot_control.dir/dynamixel_controller.cpp.o
+/usr/bin/ranlib librobot_control.a

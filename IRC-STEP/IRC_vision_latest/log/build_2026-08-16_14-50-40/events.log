@@ -1,0 +1,262 @@
+[0.000000] (-) TimerEvent: {}
+[0.000530] (-) JobUnselected: {'identifier': 'mission_control'}
+[0.000947] (-) JobUnselected: {'identifier': 'step'}
+[0.001166] (irc_step_motion_executor) JobQueued: {'identifier': 'irc_step_motion_executor', 'dependencies': OrderedDict()}
+[0.001352] (irc_step_motion_executor) JobStarted: {'identifier': 'irc_step_motion_executor'}
+[0.013388] (irc_step_motion_executor) JobProgress: {'identifier': 'irc_step_motion_executor', 'progress': 'cmake'}
+[0.013988] (irc_step_motion_executor) Command: {'cmd': ['/usr/bin/cmake', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor', '-DIRC_STEP_ENABLE_ROBOT_MOTION_SDK=ON', '-DROBOT_MOTION_SDK_DIR=/home/jet/IRC/external_sdk/robot_motion_player_sdk_work_20260801/final step', '-DCMAKE_INSTALL_PREFIX=/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor'], 'cwd': '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'jet'), ('SSH_CLIENT', '10.50.33.5 49230 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jet'), ('OLDPWD', '/home/jet/IRC/IRC-STEP/IRC_vision_latest'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jet'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jet/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.50.33.5 49230 10.50.35.54 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/home/jet/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor:/opt/ros/humble')]), 'shell': False}
+[0.099577] (-) TimerEvent: {}
+[0.108295] (irc_step_motion_executor) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199763] (-) TimerEvent: {}
+[0.209969] (irc_step_motion_executor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.229414] (irc_step_motion_executor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299953] (-) TimerEvent: {}
+[0.369511] (irc_step_motion_executor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.394195] (irc_step_motion_executor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.395149] (irc_step_motion_executor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.396479] (irc_step_motion_executor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.400012] (-) TimerEvent: {}
+[0.407138] (irc_step_motion_executor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500229] (-) TimerEvent: {}
+[0.561205] (irc_step_motion_executor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.586924] (irc_step_motion_executor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.587938] (irc_step_motion_executor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.589524] (irc_step_motion_executor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.596997] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600289] (-) TimerEvent: {}
+[0.700764] (-) TimerEvent: {}
+[0.801188] (-) TimerEvent: {}
+[0.901608] (-) TimerEvent: {}
+[0.904398] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.001702] (-) TimerEvent: {}
+[1.096132] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[1.101794] (-) TimerEvent: {}
+[1.107105] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.110358] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.191449] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.198219] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.201862] (-) TimerEvent: {}
+[1.210817] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.229369] (irc_step_motion_executor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.253347] (irc_step_motion_executor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.301957] (-) TimerEvent: {}
+[1.318688] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.322038] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.402143] (-) TimerEvent: {}
+[1.447488] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.497969] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.502199] (-) TimerEvent: {}
+[1.562690] (irc_step_motion_executor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.575066] (irc_step_motion_executor) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.602391] (-) TimerEvent: {}
+[1.700704] (irc_step_motion_executor) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.701838] (irc_step_motion_executor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.702458] (-) TimerEvent: {}
+[1.803046] (-) TimerEvent: {}
+[1.849852] (irc_step_motion_executor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.853570] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.903135] (-) TimerEvent: {}
+[1.978899] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)\n'}
+[1.982201] (irc_step_motion_executor) StdoutLine: {'line': b"-- Checking for module 'json-c'\n"}
+[2.003261] (-) TimerEvent: {}
+[2.006589] (irc_step_motion_executor) StdoutLine: {'line': b'--   Found json-c, version 0.15\n'}
+[2.061621] (irc_step_motion_executor) StdoutLine: {'line': b'-- SDK inclusion enabled; no SDK backend is instantiated by this package\n'}
+[2.101268] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[2.103339] (-) TimerEvent: {}
+[2.105117] (irc_step_motion_executor) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.139174] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found launch_testing_ament_cmake: 1.0.14 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)\n'}
+[2.141234] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.184922] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.194324] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.194618] (irc_step_motion_executor) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.194782] (irc_step_motion_executor) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.195009] (irc_step_motion_executor) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[2.203445] (-) TimerEvent: {}
+[2.237966] (irc_step_motion_executor) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.303572] (-) TimerEvent: {}
+[2.368783] (irc_step_motion_executor) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.403745] (-) TimerEvent: {}
+[2.476839] (irc_step_motion_executor) StdoutLine: {'line': b'-- Generating done\n'}
+[2.503828] (-) TimerEvent: {}
+[2.505678] (irc_step_motion_executor) StdoutLine: {'line': b'-- Build files have been written to: /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor\n'}
+[2.532197] (irc_step_motion_executor) CommandEnded: {'returncode': 0}
+[2.533544] (irc_step_motion_executor) JobProgress: {'identifier': 'irc_step_motion_executor', 'progress': 'build'}
+[2.535415] (irc_step_motion_executor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor', '--', '-j6', '-l6'], 'cwd': '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'jet'), ('SSH_CLIENT', '10.50.33.5 49230 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jet'), ('OLDPWD', '/home/jet/IRC/IRC-STEP/IRC_vision_latest'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jet'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jet/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.50.33.5 49230 10.50.35.54 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/home/jet/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor:/opt/ros/humble')]), 'shell': False}
+[2.604049] (-) TimerEvent: {}
+[2.614649] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target catalog_only_core\x1b[0m\n'}
+[2.615146] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[2.615363] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motion_core\x1b[0m\n'}
+[2.616278] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_motion_runtime_config\x1b[0m\n'}
+[2.616477] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[2.640253] (irc_step_motion_executor) StdoutLine: {'line': b'[ 13%] Built target motion_core\n'}
+[2.640792] (irc_step_motion_executor) StdoutLine: {'line': b'[ 13%] Built target gtest_main\n'}
+[2.640964] (irc_step_motion_executor) StdoutLine: {'line': b'[ 15%] Built target catalog_only_core\n'}
+[2.641095] (irc_step_motion_executor) StdoutLine: {'line': b'[ 15%] Built target robot_motion_runtime_config\n'}
+[2.644833] (irc_step_motion_executor) StdoutLine: {'line': b'[ 18%] Built target gtest\n'}
+[2.659643] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sdk_executor_core\x1b[0m\n'}
+[2.660161] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motion_player_core\x1b[0m\n'}
+[2.661193] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target catalog_only_node\x1b[0m\n'}
+[2.662673] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_catalog_only_core\x1b[0m\n'}
+[2.665004] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_robot_motion_runtime_config\x1b[0m\n'}
+[2.678047] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_motion_json_catalog\x1b[0m\n'}
+[2.682761] (irc_step_motion_executor) StdoutLine: {'line': b'[ 22%] Built target sdk_executor_core\n'}
+[2.688742] (irc_step_motion_executor) StdoutLine: {'line': b'[ 29%] Built target test_catalog_only_core\n'}
+[2.689198] (irc_step_motion_executor) StdoutLine: {'line': b'[ 29%] Built target motion_player_core\n'}
+[2.689431] (irc_step_motion_executor) StdoutLine: {'line': b'[ 32%] Built target test_robot_motion_runtime_config\n'}
+[2.699551] (irc_step_motion_executor) StdoutLine: {'line': b'[ 36%] Built target catalog_only_node\n'}
+[2.700126] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_robot_motion_parameter_types\x1b[0m\n'}
+[2.702900] (irc_step_motion_executor) StdoutLine: {'line': b'[ 39%] Built target test_motion_json_catalog\n'}
+[2.704133] (-) TimerEvent: {}
+[2.706395] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target simulated_motion_backend\x1b[0m\n'}
+[2.706705] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sdk_executor_driver\x1b[0m\n'}
+[2.707193] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_sdk_executor_core\x1b[0m\n'}
+[2.724263] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_control\x1b[0m\n'}
+[2.727751] (irc_step_motion_executor) StdoutLine: {'line': b'[ 43%] Built target test_robot_motion_parameter_types\n'}
+[2.728163] (irc_step_motion_executor) StdoutLine: {'line': b'[ 48%] Built target sdk_executor_driver\n'}
+[2.728321] (irc_step_motion_executor) StdoutLine: {'line': b'[ 50%] Built target simulated_motion_backend\n'}
+[2.731386] (irc_step_motion_executor) StdoutLine: {'line': b'[ 53%] Built target test_sdk_executor_core\n'}
+[2.746148] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motion_backend_factory\x1b[0m\n'}
+[2.746596] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_simulated_motion_backend\x1b[0m\n'}
+[2.746863] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_sdk_executor_driver\x1b[0m\n'}
+[2.761609] (irc_step_motion_executor) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object robot_motion_sdk/CMakeFiles/robot_control.dir/step_dynamixel.cpp.o\x1b[0m\n'}
+[2.768869] (irc_step_motion_executor) StdoutLine: {'line': b'[ 62%] Built target motion_backend_factory\n'}
+[2.769325] (irc_step_motion_executor) StdoutLine: {'line': b'[ 62%] Built target test_simulated_motion_backend\n'}
+[2.776500] (irc_step_motion_executor) StdoutLine: {'line': b'[ 65%] Built target test_sdk_executor_driver\n'}
+[2.788374] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_motion_backend_factory\x1b[0m\n'}
+[2.804299] (-) TimerEvent: {}
+[2.813181] (irc_step_motion_executor) StdoutLine: {'line': b'[ 68%] Built target test_motion_backend_factory\n'}
+[2.904403] (-) TimerEvent: {}
+[3.005224] (-) TimerEvent: {}
+[3.105969] (-) TimerEvent: {}
+[3.206443] (-) TimerEvent: {}
+[3.306941] (-) TimerEvent: {}
+[3.407443] (-) TimerEvent: {}
+[3.507982] (-) TimerEvent: {}
+[3.608518] (-) TimerEvent: {}
+[3.709020] (-) TimerEvent: {}
+[3.809501] (-) TimerEvent: {}
+[3.909926] (-) TimerEvent: {}
+[4.010263] (-) TimerEvent: {}
+[4.110597] (-) TimerEvent: {}
+[4.210963] (-) TimerEvent: {}
+[4.311349] (-) TimerEvent: {}
+[4.411834] (-) TimerEvent: {}
+[4.512353] (-) TimerEvent: {}
+[4.613026] (-) TimerEvent: {}
+[4.713828] (-) TimerEvent: {}
+[4.814342] (-) TimerEvent: {}
+[4.914869] (-) TimerEvent: {}
+[5.015574] (-) TimerEvent: {}
+[5.116292] (-) TimerEvent: {}
+[5.217012] (-) TimerEvent: {}
+[5.317522] (-) TimerEvent: {}
+[5.418015] (-) TimerEvent: {}
+[5.518474] (-) TimerEvent: {}
+[5.619222] (-) TimerEvent: {}
+[5.719970] (-) TimerEvent: {}
+[5.820691] (-) TimerEvent: {}
+[5.921418] (-) TimerEvent: {}
+[6.022153] (-) TimerEvent: {}
+[6.122907] (-) TimerEvent: {}
+[6.223606] (-) TimerEvent: {}
+[6.324331] (-) TimerEvent: {}
+[6.425059] (-) TimerEvent: {}
+[6.525612] (-) TimerEvent: {}
+[6.626251] (-) TimerEvent: {}
+[6.726823] (-) TimerEvent: {}
+[6.827565] (-) TimerEvent: {}
+[6.928288] (-) TimerEvent: {}
+[7.029019] (-) TimerEvent: {}
+[7.129570] (-) TimerEvent: {}
+[7.203118] (irc_step_motion_executor) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX static library librobot_control.a\x1b[0m\n'}
+[7.229755] (-) TimerEvent: {}
+[7.306043] (irc_step_motion_executor) StdoutLine: {'line': b'[ 75%] Built target robot_control\n'}
+[7.324493] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target irc_step_motion_sdk_compile_probe\x1b[0m\n'}
+[7.324929] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_motion_player_backend\x1b[0m\n'}
+[7.329864] (-) TimerEvent: {}
+[7.350199] (irc_step_motion_executor) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libirc_step_motion_sdk_compile_probe.so\x1b[0m\n'}
+[7.350740] (irc_step_motion_executor) StdoutLine: {'line': b'[ 81%] Built target robot_motion_player_backend\n'}
+[7.367180] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target production_robot_motion_runtime_factory\x1b[0m\n'}
+[7.369156] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_robot_motion_player_backend\x1b[0m\n'}
+[7.396822] (irc_step_motion_executor) StdoutLine: {'line': b'[ 84%] Built target production_robot_motion_runtime_factory\n'}
+[7.397527] (irc_step_motion_executor) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX executable test_robot_motion_player_backend\x1b[0m\n'}
+[7.415702] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sdk_hardware_preflight_core\x1b[0m\n'}
+[7.417422] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sdk_motion_executor\x1b[0m\n'}
+[7.418673] (irc_step_motion_executor) StdoutLine: {'line': b'[ 87%] Built target irc_step_motion_sdk_compile_probe\n'}
+[7.430013] (-) TimerEvent: {}
+[7.440934] (irc_step_motion_executor) StdoutLine: {'line': b'[ 91%] Built target sdk_hardware_preflight_core\n'}
+[7.449101] (irc_step_motion_executor) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable sdk_motion_executor\x1b[0m\n'}
+[7.460816] (irc_step_motion_executor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sdk_hardware_preflight\x1b[0m\n'}
+[7.484651] (irc_step_motion_executor) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable sdk_hardware_preflight\x1b[0m\n'}
+[7.530224] (-) TimerEvent: {}
+[7.630915] (-) TimerEvent: {}
+[7.731794] (-) TimerEvent: {}
+[7.820456] (irc_step_motion_executor) StdoutLine: {'line': b'[ 96%] Built target sdk_hardware_preflight\n'}
+[7.831924] (-) TimerEvent: {}
+[7.833569] (irc_step_motion_executor) StdoutLine: {'line': b'[ 98%] Built target test_robot_motion_player_backend\n'}
+[7.932088] (-) TimerEvent: {}
+[8.032731] (-) TimerEvent: {}
+[8.133377] (-) TimerEvent: {}
+[8.234258] (-) TimerEvent: {}
+[8.334997] (-) TimerEvent: {}
+[8.435599] (-) TimerEvent: {}
+[8.536191] (-) TimerEvent: {}
+[8.546317] (irc_step_motion_executor) StdoutLine: {'line': b'[100%] Built target sdk_motion_executor\n'}
+[8.570971] (irc_step_motion_executor) CommandEnded: {'returncode': 0}
+[8.573268] (irc_step_motion_executor) JobProgress: {'identifier': 'irc_step_motion_executor', 'progress': 'install'}
+[8.592182] (irc_step_motion_executor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor'], 'cwd': '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'jet'), ('SSH_CLIENT', '10.50.33.5 49230 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jet'), ('OLDPWD', '/home/jet/IRC/IRC-STEP/IRC_vision_latest'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jet'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jet/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.50.33.5 49230 10.50.35.54 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/home/jet/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor:/opt/ros/humble')]), 'shell': False}
+[8.609509] (irc_step_motion_executor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.609920] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/librobot_motion_player_backend.a\n'}
+[8.610083] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libproduction_robot_motion_runtime_factory.a\n'}
+[8.610276] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libsdk_hardware_preflight_core.a\n'}
+[8.610418] (irc_step_motion_executor) StdoutLine: {'line': b'-- Installing: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/irc_step_motion_executor/sdk_hardware_preflight\n'}
+[8.614365] (irc_step_motion_executor) StdoutLine: {'line': b'-- Set runtime path of "/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/irc_step_motion_executor/sdk_hardware_preflight" to ""\n'}
+[8.614615] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libcatalog_only_core.a\n'}
+[8.615077] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libsdk_executor_core.a\n'}
+[8.615337] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libsimulated_motion_backend.a\n'}
+[8.615620] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/librobot_motion_runtime_config.a\n'}
+[8.615755] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libmotion_backend_factory.a\n'}
+[8.615883] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libsdk_executor_driver.a\n'}
+[8.616088] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/irc_step_motion_executor/catalog_only_node\n'}
+[8.616219] (irc_step_motion_executor) StdoutLine: {'line': b'-- Installing: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/irc_step_motion_executor/sdk_motion_executor\n'}
+[8.628720] (irc_step_motion_executor) StdoutLine: {'line': b'-- Set runtime path of "/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/irc_step_motion_executor/sdk_motion_executor" to ""\n'}
+[8.629145] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include\n'}
+[8.629440] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor\n'}
+[8.629677] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/sdk_executor_core.hpp\n'}
+[8.629897] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/robot_motion_player_backend.hpp\n'}
+[8.630031] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/sdk_executor_driver.hpp\n'}
+[8.630151] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/simulated_motion_backend.hpp\n'}
+[8.630284] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/robot_motion_runtime_config.hpp\n'}
+[8.630415] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/robot_motion_runtime_factory.hpp\n'}
+[8.630547] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/sdk_hardware_preflight_core.hpp\n'}
+[8.630815] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/motion_backend.hpp\n'}
+[8.630998] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/catalog_only_core.hpp\n'}
+[8.631111] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/motion_backend_factory.hpp\n'}
+[8.631232] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/config\n'}
+[8.631358] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/config/motion_aliases.yaml\n'}
+[8.631536] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/launch\n'}
+[8.631662] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/launch/sdk_executor_simulated.launch.py\n'}
+[8.631787] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/launch/catalog_only.launch.py\n'}
+[8.631913] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/environment/library_path.sh\n'}
+[8.632037] (irc_step_motion_executor) StdoutLine: {'line': b'-- Installing: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/environment/library_path.dsv\n'}
+[8.632278] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/ament_index/resource_index/package_run_dependencies/irc_step_motion_executor\n'}
+[8.632411] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/ament_index/resource_index/parent_prefix_path/irc_step_motion_executor\n'}
+[8.632537] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/environment/ament_prefix_path.sh\n'}
+[8.632661] (irc_step_motion_executor) StdoutLine: {'line': b'-- Installing: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/environment/ament_prefix_path.dsv\n'}
+[8.632924] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/environment/path.sh\n'}
+[8.633043] (irc_step_motion_executor) StdoutLine: {'line': b'-- Installing: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/environment/path.dsv\n'}
+[8.633147] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/local_setup.bash\n'}
+[8.633252] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/local_setup.sh\n'}
+[8.633354] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/local_setup.zsh\n'}
+[8.633465] (irc_step_motion_executor) StdoutLine: {'line': b'-- Installing: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/local_setup.dsv\n'}
+[8.633566] (irc_step_motion_executor) StdoutLine: {'line': b'-- Installing: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/package.dsv\n'}
+[8.633677] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/ament_index/resource_index/packages/irc_step_motion_executor\n'}
+[8.633779] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.633881] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.633981] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/cmake/irc_step_motion_executorConfig.cmake\n'}
+[8.634081] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/cmake/irc_step_motion_executorConfig-version.cmake\n'}
+[8.634179] (irc_step_motion_executor) StdoutLine: {'line': b'-- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/package.xml\n'}
+[8.636842] (irc_step_motion_executor) CommandEnded: {'returncode': 0}
+[8.638174] (-) TimerEvent: {}
+[8.698803] (irc_step_motion_executor) JobEnded: {'identifier': 'irc_step_motion_executor', 'rc': 0}
+[8.700965] (-) EventReactorShutdown: {}

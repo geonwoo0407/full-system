@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsdk_executor_driver.a CMakeFiles/sdk_executor_driver.dir/src/sdk_executor_driver.cpp.o CMakeFiles/sdk_executor_driver.dir/src/startup_pose_gate.cpp.o CMakeFiles/sdk_executor_driver.dir/src/startup_pose_catalog.cpp.o
+/usr/bin/ranlib libsdk_executor_driver.a

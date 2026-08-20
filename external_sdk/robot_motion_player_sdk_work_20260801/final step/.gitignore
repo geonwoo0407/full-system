@@ -1,0 +1,5 @@
+build/
+__pycache__/
+*.pyc
+.vscode/
+.sdk_gui_backups/

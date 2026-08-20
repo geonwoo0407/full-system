@@ -1,0 +1,142 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+-- SDK inclusion enabled; no SDK backend is instantiated by this package
+-- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found launch_testing_ament_cmake: 1.0.14 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor
+[35m[1mConsolidate compiler generated dependencies of target motion_core[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target catalog_only_core[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_motion_runtime_config[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[  1%] [32mBuilding CXX object CMakeFiles/robot_motion_runtime_config.dir/src/robot_motion_runtime_config.cpp.o[0m
+[  6%] Built target motion_core
+[  9%] Built target catalog_only_core
+[ 12%] Built target gtest_main
+[ 15%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target motion_player_core[0m
+[35m[1mConsolidate compiler generated dependencies of target test_motion_json_catalog[0m
+[35m[1mConsolidate compiler generated dependencies of target catalog_only_node[0m
+[35m[1mConsolidate compiler generated dependencies of target sdk_executor_core[0m
+[35m[1mConsolidate compiler generated dependencies of target test_catalog_only_core[0m
+[ 18%] Built target test_catalog_only_core
+[ 21%] Built target motion_player_core
+[ 25%] Built target sdk_executor_core
+[ 28%] Built target catalog_only_node
+[ 31%] Built target test_motion_json_catalog
+[35m[1mConsolidate compiler generated dependencies of target simulated_motion_backend[0m
+[35m[1mConsolidate compiler generated dependencies of target test_robot_motion_parameter_types[0m
+[35m[1mConsolidate compiler generated dependencies of target test_sdk_executor_core[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_control[0m
+[ 34%] Built target simulated_motion_backend
+[35m[1mConsolidate compiler generated dependencies of target test_simulated_motion_backend[0m
+[ 37%] Built target test_sdk_executor_core
+[ 40%] Built target test_robot_motion_parameter_types
+[ 46%] Built target test_simulated_motion_backend
+[ 51%] Built target robot_control
+[35m[1mConsolidate compiler generated dependencies of target robot_motion_player_backend[0m
+[35m[1mConsolidate compiler generated dependencies of target irc_step_motion_sdk_compile_probe[0m
+[ 54%] Built target irc_step_motion_sdk_compile_probe
+[ 57%] Built target robot_motion_player_backend
+[35m[1mConsolidate compiler generated dependencies of target test_robot_motion_player_backend[0m
+[ 60%] Built target test_robot_motion_player_backend
+[ 62%] [32m[1mLinking CXX static library librobot_motion_runtime_config.a[0m
+[ 62%] Built target robot_motion_runtime_config
+[35m[1mConsolidate compiler generated dependencies of target production_robot_motion_runtime_factory[0m
+[35m[1mConsolidate compiler generated dependencies of target motion_backend_factory[0m
+[35m[1mConsolidate compiler generated dependencies of target sdk_executor_driver[0m
+[35m[1mConsolidate compiler generated dependencies of target test_robot_motion_runtime_config[0m
+[ 65%] Built target motion_backend_factory
+[ 68%] Built target production_robot_motion_runtime_factory
+[ 70%] [32m[1mLinking CXX executable test_robot_motion_runtime_config[0m
+[ 76%] Built target sdk_executor_driver
+[35m[1mConsolidate compiler generated dependencies of target test_motion_backend_factory[0m
+[35m[1mConsolidate compiler generated dependencies of target sdk_hardware_preflight_core[0m
+[35m[1mConsolidate compiler generated dependencies of target sdk_motion_executor[0m
+[35m[1mConsolidate compiler generated dependencies of target test_sdk_executor_driver[0m
+[35m[1mConsolidate compiler generated dependencies of target test_startup_pose_gate[0m
+[ 78%] [32m[1mLinking CXX executable test_motion_backend_factory[0m
+[ 81%] Built target sdk_hardware_preflight_core
+[ 82%] [32m[1mLinking CXX executable sdk_motion_executor[0m
+[ 84%] [32m[1mLinking CXX executable test_startup_pose_gate[0m
+[35m[1mConsolidate compiler generated dependencies of target test_startup_pose_catalog[0m
+[ 85%] [32m[1mLinking CXX executable test_sdk_executor_driver[0m
+[ 87%] [32m[1mLinking CXX executable test_startup_pose_catalog[0m
+[ 89%] Built target test_robot_motion_runtime_config
+[35m[1mConsolidate compiler generated dependencies of target sdk_hardware_preflight[0m
+[ 90%] [32m[1mLinking CXX executable sdk_hardware_preflight[0m
+[ 92%] Built target test_startup_pose_gate
+[ 93%] Built target test_motion_backend_factory
+[ 95%] Built target test_startup_pose_catalog
+[ 96%] Built target test_sdk_executor_driver
+[ 98%] Built target sdk_hardware_preflight
+[100%] Built target sdk_motion_executor
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/librobot_motion_player_backend.a
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libproduction_robot_motion_runtime_factory.a
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libsdk_hardware_preflight_core.a
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/irc_step_motion_executor/sdk_hardware_preflight
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libcatalog_only_core.a
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libsdk_executor_core.a
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libsimulated_motion_backend.a
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/librobot_motion_runtime_config.a
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libmotion_backend_factory.a
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libsdk_executor_driver.a
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/irc_step_motion_executor/catalog_only_node
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/irc_step_motion_executor/sdk_motion_executor
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/catalog_only_core.hpp
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/motion_backend.hpp
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/motion_backend_factory.hpp
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/robot_motion_player_backend.hpp
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/robot_motion_runtime_config.hpp
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/robot_motion_runtime_factory.hpp
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/sdk_executor_core.hpp
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/sdk_executor_driver.hpp
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/sdk_hardware_preflight_core.hpp
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/simulated_motion_backend.hpp
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/startup_pose_catalog.hpp
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/startup_pose_gate.hpp
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/config/motion_aliases.yaml
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/launch/catalog_only.launch.py
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/launch/sdk_executor_simulated.launch.py
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/launch/sdk_motion_test.launch.py
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/irc_step_motion_executor/manual_motion_request.py
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/irc_step_motion_executor/validate_motion_catalog.py
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/environment/library_path.sh
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/environment/library_path.dsv
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/ament_index/resource_index/package_run_dependencies/irc_step_motion_executor
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/ament_index/resource_index/parent_prefix_path/irc_step_motion_executor
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/environment/path.sh
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/environment/path.dsv
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/local_setup.bash
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/local_setup.sh
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/local_setup.zsh
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/local_setup.dsv
+-- Symlinking: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/package.dsv
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/ament_index/resource_index/packages/irc_step_motion_executor
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/cmake/irc_step_motion_executorConfig.cmake
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/cmake/irc_step_motion_executorConfig-version.cmake
+-- Up-to-date symlink: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/package.xml

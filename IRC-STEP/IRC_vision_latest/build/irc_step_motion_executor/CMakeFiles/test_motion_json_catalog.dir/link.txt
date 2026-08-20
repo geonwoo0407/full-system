@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_motion_json_catalog.dir/test/test_motion_json_catalog.cpp.o -o test_motion_json_catalog  gtest/libgtest_main.a gtest/libgtest.a -pthread /usr/lib/aarch64-linux-gnu/libjson-c.so 

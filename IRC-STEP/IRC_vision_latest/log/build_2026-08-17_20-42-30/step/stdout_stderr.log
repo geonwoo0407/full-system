@@ -1,0 +1,116 @@
+running egg_info
+creating ../../build/step/step.egg-info
+writing ../../build/step/step.egg-info/PKG-INFO
+writing dependency_links to ../../build/step/step.egg-info/dependency_links.txt
+writing entry points to ../../build/step/step.egg-info/entry_points.txt
+writing requirements to ../../build/step/step.egg-info/requires.txt
+writing top-level names to ../../build/step/step.egg-info/top_level.txt
+writing manifest file '../../build/step/step.egg-info/SOURCES.txt'
+reading manifest file '../../build/step/step.egg-info/SOURCES.txt'
+writing manifest file '../../build/step/step.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build
+creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib
+creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/hurdle_navigation_controller.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/mission_map_visualizer.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/goal_navigation_planner.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/ball_navigation_controller.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/unified_vision_node.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/imu_line_pose_estimator.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/rgbd_visual_odometry.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/goal_navigation_controller.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/line_path_visualizer.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/__init__.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/yolo_line_analyzer.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/hurdle_navigation_planner.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/line_navigation_controller.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/ball_navigation_planner.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/temporal_confirmation.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/step_motion_pose_test.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/yolo26_detector.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/mission_state_estimator.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/line_navigation_planner.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/line_debug_monitor.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/hurdle_analyzer.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/goal_analyzer.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+copying step/ball_analyzer.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step
+running install
+running install_lib
+creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/hurdle_navigation_controller.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/mission_map_visualizer.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/goal_navigation_planner.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/ball_navigation_controller.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/unified_vision_node.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/imu_line_pose_estimator.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/rgbd_visual_odometry.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/goal_navigation_controller.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/line_path_visualizer.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/__init__.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/yolo_line_analyzer.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/hurdle_navigation_planner.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/line_navigation_controller.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/ball_navigation_planner.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/temporal_confirmation.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/step_motion_pose_test.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/yolo26_detector.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/mission_state_estimator.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/line_navigation_planner.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/line_debug_monitor.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/hurdle_analyzer.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/goal_analyzer.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+copying /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/build/lib/step/ball_analyzer.py -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/hurdle_navigation_controller.py to hurdle_navigation_controller.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/mission_map_visualizer.py to mission_map_visualizer.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/goal_navigation_planner.py to goal_navigation_planner.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/ball_navigation_controller.py to ball_navigation_controller.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/unified_vision_node.py to unified_vision_node.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/imu_line_pose_estimator.py to imu_line_pose_estimator.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/rgbd_visual_odometry.py to rgbd_visual_odometry.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/goal_navigation_controller.py to goal_navigation_controller.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/line_path_visualizer.py to line_path_visualizer.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/yolo_line_analyzer.py to yolo_line_analyzer.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/hurdle_navigation_planner.py to hurdle_navigation_planner.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/line_navigation_controller.py to line_navigation_controller.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/ball_navigation_planner.py to ball_navigation_planner.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/temporal_confirmation.py to temporal_confirmation.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/step_motion_pose_test.py to step_motion_pose_test.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/yolo26_detector.py to yolo26_detector.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/mission_state_estimator.py to mission_state_estimator.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/line_navigation_planner.py to line_navigation_planner.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/line_debug_monitor.py to line_debug_monitor.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/hurdle_analyzer.py to hurdle_analyzer.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/goal_analyzer.py to goal_analyzer.cpython-310.pyc
+byte-compiling /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step/ball_analyzer.py to ball_analyzer.cpython-310.pyc
+running install_data
+creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/share/ament_index
+creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/share/ament_index/resource_index
+creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/share/ament_index/resource_index/packages
+copying resource/step -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/share/ament_index/resource_index/packages
+copying package.xml -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/share/step
+creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/share/step/models
+copying models/best.onnx -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/share/step/models
+running install_egg_info
+Copying ../../build/step/step.egg-info to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ball_analyzer script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing ball_navigation_controller script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing goal_analyzer script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing goal_navigation_controller script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing hurdle_analyzer script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing hurdle_navigation_controller script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing imu_line_pose_estimator script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing line_debug_monitor script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing line_navigation_controller script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing line_path_visualizer script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing mission_map_visualizer script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing mission_state_estimator script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing rgbd_visual_odometry script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing step_motion_pose_test script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing unified_vision_node script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing yolo26_detector script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing yolo_line_analyzer script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+writing list of installed files to '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/install.log'

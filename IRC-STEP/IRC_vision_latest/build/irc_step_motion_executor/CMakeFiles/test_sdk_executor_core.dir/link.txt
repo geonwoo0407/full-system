@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_sdk_executor_core.dir/test/test_sdk_executor_core.cpp.o -o test_sdk_executor_core  gtest/libgtest_main.a gtest/libgtest.a libsdk_executor_core.a -pthread libcatalog_only_core.a /usr/lib/aarch64-linux-gnu/libjson-c.so /usr/lib/aarch64-linux-gnu/libyaml-cpp.so.0.7.0 

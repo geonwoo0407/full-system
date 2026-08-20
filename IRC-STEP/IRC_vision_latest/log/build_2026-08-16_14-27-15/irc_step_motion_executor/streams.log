@@ -1,0 +1,177 @@
+[0.017s] Invoking command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor -DIRC_STEP_ENABLE_ROBOT_MOTION_SDK=ON -DROBOT_MOTION_SDK_DIR=/home/jet/IRC/external_sdk/robot_motion_player_sdk_work_20260801/final step -DCMAKE_INSTALL_PREFIX=/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor
+[0.182s] -- The C compiler identification is GNU 11.4.0
+[0.322s] -- The CXX compiler identification is GNU 11.4.0
+[0.341s] -- Detecting C compiler ABI info
+[0.478s] -- Detecting C compiler ABI info - done
+[0.503s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.504s] -- Detecting C compile features
+[0.505s] -- Detecting C compile features - done
+[0.512s] -- Detecting CXX compiler ABI info
+[0.667s] -- Detecting CXX compiler ABI info - done
+[0.692s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.693s] -- Detecting CXX compile features
+[0.695s] -- Detecting CXX compile features - done
+[0.709s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.018s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.203s] -- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[1.213s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.217s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.298s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.306s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.322s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.346s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.374s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.451s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.455s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.593s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.650s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.717s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.732s] -- Looking for pthread.h
+[1.864s] -- Looking for pthread.h - found
+[1.866s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.013s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.016s] -- Found Threads: TRUE  
+[2.143s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[2.147s] -- Checking for module 'json-c'
+[2.166s] --   Found json-c, version 0.15
+[2.218s] -- SDK inclusion enabled; no SDK backend is instantiated by this package
+[2.259s] -- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.264s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.302s] -- Found launch_testing_ament_cmake: 1.0.14 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[2.305s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.347s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.359s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.360s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.360s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.360s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[2.402s] -- Found PythonExtra: .so  
+[2.540s] -- Configuring done
+[2.676s] -- Generating done
+[2.706s] -- Build files have been written to: /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor
+[2.733s] Invoked command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor -DIRC_STEP_ENABLE_ROBOT_MOTION_SDK=ON -DROBOT_MOTION_SDK_DIR=/home/jet/IRC/external_sdk/robot_motion_player_sdk_work_20260801/final step -DCMAKE_INSTALL_PREFIX=/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor
+[2.737s] Invoking command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor -- -j6 -l6
+[2.823s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[2.823s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[2.823s] [35m[1mConsolidate compiler generated dependencies of target robot_motion_runtime_config[0m
+[2.823s] [35m[1mConsolidate compiler generated dependencies of target motion_core[0m
+[2.824s] [35m[1mConsolidate compiler generated dependencies of target catalog_only_core[0m
+[2.853s] [  8%] Built target gtest_main
+[2.853s] [  8%] Built target gtest
+[2.853s] [ 10%] Built target robot_motion_runtime_config
+[2.853s] [ 18%] Built target catalog_only_core
+[2.853s] [ 18%] Built target motion_core
+[2.872s] [35m[1mConsolidate compiler generated dependencies of target test_robot_motion_runtime_config[0m
+[2.872s] [35m[1mConsolidate compiler generated dependencies of target test_motion_json_catalog[0m
+[2.872s] [35m[1mConsolidate compiler generated dependencies of target test_robot_motion_parameter_types[0m
+[2.899s] [ 24%] Built target test_motion_json_catalog
+[2.899s] [ 25%] Built target test_robot_motion_runtime_config
+[2.905s] [ 29%] Built target test_robot_motion_parameter_types
+[2.917s] [35m[1mConsolidate compiler generated dependencies of target motion_player_core[0m
+[2.918s] [35m[1mConsolidate compiler generated dependencies of target sdk_executor_core[0m
+[2.918s] [35m[1mConsolidate compiler generated dependencies of target test_catalog_only_core[0m
+[2.918s] [35m[1mConsolidate compiler generated dependencies of target catalog_only_node[0m
+[2.941s] [ 32%] Built target sdk_executor_core
+[2.942s] [ 36%] Built target motion_player_core
+[2.945s] [ 37%] [32mBuilding CXX object CMakeFiles/test_catalog_only_core.dir/test/test_catalog_only_core.cpp.o[0m
+[2.957s] [ 41%] Built target catalog_only_node
+[2.957s] [35m[1mConsolidate compiler generated dependencies of target simulated_motion_backend[0m
+[2.958s] [35m[1mConsolidate compiler generated dependencies of target sdk_executor_driver[0m
+[2.961s] [35m[1mConsolidate compiler generated dependencies of target test_sdk_executor_core[0m
+[2.962s] [35m[1mConsolidate compiler generated dependencies of target robot_control[0m
+[2.979s] [ 48%] Built target simulated_motion_backend
+[2.979s] [ 48%] Built target sdk_executor_driver
+[2.984s] [ 50%] [32mBuilding CXX object CMakeFiles/test_sdk_executor_core.dir/test/test_sdk_executor_core.cpp.o[0m
+[2.997s] [35m[1mConsolidate compiler generated dependencies of target motion_backend_factory[0m
+[2.997s] [35m[1mConsolidate compiler generated dependencies of target test_simulated_motion_backend[0m
+[3.002s] [35m[1mConsolidate compiler generated dependencies of target test_sdk_executor_driver[0m
+[3.003s] [ 51%] [32mBuilding CXX object robot_motion_sdk/CMakeFiles/robot_control.dir/robot_motion_player_dynamixel.cpp.o[0m
+[3.022s] [ 58%] Built target test_simulated_motion_backend
+[3.022s] [ 58%] Built target motion_backend_factory
+[3.037s] [ 62%] [32mBuilding CXX object CMakeFiles/test_sdk_executor_driver.dir/test/test_sdk_executor_driver.cpp.o[0m
+[3.037s] [ 62%] [32mBuilding CXX object robot_motion_sdk/CMakeFiles/robot_control.dir/dynamixel_motion_hardware.cpp.o[0m
+[3.038s] [35m[1mConsolidate compiler generated dependencies of target test_motion_backend_factory[0m
+[3.065s] [ 65%] Built target test_motion_backend_factory
+[3.082s] [ 67%] [32mBuilding CXX object robot_motion_sdk/CMakeFiles/robot_control.dir/step_dynamixel.cpp.o[0m
+[5.712s] [ 68%] [32m[1mLinking CXX executable test_catalog_only_core[0m
+[6.021s] [ 68%] Built target test_catalog_only_core
+[6.037s] [ 70%] [32mBuilding CXX object robot_motion_sdk/CMakeFiles/robot_control.dir/dynamixel_controller.cpp.o[0m
+[6.101s] [ 72%] [32m[1mLinking CXX executable test_sdk_executor_driver[0m
+[6.448s] [ 72%] Built target test_sdk_executor_driver
+[6.601s] [ 74%] [32m[1mLinking CXX executable test_sdk_executor_core[0m
+[6.927s] [ 74%] Built target test_sdk_executor_core
+[10.276s] [ 75%] [32m[1mLinking CXX static library librobot_control.a[0m
+[10.379s] [ 75%] Built target robot_control
+[10.396s] [35m[1mConsolidate compiler generated dependencies of target irc_step_motion_sdk_compile_probe[0m
+[10.397s] [35m[1mConsolidate compiler generated dependencies of target robot_motion_player_backend[0m
+[10.420s] [ 79%] [32m[1mLinking CXX shared library libirc_step_motion_sdk_compile_probe.so[0m
+[10.421s] [ 81%] Built target robot_motion_player_backend
+[10.438s] [35m[1mConsolidate compiler generated dependencies of target test_robot_motion_player_backend[0m
+[10.439s] [35m[1mConsolidate compiler generated dependencies of target production_robot_motion_runtime_factory[0m
+[10.463s] [ 84%] [32mBuilding CXX object CMakeFiles/production_robot_motion_runtime_factory.dir/src/production_robot_motion_runtime_factory.cpp.o[0m
+[10.464s] [ 84%] [32m[1mLinking CXX executable test_robot_motion_player_backend[0m
+[10.499s] [ 86%] Built target irc_step_motion_sdk_compile_probe
+[10.850s] [ 87%] Built target test_robot_motion_player_backend
+[15.156s] [ 89%] [32m[1mLinking CXX static library libproduction_robot_motion_runtime_factory.a[0m
+[15.226s] [ 89%] Built target production_robot_motion_runtime_factory
+[15.243s] [35m[1mConsolidate compiler generated dependencies of target sdk_hardware_preflight_core[0m
+[15.244s] [35m[1mConsolidate compiler generated dependencies of target sdk_motion_executor[0m
+[15.268s] [ 93%] Built target sdk_hardware_preflight_core
+[15.278s] [ 94%] [32m[1mLinking CXX executable sdk_motion_executor[0m
+[15.286s] [35m[1mConsolidate compiler generated dependencies of target sdk_hardware_preflight[0m
+[15.308s] [ 96%] [32m[1mLinking CXX executable sdk_hardware_preflight[0m
+[15.657s] [ 98%] Built target sdk_hardware_preflight
+[16.403s] [100%] Built target sdk_motion_executor
+[16.426s] Invoked command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor -- -j6 -l6
+[16.447s] Invoking command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor
+[16.463s] -- Install configuration: ""
+[16.463s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/librobot_motion_player_backend.a
+[16.463s] -- Installing: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libproduction_robot_motion_runtime_factory.a
+[16.464s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libsdk_hardware_preflight_core.a
+[16.465s] -- Installing: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/irc_step_motion_executor/sdk_hardware_preflight
+[16.468s] -- Set runtime path of "/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/irc_step_motion_executor/sdk_hardware_preflight" to ""
+[16.469s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libcatalog_only_core.a
+[16.469s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libsdk_executor_core.a
+[16.469s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libsimulated_motion_backend.a
+[16.469s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/librobot_motion_runtime_config.a
+[16.469s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libmotion_backend_factory.a
+[16.469s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/libsdk_executor_driver.a
+[16.470s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/irc_step_motion_executor/catalog_only_node
+[16.471s] -- Installing: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/irc_step_motion_executor/sdk_motion_executor
+[16.482s] -- Set runtime path of "/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/irc_step_motion_executor/sdk_motion_executor" to ""
+[16.482s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include
+[16.482s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor
+[16.483s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/sdk_executor_core.hpp
+[16.483s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/robot_motion_player_backend.hpp
+[16.483s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/sdk_executor_driver.hpp
+[16.483s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/simulated_motion_backend.hpp
+[16.483s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/robot_motion_runtime_config.hpp
+[16.484s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/robot_motion_runtime_factory.hpp
+[16.484s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/sdk_hardware_preflight_core.hpp
+[16.484s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/motion_backend.hpp
+[16.484s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/catalog_only_core.hpp
+[16.484s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/include/irc_step_motion_executor/motion_backend_factory.hpp
+[16.485s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/config
+[16.485s] -- Installing: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/config/motion_aliases.yaml
+[16.485s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/launch
+[16.485s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/launch/sdk_executor_simulated.launch.py
+[16.485s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/launch/catalog_only.launch.py
+[16.485s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/environment/library_path.sh
+[16.485s] -- Installing: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/environment/library_path.dsv
+[16.485s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/ament_index/resource_index/package_run_dependencies/irc_step_motion_executor
+[16.486s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/ament_index/resource_index/parent_prefix_path/irc_step_motion_executor
+[16.486s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/environment/ament_prefix_path.sh
+[16.486s] -- Installing: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/environment/ament_prefix_path.dsv
+[16.486s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/environment/path.sh
+[16.486s] -- Installing: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/environment/path.dsv
+[16.486s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/local_setup.bash
+[16.486s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/local_setup.sh
+[16.487s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/local_setup.zsh
+[16.487s] -- Installing: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/local_setup.dsv
+[16.487s] -- Installing: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/package.dsv
+[16.487s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/ament_index/resource_index/packages/irc_step_motion_executor
+[16.487s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.488s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/cmake/ament_cmake_export_libraries-extras.cmake
+[16.488s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/cmake/irc_step_motion_executorConfig.cmake
+[16.488s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/cmake/irc_step_motion_executorConfig-version.cmake
+[16.488s] -- Up-to-date: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/package.xml
+[16.493s] Invoked command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor

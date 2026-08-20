@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: step
+Version: 0.0.0
+Summary: ROS 2 mission vision for the IRC STEP humanoid robot
+Home-page: UNKNOWN
+Maintainer: geonwoo
+Maintainer-email: geonwoo@todo.todo
+License: TODO: License declaration
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

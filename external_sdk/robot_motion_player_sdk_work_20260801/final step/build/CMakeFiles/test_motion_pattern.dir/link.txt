@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_motion_pattern.dir/test_motion_pattern.cpp.o -o test_motion_pattern  libmotion_core.a 

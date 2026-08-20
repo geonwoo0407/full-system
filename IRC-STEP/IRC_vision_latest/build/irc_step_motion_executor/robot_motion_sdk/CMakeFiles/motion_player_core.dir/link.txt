@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmotion_player_core.a CMakeFiles/motion_player_core.dir/robot_motion_player.cpp.o
+/usr/bin/ranlib libmotion_player_core.a

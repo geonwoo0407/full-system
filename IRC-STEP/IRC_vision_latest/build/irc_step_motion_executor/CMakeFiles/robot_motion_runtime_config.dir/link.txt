@@ -1,0 +1,2 @@
+/usr/bin/ar qc librobot_motion_runtime_config.a CMakeFiles/robot_motion_runtime_config.dir/src/robot_motion_runtime_config.cpp.o
+/usr/bin/ranlib librobot_motion_runtime_config.a

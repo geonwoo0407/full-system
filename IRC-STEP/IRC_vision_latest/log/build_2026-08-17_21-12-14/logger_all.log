@@ -1,0 +1,267 @@
+[0.204s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'irc_step_motion_executor', '--cmake-args', '-DIRC_STEP_ENABLE_ROBOT_MOTION_SDK=ON', '-DROBOT_MOTION_SDK_DIR=/home/jet/IRC/external_sdk/robot_motion_player_sdk_work_20260801/final step']
+[0.204s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['irc_step_motion_executor'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DIRC_STEP_ENABLE_ROBOT_MOTION_SDK=ON', '-DROBOT_MOTION_SDK_DIR=/home/jet/IRC/external_sdk/robot_motion_player_sdk_work_20260801/final step'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa178e260>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa1887220>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa1887220>>, mixin_verb=('build',))
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.507s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jet/IRC/IRC-STEP/IRC_vision_latest'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(archive) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(archive) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(archive) by extension 'ignore_ament_install'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(archive) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(archive) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(archive) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(archive) by extension 'colcon_meta'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(archive) by extensions ['ros']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(archive) by extension 'ros'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(archive) by extensions ['cmake', 'python']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(archive) by extension 'cmake'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(archive) by extension 'python'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(archive) by extensions ['python_setup_py']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(archive) by extension 'python_setup_py'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_opencv) by extension 'ignore'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_opencv) by extension 'ignore_ament_install'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_opencv) by extensions ['colcon_pkg']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_opencv) by extension 'colcon_pkg'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_opencv) by extensions ['colcon_meta']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_opencv) by extension 'colcon_meta'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_opencv) by extensions ['ros']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_opencv) by extension 'ros'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_opencv) by extensions ['cmake', 'python']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_opencv) by extension 'cmake'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_opencv) by extension 'python'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_opencv) by extensions ['python_setup_py']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_opencv) by extension 'python_setup_py'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_vision_versions) by extensions ['ignore', 'ignore_ament_install']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_vision_versions) by extension 'ignore'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_vision_versions) by extension 'ignore_ament_install'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_vision_versions) by extensions ['colcon_pkg']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_vision_versions) by extension 'colcon_pkg'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_vision_versions) by extensions ['colcon_meta']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_vision_versions) by extension 'colcon_meta'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_vision_versions) by extensions ['ros']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_vision_versions) by extension 'ros'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_vision_versions) by extensions ['cmake', 'python']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_vision_versions) by extension 'cmake'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_vision_versions) by extension 'python'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_vision_versions) by extensions ['python_setup_py']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(archive/legacy_vision_versions) by extension 'python_setup_py'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(artifacts) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(artifacts) by extension 'ignore'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(artifacts) by extension 'ignore_ament_install'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(artifacts) by extensions ['colcon_pkg']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(artifacts) by extension 'colcon_pkg'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(artifacts) by extensions ['colcon_meta']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(artifacts) by extension 'colcon_meta'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(artifacts) by extensions ['ros']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(artifacts) by extension 'ros'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(artifacts) by extensions ['cmake', 'python']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(artifacts) by extension 'cmake'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(artifacts) by extension 'python'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(artifacts) by extensions ['python_setup_py']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(artifacts) by extension 'python_setup_py'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(runtime) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(runtime) by extension 'ignore'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(runtime) by extension 'ignore_ament_install'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(runtime) by extensions ['colcon_pkg']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(runtime) by extension 'colcon_pkg'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(runtime) by extensions ['colcon_meta']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(runtime) by extension 'colcon_meta'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(runtime) by extensions ['ros']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(runtime) by extension 'ros'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(runtime) by extensions ['cmake', 'python']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(runtime) by extension 'cmake'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(runtime) by extension 'python'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(runtime) by extensions ['python_setup_py']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(runtime) by extension 'python_setup_py'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/irc_step_motion_executor) by extensions ['ignore', 'ignore_ament_install']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/irc_step_motion_executor) by extension 'ignore'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/irc_step_motion_executor) by extension 'ignore_ament_install'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/irc_step_motion_executor) by extensions ['colcon_pkg']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/irc_step_motion_executor) by extension 'colcon_pkg'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/irc_step_motion_executor) by extensions ['colcon_meta']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/irc_step_motion_executor) by extension 'colcon_meta'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/irc_step_motion_executor) by extensions ['ros']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/irc_step_motion_executor) by extension 'ros'
+[0.544s] DEBUG:colcon.colcon_core.package_identification:Package 'src/irc_step_motion_executor' with type 'ros.ament_cmake' and name 'irc_step_motion_executor'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_control) by extensions ['ignore', 'ignore_ament_install']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_control) by extension 'ignore'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_control) by extension 'ignore_ament_install'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_control) by extensions ['colcon_pkg']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_control) by extension 'colcon_pkg'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_control) by extensions ['colcon_meta']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_control) by extension 'colcon_meta'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_control) by extensions ['ros']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_control) by extension 'ros'
+[0.546s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mission_control' with type 'ros.ament_python' and name 'mission_control'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/step) by extensions ['ignore', 'ignore_ament_install']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/step) by extension 'ignore'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/step) by extension 'ignore_ament_install'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/step) by extensions ['colcon_pkg']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/step) by extension 'colcon_pkg'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/step) by extensions ['colcon_meta']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/step) by extension 'colcon_meta'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/step) by extensions ['ros']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/step) by extension 'ros'
+[0.548s] DEBUG:colcon.colcon_core.package_identification:Package 'src/step' with type 'ros.ament_python' and name 'step'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['ignore', 'ignore_ament_install']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'ignore'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'ignore_ament_install'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['colcon_pkg']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'colcon_pkg'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['colcon_meta']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'colcon_meta'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['ros']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'ros'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['cmake', 'python']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'cmake'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'python'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['python_setup_py']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'python_setup_py'
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.614s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'step' in 'src/step'
+[0.614s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mission_control' in 'src/mission_control'
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.618s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/jet/IRC/IRC-STEP/IRC_vision_latest/install
+[0.620s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 279 installed packages in /opt/ros/humble
+[0.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.691s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'irc_step_motion_executor' is in: /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding irc_step_motion_executor
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'irc_step_motion_executor' build argument 'cmake_args' from command line to '['-DIRC_STEP_ENABLE_ROBOT_MOTION_SDK=ON', '-DROBOT_MOTION_SDK_DIR=/home/jet/IRC/external_sdk/robot_motion_player_sdk_work_20260801/final step']'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'irc_step_motion_executor' build argument 'cmake_target' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'irc_step_motion_executor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'irc_step_motion_executor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'irc_step_motion_executor' build argument 'cmake_clean_first' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'irc_step_motion_executor' build argument 'cmake_force_configure' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'irc_step_motion_executor' build argument 'ament_cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'irc_step_motion_executor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'irc_step_motion_executor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.693s] DEBUG:colcon.colcon_core.verb:Building package 'irc_step_motion_executor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DIRC_STEP_ENABLE_ROBOT_MOTION_SDK=ON', '-DROBOT_MOTION_SDK_DIR=/home/jet/IRC/external_sdk/robot_motion_player_sdk_work_20260801/final step'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor', 'merge_install': False, 'path': '/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor', 'symlink_install': False, 'test_result_base': None}
+[0.694s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.696s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.696s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor' with build type 'ament_cmake'
+[0.696s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor'
+[0.700s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.700s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.700s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step:/opt/ros/humble /usr/bin/cmake --build /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor -- -j6 -l6
+[37.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step:/opt/ros/humble /usr/bin/cmake --build /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor -- -j6 -l6
+[37.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step:/opt/ros/humble /usr/bin/cmake --install /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor
+[37.164s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irc_step_motion_executor)
+[37.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/mission_control:/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step:/opt/ros/humble /usr/bin/cmake --install /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor
+[37.178s] Level 1:colcon.colcon_core.environment:checking '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor' for CMake module files
+[37.180s] Level 1:colcon.colcon_core.environment:checking '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor' for CMake config files
+[37.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('irc_step_motion_executor', 'cmake_prefix_path')
+[37.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/hook/cmake_prefix_path.ps1'
+[37.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/hook/cmake_prefix_path.dsv'
+[37.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/hook/cmake_prefix_path.sh'
+[37.188s] Level 1:colcon.colcon_core.environment:checking '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib'
+[37.188s] Level 1:colcon.colcon_core.environment:checking '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/bin'
+[37.188s] Level 1:colcon.colcon_core.environment:checking '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/pkgconfig/irc_step_motion_executor.pc'
+[37.189s] Level 1:colcon.colcon_core.environment:checking '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/python3.10/site-packages'
+[37.189s] Level 1:colcon.colcon_core.environment:checking '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/bin'
+[37.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/package.ps1'
+[37.194s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/package.dsv'
+[37.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/package.sh'
+[37.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/package.bash'
+[37.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/package.zsh'
+[37.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/colcon-core/packages/irc_step_motion_executor)
+[37.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irc_step_motion_executor)
+[37.201s] Level 1:colcon.colcon_core.environment:checking '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor' for CMake module files
+[37.202s] Level 1:colcon.colcon_core.environment:checking '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor' for CMake config files
+[37.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('irc_step_motion_executor', 'cmake_prefix_path')
+[37.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/hook/cmake_prefix_path.ps1'
+[37.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/hook/cmake_prefix_path.dsv'
+[37.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/hook/cmake_prefix_path.sh'
+[37.207s] Level 1:colcon.colcon_core.environment:checking '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib'
+[37.207s] Level 1:colcon.colcon_core.environment:checking '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/bin'
+[37.207s] Level 1:colcon.colcon_core.environment:checking '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/pkgconfig/irc_step_motion_executor.pc'
+[37.208s] Level 1:colcon.colcon_core.environment:checking '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/lib/python3.10/site-packages'
+[37.208s] Level 1:colcon.colcon_core.environment:checking '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/bin'
+[37.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/package.ps1'
+[37.210s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/package.dsv'
+[37.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/package.sh'
+[37.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/package.bash'
+[37.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/irc_step_motion_executor/package.zsh'
+[37.214s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/irc_step_motion_executor/share/colcon-core/packages/irc_step_motion_executor)
+[37.215s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[37.215s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[37.216s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[37.216s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[37.218s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[37.218s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/local_setup.ps1'
+[37.221s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/_local_setup_util_ps1.py'
+[37.224s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/setup.ps1'
+[37.227s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/local_setup.sh'
+[37.228s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/_local_setup_util_sh.py'
+[37.229s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/setup.sh'
+[37.232s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/local_setup.bash'
+[37.233s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/setup.bash'
+[37.235s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/local_setup.zsh'
+[37.236s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jet/IRC/IRC-STEP/IRC_vision_latest/install/setup.zsh'

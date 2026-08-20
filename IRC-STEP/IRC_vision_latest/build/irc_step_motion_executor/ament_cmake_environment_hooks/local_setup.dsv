@@ -1,0 +1,3 @@
+source;share/irc_step_motion_executor/environment/ament_prefix_path.sh
+source;share/irc_step_motion_executor/environment/library_path.sh
+source;share/irc_step_motion_executor/environment/path.sh

@@ -1,0 +1,40 @@
+running develop
+running egg_info
+creating step.egg-info
+writing step.egg-info/PKG-INFO
+writing dependency_links to step.egg-info/dependency_links.txt
+writing entry points to step.egg-info/entry_points.txt
+writing requirements to step.egg-info/requires.txt
+writing top-level names to step.egg-info/top_level.txt
+writing manifest file 'step.egg-info/SOURCES.txt'
+reading manifest file 'step.egg-info/SOURCES.txt'
+writing manifest file 'step.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/python3.10/site-packages/step.egg-link (link to .)
+Installing ball_analyzer script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing ball_navigation_controller script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing goal_analyzer script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing goal_navigation_controller script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing hurdle_analyzer script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing hurdle_navigation_controller script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing imu_line_pose_estimator script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing line_debug_monitor script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing line_navigation_controller script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing line_path_visualizer script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing mission_map_visualizer script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing mission_state_estimator script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing rgbd_visual_odometry script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing step_motion_pose_test script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing unified_vision_node script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing yolo26_detector script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+Installing yolo_line_analyzer script to /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/lib/step
+
+Installed /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step
+running symlink_data
+creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/share/ament_index
+creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/share/ament_index/resource_index
+creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/share/ament_index/resource_index/packages
+symbolically linking /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/resource/step -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/share/ament_index/resource_index/packages
+symbolically linking /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/package.xml -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/share/step
+creating /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/share/step/models
+symbolically linking /home/jet/IRC/IRC-STEP/IRC_vision_latest/build/step/models/best.onnx -> /home/jet/IRC/IRC-STEP/IRC_vision_latest/install/step/share/step/models

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmotion_core.a CMakeFiles/motion_core.dir/motion_pattern.cpp.o CMakeFiles/motion_core.dir/motion_callback.cpp.o
+/usr/bin/ranlib libmotion_core.a

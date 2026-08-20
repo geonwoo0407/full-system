@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsdk_hardware_preflight_core.a CMakeFiles/sdk_hardware_preflight_core.dir/src/sdk_hardware_preflight_core.cpp.o
+/usr/bin/ranlib libsdk_hardware_preflight_core.a

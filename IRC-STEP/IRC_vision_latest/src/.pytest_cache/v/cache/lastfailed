@@ -1,0 +1,5 @@
+{
+  "step/test/test_flake8.py::test_flake8": true,
+  "step/test/test_line_navigation_planner.py::test_recovery_uses_exit_threshold_before_returning_to_tracking": true,
+  "step/test/test_pep257.py::test_pep257": true
+}

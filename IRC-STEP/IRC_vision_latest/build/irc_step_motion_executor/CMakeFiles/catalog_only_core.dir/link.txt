@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcatalog_only_core.a CMakeFiles/catalog_only_core.dir/src/catalog_only_core.cpp.o
+/usr/bin/ranlib libcatalog_only_core.a

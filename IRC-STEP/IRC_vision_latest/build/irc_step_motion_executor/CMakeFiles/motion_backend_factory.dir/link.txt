@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmotion_backend_factory.a CMakeFiles/motion_backend_factory.dir/src/motion_backend_factory.cpp.o
+/usr/bin/ranlib libmotion_backend_factory.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsdk_executor_core.a CMakeFiles/sdk_executor_core.dir/src/sdk_executor_core.cpp.o
+/usr/bin/ranlib libsdk_executor_core.a

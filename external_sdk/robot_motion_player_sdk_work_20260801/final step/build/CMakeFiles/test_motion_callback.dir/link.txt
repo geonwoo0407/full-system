@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_motion_callback.dir/test_motion_callback.cpp.o -o test_motion_callback  libmotion_core.a 

@@ -1,0 +1,391 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9d3460b3559b9e8e276f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						5,
+						6,
+						9,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30
+					]
+				},
+				{
+					"build" : "robot_motion_sdk",
+					"jsonFile" : "directory-robot_motion_sdk-2ff78b7c06cd5415c198.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/jet/IRC/external_sdk/robot_motion_player_sdk_work_20260801/final step",
+					"targetIndexes" : 
+					[
+						7,
+						8,
+						10
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "irc_step_motion_executor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						5,
+						6,
+						9,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "irc_humanoid_motion",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						8,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "catalog_only_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-catalog_only_core-80c897231d40d7a6f92b.json",
+					"name" : "catalog_only_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "catalog_only_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-catalog_only_node-87e57f79aeba0d8c069d.json",
+					"name" : "catalog_only_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-cdb3705a0eff74ae670b.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-484be6e0082b9b601ea4.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irc_step_motion_executor_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irc_step_motion_executor_uninstall-41ab9ed7cb0fa5dd7d60.json",
+					"name" : "irc_step_motion_executor_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irc_step_motion_sdk_compile_probe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irc_step_motion_sdk_compile_probe-96b078115d19120ebcfe.json",
+					"name" : "irc_step_motion_sdk_compile_probe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_backend_factory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_backend_factory-82c02c28fe2914ac8154.json",
+					"name" : "motion_backend_factory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "motion_core::@f1d4b3d73e04fc111ac2",
+					"jsonFile" : "target-motion_core-f812f963e9313dd83915.json",
+					"name" : "motion_core",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "motion_player_core::@f1d4b3d73e04fc111ac2",
+					"jsonFile" : "target-motion_player_core-a18bc2062aac7efec7ff.json",
+					"name" : "motion_player_core",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "production_robot_motion_runtime_factory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-production_robot_motion_runtime_factory-2bc5655997a09b489645.json",
+					"name" : "production_robot_motion_runtime_factory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robot_control::@f1d4b3d73e04fc111ac2",
+					"jsonFile" : "target-robot_control-8a95f69fe06a0e4a8314.json",
+					"name" : "robot_control",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_motion_player_backend::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_motion_player_backend-820ced5617e673a10313.json",
+					"name" : "robot_motion_player_backend",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_motion_runtime_config::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_motion_runtime_config-7665bcc90a3297de39ef.json",
+					"name" : "robot_motion_runtime_config",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdk_executor_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdk_executor_core-a75beaab5c6b1994063a.json",
+					"name" : "sdk_executor_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdk_executor_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdk_executor_driver-8512168663ce30941b90.json",
+					"name" : "sdk_executor_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdk_hardware_preflight::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdk_hardware_preflight-1ae09f2a85c65845f9c1.json",
+					"name" : "sdk_hardware_preflight",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdk_hardware_preflight_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdk_hardware_preflight_core-2350e86d14638e78659e.json",
+					"name" : "sdk_hardware_preflight_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdk_motion_executor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdk_motion_executor-eb01afb80dc6cb3b2afa.json",
+					"name" : "sdk_motion_executor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simulated_motion_backend::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simulated_motion_backend-d55dec748ce60d4c5fd9.json",
+					"name" : "simulated_motion_backend",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_catalog_only_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_catalog_only_core-15f68e6c64e208b7ee2c.json",
+					"name" : "test_catalog_only_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_motion_backend_factory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_motion_backend_factory-53e45cdf481f4b8e7855.json",
+					"name" : "test_motion_backend_factory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_motion_json_catalog::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_motion_json_catalog-0e9b27487bc475aa0217.json",
+					"name" : "test_motion_json_catalog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_robot_motion_parameter_types::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_robot_motion_parameter_types-c126bb9619e2204d6047.json",
+					"name" : "test_robot_motion_parameter_types",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_robot_motion_player_backend::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_robot_motion_player_backend-d1cd10bbc5b9f70e8317.json",
+					"name" : "test_robot_motion_player_backend",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_robot_motion_runtime_config::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_robot_motion_runtime_config-26d98bf7266772860c72.json",
+					"name" : "test_robot_motion_runtime_config",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_sdk_executor_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_sdk_executor_core-e12e7a7987b0b6fb85fb.json",
+					"name" : "test_sdk_executor_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_sdk_executor_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_sdk_executor_driver-a93202aee3d3498a7e81.json",
+					"name" : "test_sdk_executor_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_simulated_motion_backend::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_simulated_motion_backend-23ae94c84381034943e5.json",
+					"name" : "test_simulated_motion_backend",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_startup_pose_catalog::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_startup_pose_catalog-5d0fd123896162a26a16.json",
+					"name" : "test_startup_pose_catalog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_startup_pose_gate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_startup_pose_gate-4ffd1332e2d9c44ac366.json",
+					"name" : "test_startup_pose_gate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e9adf0e51ccf458e61c6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jet/IRC/IRC-STEP/IRC_vision_latest/build/irc_step_motion_executor",
+		"source" : "/home/jet/IRC/IRC-STEP/IRC_vision_latest/src/irc_step_motion_executor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
